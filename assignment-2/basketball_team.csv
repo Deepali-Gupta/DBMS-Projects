@@ -1,0 +1,1536 @@
+1,1946,NBA,BOS,BOS,ED,5,Boston Celtics,22,38,60,Boston Garden,32767
+2,1946,NBA,CHS,CHS,WD,1,Chicago Stags,39,22,61,Chicago Stadium,0
+3,1946,NBA,CLR,CLR,WD,3,Cleveland Rebels,30,30,60,Cleveland Arena,0
+4,1946,NBA,DTF,DTF,WD,4,Detroit Falcons,20,40,60,Detroit Olympia,0
+5,1946,NBA,NYK,NYK,ED,3,New York Knicks,33,27,60,Madison Square Garden (III),32767
+6,1946,NBA,PHW,GSW,ED,2,Philadelphia Warriors,35,25,60,Philadelphia Arena,32767
+7,1946,NBA,PIT,PIT,WD,5,Pittsburgh Ironmen,15,45,60,Duquesne Gardens,0
+8,1946,NBA,PRO,PRO,ED,4,Providence Steamrollers,28,32,60,Rhode Island Auditorium,0
+9,1946,NBA,STB,STB,WD,2,St. Louis Bombers,38,23,61,St. Louis Arena,0
+10,1946,NBA,TRH,TRH,ED,5,Toronto Huskies,22,38,60,Maple Leaf Gardens,0
+11,1946,NBA,WSC,WSC,ED,1,Washington Capitols,49,11,60,Uline Arena,0
+12,1947,NBA,BLB,BLB,WD,2,Baltimore Bullets,28,20,48,Baltimore Coliseum,0
+13,1947,NBA,BOS,BOS,ED,3,Boston Celtics,20,28,48,Boston Garden,32767
+14,1947,NBA,CHS,CHS,WD,2,Chicago Stags,28,20,48,Chicago Stadium,0
+15,1947,NBA,NYK,NYK,ED,2,New York Knicks,26,22,48,Madison Square Garden (III),32767
+16,1947,NBA,PHW,GSW,ED,1,Philadelphia Warriors,27,21,48,Philadelphia Arena,32767
+17,1947,NBA,PRO,PRO,ED,4,Providence Steamrollers,6,42,48,Rhode Island Auditorium,0
+18,1947,NBA,STB,STB,WD,1,St. Louis Bombers,29,19,48,St. Louis Arena,0
+19,1947,NBA,WSC,WSC,WD,2,Washington Capitols,28,20,48,Uline Arena,0
+20,1948,NBA,BLB,BLB,ED,3,Baltimore Bullets,29,31,60,Baltimore Coliseum,0
+21,1948,NBA,BOS,BOS,ED,5,Boston Celtics,25,35,60,Boston Garden,32767
+22,1948,NBA,CHS,CHS,WD,3,Chicago Stags,38,22,60,Chicago Stadium,0
+23,1948,NBA,FTW,DET,WD,5,Fort Wayne Pistons,22,38,60,North Side High School Gym,0
+24,1948,NBA,INJ,INJ,WD,6,Indianapolis Jets,18,42,60,Hinkle Fieldhouse,0
+25,1948,NBA,MNL,LAL,WD,2,Minneapolis Lakers,44,16,60,Minneapolis Auditorium,0
+26,1948,NBA,NYK,NYK,ED,2,New York Knicks,32,28,60,Madison Square Garden (III),0
+27,1948,NBA,PHW,GSW,ED,4,Philadelphia Warriors,28,32,60,Philadelphia Arena,32767
+28,1948,NBA,PRO,PRO,ED,6,Providence Steamrollers,12,48,60,Rhode Island Auditorium,0
+29,1948,NBA,ROC,SAC,WD,1,Rochester Royals,45,15,60,Edgerton Park Arena,32767
+30,1948,NBA,STB,STB,WD,4,St. Louis Bombers,29,31,60,St. Louis Arena,0
+31,1948,NBA,WSC,WSC,ED,1,Washington Capitols,38,22,60,Uline Arena,0
+32,1949,NBA,AND,AND,WD,2,Anderson Packers,37,27,64,Anderson High School Wigwam,0
+33,1949,NBA,BLB,BLB,ED,5,Baltimore Bullets,25,43,68,Baltimore Coliseum,0
+34,1949,NBA,BOS,BOS,ED,6,Boston Celtics,22,46,68,Boston Garden,32767
+35,1949,NBA,CHS,CHS,CD,3,Chicago Stags,40,28,68,Chicago Stadium,0
+36,1949,NBA,DNN,DNN,WD,6,Denver Nuggets,11,51,62,Denver Auditorium Arena,0
+37,1949,NBA,FTW,DET,CD,3,Fort Wayne Pistons,40,28,68,North Side High School Gym,0
+38,1949,NBA,INO,INO,WD,1,Indianapolis Olympians,39,25,64,Hinkle Fieldhouse,0
+39,1949,NBA,MNL,LAL,CD,1,Minneapolis Lakers,51,17,68,Minneapolis Auditorium,0
+40,1949,NBA,NYK,NYK,ED,2,New York Knicks,40,28,68,Madison Square Garden (III),32767
+41,1949,NBA,PHW,GSW,ED,4,Philadelphia Warriors,26,42,68,Philadelphia Arena,32767
+42,1949,NBA,ROC,SAC,CD,1,Rochester Royals,51,17,68,Edgerton Park Arena,32767
+43,1949,NBA,SHE,SHE,WD,4,Sheboygan Redskins,22,40,62,Sheboygan Municipal Auditorium and Armory,0
+44,1949,NBA,STB,STB,CD,5,St. Louis Bombers,26,42,68,St. Louis Arena,0
+45,1949,NBA,SYR,PHI,ED,1,Syracuse Nationals,51,13,64,State Fair Coliseum,0
+46,1949,NBA,TRI,ATL,WD,3,Tri-Cities Blackhawks,29,35,64,Wharton Field House,0
+47,1949,NBA,WAT,WAT,WD,5,Waterloo Hawks,19,43,62,McElroy Auditorium,0
+48,1949,NBA,WSC,WSC,ED,3,Washington Capitols,32,36,68,Uline Arena,0
+49,1950,NBA,BLB,BLB,ED,5,Baltimore Bullets,24,42,66,Baltimore Coliseum,0
+50,1950,NBA,BOS,BOS,ED,2,Boston Celtics,39,30,69,Boston Garden,32767
+51,1950,NBA,FTW,DET,WD,3,Fort Wayne Pistons,32,36,68,North Side High School Gym,32767
+52,1950,NBA,INO,INO,WD,4,Indianapolis Olympians,31,37,68,Hinkle Fieldhouse,0
+53,1950,NBA,MNL,LAL,WD,1,Minneapolis Lakers,44,24,68,Minneapolis Auditorium,32767
+54,1950,NBA,NYK,NYK,ED,3,New York Knicks,36,30,66,Madison Square Garden (III),32767
+55,1950,NBA,PHW,GSW,ED,1,Philadelphia Warriors,40,26,66,Philadelphia Arena,32767
+56,1950,NBA,ROC,SAC,WD,2,Rochester Royals,41,27,68,Edgerton Park Arena,0
+57,1950,NBA,SYR,PHI,ED,4,Syracuse Nationals,32,34,66,State Fair Coliseum,32767
+58,1950,NBA,TRI,ATL,WD,5,Tri-Cities Blackhawks,25,43,68,Wharton Field House,32767
+59,1950,NBA,WSC,WSC,ED,6,Washington Capitols,10,25,35,Uline Arena,0
+60,1951,NBA,BLB,BLB,ED,5,Baltimore Bullets,20,46,66,Baltimore Coliseum,0
+61,1951,NBA,BOS,BOS,ED,2,Boston Celtics,39,27,66,Boston Garden,32767
+62,1951,NBA,FTW,DET,WD,4,Fort Wayne Pistons,29,37,66,North Side High School Gym,0
+63,1951,NBA,INO,INO,WD,3,Indianapolis Olympians,34,32,66,Hinkle Fieldhouse,0
+64,1951,NBA,MLH,ATL,WD,5,Milwaukee Hawks,17,49,66,Milwaukee Arena,0
+65,1951,NBA,MNL,LAL,WD,2,Minneapolis Lakers,40,26,66,Minneapolis Auditorium,0
+66,1951,NBA,NYK,NYK,ED,3,New York Knicks,37,29,66,Madison Square Garden (III),32767
+67,1951,NBA,PHW,GSW,ED,4,Philadelphia Warriors,33,33,66,Philadelphia Arena,32767
+68,1951,NBA,ROC,SAC,WD,1,Rochester Royals,41,25,66,Edgerton Park Arena,0
+69,1951,NBA,SYR,PHI,ED,1,Syracuse Nationals,40,26,66,Onondaga War Memorial,0
+70,1952,NBA,BLB,BLB,ED,4,Baltimore Bullets,16,54,70,Baltimore Coliseum,0
+71,1952,NBA,BOS,BOS,ED,3,Boston Celtics,46,25,71,Boston Garden,32767
+72,1952,NBA,FTW,DET,WD,3,Fort Wayne Pistons,36,33,69,War Memorial Coliseum,0
+73,1952,NBA,INO,INO,WD,4,Indianapolis Olympians,28,43,71,Hinkle Fieldhouse,0
+74,1952,NBA,MLH,ATL,WD,5,Milwaukee Hawks,27,44,71,Milwaukee Arena,32767
+75,1952,NBA,MNL,LAL,WD,1,Minneapolis Lakers,48,22,70,Minneapolis Auditorium,0
+76,1952,NBA,NYK,NYK,ED,1,New York Knicks,47,23,70,Madison Square Garden (III),32767
+77,1952,NBA,PHW,GSW,ED,5,Philadelphia Warriors,12,57,69,Philadelphia Civic Center,32767
+78,1952,NBA,ROC,SAC,WD,2,Rochester Royals,44,26,70,Edgerton Park Arena,32767
+79,1952,NBA,SYR,PHI,ED,2,Syracuse Nationals,47,24,71,Onondaga War Memorial,0
+80,1953,NBA,BLB,BLB,ED,5,Baltimore Bullets,16,56,72,Baltimore Coliseum,0
+81,1953,NBA,BOS,BOS,ED,2,Boston Celtics,42,30,72,Boston Garden,32767
+82,1953,NBA,FTW,DET,WD,3,Fort Wayne Pistons,40,32,72,War Memorial Coliseum,32767
+83,1953,NBA,MLH,ATL,WD,4,Milwaukee Hawks,21,51,72,Milwaukee Arena,32767
+84,1953,NBA,MNL,LAL,WD,1,Minneapolis Lakers,46,26,72,Minneapolis Auditorium,0
+85,1953,NBA,NYK,NYK,ED,1,New York Knicks,44,28,72,Madison Square Garden (III),32767
+86,1953,NBA,PHW,GSW,ED,4,Philadelphia Warriors,29,43,72,Philadelphia Civic Center,32767
+87,1953,NBA,ROC,SAC,WD,2,Rochester Royals,44,28,72,Edgerton Park Arena,32767
+88,1953,NBA,SYR,PHI,ED,3,Syracuse Nationals,42,30,72,Onondaga War Memorial,0
+89,1954,NBA,BLB,BLB,ED,5,Baltimore Bullets,3,11,14,Baltimore Coliseum,0
+90,1954,NBA,BOS,BOS,ED,3,Boston Celtics,36,36,72,Boston Garden,32767
+91,1954,NBA,FTW,DET,WD,1,Fort Wayne Pistons,43,29,72,War Memorial Coliseum,32767
+92,1954,NBA,MLH,ATL,WD,4,Milwaukee Hawks,26,46,72,Milwaukee Arena,32767
+93,1954,NBA,MNL,LAL,WD,2,Minneapolis Lakers,40,32,72,Minneapolis Auditorium,0
+94,1954,NBA,NYK,NYK,ED,2,New York Knicks,38,34,72,Madison Square Garden (III),32767
+95,1954,NBA,PHW,GSW,ED,4,Philadelphia Warriors,33,39,72,Philadelphia Civic Center,32767
+96,1954,NBA,ROC,SAC,WD,3,Rochester Royals,29,43,72,Edgerton Park Arena,32767
+97,1954,NBA,SYR,PHI,ED,1,Syracuse Nationals,43,29,72,Onondaga War Memorial,0
+98,1955,NBA,BOS,BOS,ED,2,Boston Celtics,39,33,72,Boston Garden,32767
+99,1955,NBA,FTW,DET,WD,1,Fort Wayne Pistons,37,35,72,War Memorial Coliseum,32767
+100,1955,NBA,MNL,LAL,WD,2,Minneapolis Lakers,33,39,72,Minneapolis Auditorium,32767
+101,1955,NBA,NYK,NYK,ED,3,New York Knicks,35,37,72,Madison Square Garden (III),32767
+102,1955,NBA,PHW,GSW,ED,1,Philadelphia Warriors,45,27,72,Philadelphia Civic Center,32767
+103,1955,NBA,ROC,SAC,WD,4,Rochester Royals,31,41,72,Rochester Community War Memorial,32767
+104,1955,NBA,STL,ATL,WD,2,St. Louis Hawks,33,39,72,Kiel Auditorium,32767
+105,1955,NBA,SYR,PHI,ED,3,Syracuse Nationals,35,37,72,Onondaga War Memorial,32767
+106,1956,NBA,BOS,BOS,ED,1,Boston Celtics,44,28,72,Boston Garden,32767
+107,1956,NBA,FTW,DET,WD,1,Fort Wayne Pistons,34,38,72,War Memorial Coliseum,32767
+108,1956,NBA,MNL,LAL,WD,1,Minneapolis Lakers,34,38,72,Minneapolis Auditorium,32767
+109,1956,NBA,NYK,NYK,ED,4,New York Knicks,36,36,72,Madison Square Garden (III),32767
+110,1956,NBA,PHW,GSW,ED,3,Philadelphia Warriors,37,35,72,Philadelphia Civic Center,32767
+111,1956,NBA,ROC,SAC,WD,4,Rochester Royals,31,41,72,Rochester Community War Memorial,32767
+112,1956,NBA,STL,ATL,WD,1,St. Louis Hawks,34,38,72,Kiel Auditorium,32767
+113,1956,NBA,SYR,PHI,ED,2,Syracuse Nationals,38,34,72,Onondaga War Memorial,32767
+114,1957,NBA,BOS,BOS,ED,1,Boston Celtics,49,23,72,Boston Garden,32767
+115,1957,NBA,CIN,SAC,WD,2,Cincinnati Royals,33,39,72,Cincinnati Gardens,32767
+116,1957,NBA,DET,DET,WD,2,Detroit Pistons,33,39,72,Detroit Olympia,32767
+117,1957,NBA,MNL,LAL,WD,4,Minneapolis Lakers,19,53,72,Minneapolis Auditorium,32767
+118,1957,NBA,NYK,NYK,ED,4,New York Knicks,35,37,72,Madison Square Garden (III),32767
+119,1957,NBA,PHW,GSW,ED,3,Philadelphia Warriors,37,35,72,Philadelphia Civic Center,32767
+120,1957,NBA,STL,ATL,WD,1,St. Louis Hawks,41,31,72,Kiel Auditorium,32767
+121,1957,NBA,SYR,PHI,ED,2,Syracuse Nationals,41,31,72,Onondaga War Memorial,32767
+122,1958,NBA,BOS,BOS,ED,1,Boston Celtics,52,20,72,Boston Garden,32767
+123,1958,NBA,CIN,SAC,WD,4,Cincinnati Royals,19,53,72,Cincinnati Gardens,32767
+124,1958,NBA,DET,DET,WD,3,Detroit Pistons,28,44,72,Detroit Olympia,32767
+125,1958,NBA,MNL,LAL,WD,2,Minneapolis Lakers,33,39,72,Minneapolis Auditorium,32767
+126,1958,NBA,NYK,NYK,ED,2,New York Knicks,40,32,72,Madison Square Garden (III),32767
+127,1958,NBA,PHW,GSW,ED,4,Philadelphia Warriors,32,40,72,Philadelphia Civic Center,32767
+128,1958,NBA,STL,ATL,WD,1,St. Louis Hawks,49,23,72,Kiel Auditorium,32767
+129,1958,NBA,SYR,PHI,ED,3,Syracuse Nationals,35,37,72,Onondaga War Memorial,32767
+130,1959,NBA,BOS,BOS,ED,1,Boston Celtics,59,16,75,Boston Garden,32767
+131,1959,NBA,CIN,SAC,WD,4,Cincinnati Royals,19,56,75,Cincinnati Gardens,32767
+132,1959,NBA,DET,DET,WD,2,Detroit Pistons,30,45,75,Detroit Olympia,32767
+133,1959,NBA,MNL,LAL,WD,3,Minneapolis Lakers,25,50,75,Minneapolis Armory,32767
+134,1959,NBA,NYK,NYK,ED,4,New York Knicks,27,48,75,Madison Square Garden (III),32767
+135,1959,NBA,PHW,GSW,ED,2,Philadelphia Warriors,49,26,75,Philadelphia Civic Center,32767
+136,1959,NBA,STL,ATL,WD,1,St. Louis Hawks,46,29,75,Kiel Auditorium,32767
+137,1959,NBA,SYR,PHI,ED,3,Syracuse Nationals,45,30,75,Onondaga War Memorial,32767
+138,1960,NBA,BOS,BOS,ED,1,Boston Celtics,57,22,79,Boston Garden,32767
+139,1960,NBA,CIN,SAC,WD,4,Cincinnati Royals,33,46,79,Cincinnati Gardens,32767
+140,1960,NBA,DET,DET,WD,3,Detroit Pistons,34,45,79,Detroit Olympia,32767
+141,1960,NBA,LAL,LAL,WD,2,Los Angeles Lakers,36,43,79,Los Angeles Memorial Sports Arena,32767
+142,1960,NBA,NYK,NYK,ED,4,New York Knicks,21,58,79,Madison Square Garden (III),32767
+143,1960,NBA,PHW,GSW,ED,2,Philadelphia Warriors,46,33,79,Philadelphia Civic Center,32767
+144,1960,NBA,STL,ATL,WD,1,St. Louis Hawks,51,28,79,Kiel Auditorium,32767
+145,1960,NBA,SYR,PHI,ED,3,Syracuse Nationals,38,41,79,Onondaga War Memorial,32767
+146,1961,NBA,BOS,BOS,ED,1,Boston Celtics,60,20,80,Boston Garden,32767
+147,1961,NBA,CHP,WAS,WD,5,Chicago Packers,18,62,80,International Amphitheatre,32767
+148,1961,NBA,CIN,SAC,WD,2,Cincinnati Royals,43,37,80,Cincinnati Gardens,32767
+149,1961,NBA,DET,DET,WD,3,Detroit Pistons,37,43,80,Cobo Arena,32767
+150,1961,NBA,LAL,LAL,WD,1,Los Angeles Lakers,54,26,80,Los Angeles Memorial Sports Arena,32767
+151,1961,NBA,NYK,NYK,ED,4,New York Knicks,29,51,80,Madison Square Garden (III),32767
+152,1961,NBA,PHW,GSW,ED,2,Philadelphia Warriors,49,31,80,Philadelphia Civic Center,32767
+153,1961,NBA,STL,ATL,WD,4,St. Louis Hawks,29,51,80,Kiel Auditorium,32767
+154,1961,NBA,SYR,PHI,ED,3,Syracuse Nationals,41,39,80,Onondaga War Memorial,32767
+155,1962,NBA,BOS,BOS,ED,1,Boston Celtics,58,22,80,Boston Garden,32767
+156,1962,NBA,CHZ,WAS,WD,5,Chicago Zephyrs,25,55,80,Chicago Coliseum,32767
+157,1962,NBA,CIN,SAC,ED,3,Cincinnati Royals,42,38,80,Cincinnati Gardens,32767
+158,1962,NBA,DET,DET,WD,3,Detroit Pistons,34,46,80,Cobo Arena,32767
+159,1962,NBA,LAL,LAL,WD,1,Los Angeles Lakers,53,27,80,Los Angeles Memorial Sports Arena,32767
+160,1962,NBA,NYK,NYK,ED,4,New York Knicks,21,59,80,Madison Square Garden (III),32767
+161,1962,NBA,SFW,GSW,WD,4,San Francisco Warriors,31,49,80,Cow Palace,32767
+162,1962,NBA,STL,ATL,WD,2,St. Louis Hawks,48,32,80,Kiel Auditorium,32767
+163,1962,NBA,SYR,PHI,ED,2,Syracuse Nationals,48,32,80,Onondaga War Memorial,32767
+164,1963,NBA,BAL,WAS,WD,4,Baltimore Bullets,31,49,80,Baltimore Civic Center,32767
+165,1963,NBA,BOS,BOS,ED,1,Boston Celtics,59,21,80,Boston Garden,32767
+166,1963,NBA,CIN,SAC,ED,2,Cincinnati Royals,55,25,80,Cincinnati Gardens,32767
+167,1963,NBA,DET,DET,WD,5,Detroit Pistons,23,57,80,Cobo Arena,32767
+168,1963,NBA,LAL,LAL,WD,3,Los Angeles Lakers,42,38,80,Los Angeles Memorial Sports Arena,32767
+169,1963,NBA,NYK,NYK,ED,4,New York Knicks,22,58,80,Madison Square Garden (III),32767
+170,1963,NBA,PHI,PHI,ED,3,Philadelphia 76ers,34,46,80,Convention Hall,32767
+171,1963,NBA,SFW,GSW,WD,1,San Francisco Warriors,48,32,80,Cow Palace,32767
+172,1963,NBA,STL,ATL,WD,2,St. Louis Hawks,46,34,80,Kiel Auditorium,32767
+173,1964,NBA,BAL,WAS,WD,3,Baltimore Bullets,37,43,80,Baltimore Civic Center,32767
+174,1964,NBA,BOS,BOS,ED,1,Boston Celtics,62,18,80,Boston Garden,32767
+175,1964,NBA,CIN,SAC,ED,2,Cincinnati Royals,48,32,80,Cincinnati Gardens,32767
+176,1964,NBA,DET,DET,WD,4,Detroit Pistons,31,49,80,Cobo Arena,32767
+177,1964,NBA,LAL,LAL,WD,1,Los Angeles Lakers,49,31,80,Los Angeles Memorial Sports Arena,32767
+178,1964,NBA,NYK,NYK,ED,4,New York Knicks,31,49,80,Madison Square Garden (III),32767
+179,1964,NBA,PHI,PHI,ED,3,Philadelphia 76ers,40,40,80,Convention Hall,32767
+180,1964,NBA,SFW,GSW,WD,5,San Francisco Warriors,17,63,80,San Francisco Civic Auditorium,32767
+181,1964,NBA,STL,ATL,WD,2,St. Louis Hawks,45,35,80,Kiel Auditorium,32767
+182,1965,NBA,BAL,WAS,WD,2,Baltimore Bullets,38,42,80,Baltimore Civic Center,32767
+183,1965,NBA,BOS,BOS,ED,2,Boston Celtics,54,26,80,Boston Garden,32767
+184,1965,NBA,CIN,SAC,ED,3,Cincinnati Royals,45,35,80,Cincinnati Gardens,32767
+185,1965,NBA,DET,DET,WD,5,Detroit Pistons,22,58,80,Cobo Arena,32767
+186,1965,NBA,LAL,LAL,WD,1,Los Angeles Lakers,45,35,80,Los Angeles Memorial Sports Arena,32767
+187,1965,NBA,NYK,NYK,ED,4,New York Knicks,30,50,80,Madison Square Garden (III),32767
+188,1965,NBA,PHI,PHI,ED,1,Philadelphia 76ers,55,25,80,Convention Hall,32767
+189,1965,NBA,SFW,GSW,WD,4,San Francisco Warriors,35,45,80,San Francisco Civic Auditorium,32767
+190,1965,NBA,STL,ATL,WD,3,St. Louis Hawks,36,44,80,Kiel Auditorium,32767
+191,1966,NBA,BAL,WAS,ED,5,Baltimore Bullets,20,61,81,Baltimore Civic Center,32767
+192,1966,NBA,BOS,BOS,ED,2,Boston Celtics,60,21,81,Boston Garden,32767
+193,1966,NBA,CHI,CHI,WD,4,Chicago Bulls,33,48,81,International Amphitheatre,32767
+194,1966,NBA,CIN,SAC,ED,3,Cincinnati Royals,39,42,81,Cincinnati Gardens,32767
+195,1966,NBA,DET,DET,WD,5,Detroit Pistons,30,51,81,Cobo Arena,32767
+196,1966,NBA,LAL,LAL,WD,3,Los Angeles Lakers,36,45,81,Los Angeles Memorial Sports Arena,32767
+197,1966,NBA,NYK,NYK,ED,4,New York Knicks,36,45,81,Madison Square Garden (III),32767
+198,1966,NBA,PHI,PHI,ED,1,Philadelphia 76ers,68,13,81,Convention Hall,32767
+199,1966,NBA,SFW,GSW,WD,1,San Francisco Warriors,44,37,81,Oakland-Alameda County Coliseum Arena,32767
+200,1966,NBA,STL,ATL,WD,2,St. Louis Hawks,39,42,81,Kiel Auditorium,32767
+201,1967,ABA,ANA,UTS,WD,5,Anaheim Amigos,25,53,78,Anaheim Convention Center,0
+202,1967,ABA,DLC,SAS,WD,2,Dallas Chaparrals,46,32,78,Moody Coliseum,0
+203,1967,ABA,DNR,DEN,WD,3,Denver Rockets,45,33,78,Denver Auditorium Arena,32767
+204,1967,ABA,HSM,SSL,WD,4,Houston Mavericks,29,49,78,Hofheinz Pavilion,0
+205,1967,ABA,INA,IND,ED,3,Indiana Pacers,38,40,78,Indiana State Fair Coliseum,32767
+206,1967,ABA,KEN,KEN,ED,4,Kentucky Colonels,36,42,78,Louisville Convention Center,0
+207,1967,ABA,MNM,FLO,ED,2,Minnesota Muskies,50,28,78,Metropolitan Sports Center,0
+208,1967,ABA,NJA,NJN,ED,4,New Jersey Americans,36,42,78,Teaneck Armory,32767
+209,1967,ABA,NOB,MMS,WD,1,New Orleans Buccaneers,48,30,78,Loyola Field House,0
+210,1967,ABA,OAK,VIR,WD,6,Oakland Oaks,22,56,78,Oakland-Alameda County Coliseum Arena,0
+211,1967,ABA,PTP,PTC,ED,1,Pittsburgh Pipers,54,24,78,Pittsburgh Civic Arena,0
+212,1967,NBA,BAL,WAS,ED,6,Baltimore Bullets,36,46,82,Baltimore Civic Center,32767
+213,1967,NBA,BOS,BOS,ED,2,Boston Celtics,54,28,82,Boston Garden,32767
+214,1967,NBA,CHI,CHI,WD,4,Chicago Bulls,29,53,82,Chicago Stadium,32767
+215,1967,NBA,CIN,SAC,ED,5,Cincinnati Royals,39,43,82,Cincinnati Gardens,32767
+216,1967,NBA,DET,DET,ED,4,Detroit Pistons,40,42,82,Cobo Arena,32767
+217,1967,NBA,LAL,LAL,WD,2,Los Angeles Lakers,52,30,82,The Forum,32767
+218,1967,NBA,NYK,NYK,ED,3,New York Knicks,43,39,82,Madison Square Garden (III),32767
+219,1967,NBA,PHI,PHI,ED,1,Philadelphia 76ers,62,20,82,The Spectrum,32767
+220,1967,NBA,SDR,HOU,WD,6,San Diego Rockets,15,67,82,San Diego Sports Arena,32767
+221,1967,NBA,SEA,SEA,WD,5,Seattle Supersonics,23,59,82,Seattle Center Coliseum,32767
+222,1967,NBA,SFW,GSW,WD,3,San Francisco Warriors,43,39,82,Oakland-Alameda County Coliseum Arena,32767
+223,1967,NBA,STL,ATL,WD,1,St. Louis Hawks,56,26,82,Kiel Auditorium,32767
+224,1968,ABA,DLC,SAS,WD,4,Dallas Chaparrals,41,37,78,Moody Coliseum,0
+225,1968,ABA,DNR,DEN,WD,3,Denver Rockets,44,34,78,Denver Auditorium Arena,32767
+226,1968,ABA,HSM,SSL,WD,6,Houston Mavericks,23,55,78,Hofheinz Pavilion,0
+227,1968,ABA,INA,IND,ED,1,Indiana Pacers,44,34,78,Indiana State Fair Coliseum,32767
+228,1968,ABA,KEN,KEN,ED,3,Kentucky Colonels,42,36,78,Louisville Convention Center,0
+229,1968,ABA,LAS,UTS,WD,5,Los Angeles Stars,33,45,78,Los Angeles Memorial Sports Arena,0
+230,1968,ABA,MMF,FLO,ED,2,Miami Floridians,43,35,78,Miami Beach Convention Hall,0
+231,1968,ABA,MNP,PTC,ED,4,Minnesota Pipers,36,42,78,Metropolitan Sports Center,0
+232,1968,ABA,NOB,MMS,WD,2,New Orleans Buccaneers,46,32,78,Loyola Field House,0
+233,1968,ABA,NYA,NJN,ED,5,New York Nets,17,61,78,Long Island Arena,32767
+234,1968,ABA,OAK,VIR,WD,1,Oakland Oaks,60,18,78,Oakland-Alameda County Coliseum Arena,0
+235,1968,NBA,ATL,ATL,WD,2,Atlanta Hawks,48,34,82,Alexander Memorial Coliseum,32767
+236,1968,NBA,BAL,WAS,ED,1,Baltimore Bullets,57,25,82,Baltimore Civic Center,32767
+237,1968,NBA,BOS,BOS,ED,4,Boston Celtics,48,34,82,Boston Garden,32767
+238,1968,NBA,CHI,CHI,WD,5,Chicago Bulls,33,49,82,Chicago Stadium,32767
+239,1968,NBA,CIN,SAC,ED,5,Cincinnati Royals,41,41,82,Cincinnati Gardens,32767
+240,1968,NBA,DET,DET,ED,6,Detroit Pistons,32,50,82,Cobo Arena,32767
+241,1968,NBA,LAL,LAL,WD,1,Los Angeles Lakers,55,27,82,The Forum,32767
+242,1968,NBA,MIL,MIL,ED,7,Milwaukee Bucks,27,55,82,Milwaukee Arena,32767
+243,1968,NBA,NYK,NYK,ED,3,New York Knicks,54,28,82,Madison Square Garden (IV),32767
+244,1968,NBA,PHI,PHI,ED,2,Philadelphia 76ers,55,27,82,The Spectrum,32767
+245,1968,NBA,PHO,PHO,WD,7,Phoenix Suns,16,66,82,Arizona Veterans Memorial Coliseum,32767
+246,1968,NBA,SDR,HOU,WD,4,San Diego Rockets,37,45,82,San Diego Sports Arena,32767
+247,1968,NBA,SEA,SEA,WD,6,Seattle Supersonics,30,52,82,Seattle Center Coliseum,32767
+248,1968,NBA,SFW,GSW,WD,3,San Francisco Warriors,41,41,82,Oakland-Alameda County Coliseum Arena,32767
+249,1969,ABA,CAR,SSL,ED,3,Carolina Cougars,42,42,84,Greensboro Coliseum,32767
+250,1969,ABA,DLC,SAS,WD,2,Dallas Chaparrals,45,39,84,Moody Coliseum,32767
+251,1969,ABA,DNR,DEN,WD,1,Denver Rockets,51,33,84,Denver Auditorium Arena,32767
+252,1969,ABA,INA,IND,ED,1,Indiana Pacers,59,25,84,Indiana State Fair Coliseum,32767
+253,1969,ABA,KEN,KEN,ED,2,Kentucky Colonels,45,39,84,Louisville Convention Center,32767
+254,1969,ABA,LAS,UTS,WD,4,Los Angeles Stars,43,41,84,Los Angeles Memorial Sports Arena,32767
+255,1969,ABA,MMF,FLO,ED,6,Miami Floridians,23,61,84,Miami Beach Convention Hall,0
+256,1969,ABA,NOB,MMS,WD,5,New Orleans Buccaneers,42,42,84,Tulane Gym,32767
+257,1969,ABA,NYA,NJN,ED,4,New York Nets,39,45,84,Island Garden,32767
+258,1969,ABA,PTP,PTC,ED,5,Pittsburgh Pipers,29,55,84,Pittsburgh Civic Arena,32767
+259,1969,ABA,WSA,VIR,WD,3,Washington Capitols,44,40,84,Uline Arena,32767
+260,1969,NBA,ATL,ATL,WD,1,Atlanta Hawks,48,34,82,Alexander Memorial Coliseum,32767
+261,1969,NBA,BAL,WAS,ED,3,Baltimore Bullets,50,32,82,Baltimore Civic Center,32767
+262,1969,NBA,BOS,BOS,ED,6,Boston Celtics,34,48,82,Boston Garden,32767
+263,1969,NBA,CHI,CHI,WD,3,Chicago Bulls,39,43,82,Chicago Stadium,32767
+264,1969,NBA,CIN,SAC,ED,5,Cincinnati Royals,36,46,82,Cincinnati Gardens,32767
+265,1969,NBA,DET,DET,ED,7,Detroit Pistons,31,51,82,Cobo Arena,32767
+266,1969,NBA,LAL,LAL,WD,2,Los Angeles Lakers,46,36,82,The Forum,32767
+267,1969,NBA,MIL,MIL,ED,2,Milwaukee Bucks,56,26,82,Milwaukee Arena,32767
+268,1969,NBA,NYK,NYK,ED,1,New York Knicks,60,22,82,Madison Square Garden (IV),32767
+269,1969,NBA,PHI,PHI,ED,4,Philadelphia 76ers,42,40,82,The Spectrum,32767
+270,1969,NBA,PHO,PHO,WD,3,Phoenix Suns,39,43,82,Arizona Veterans Memorial Coliseum,32767
+271,1969,NBA,SDR,HOU,WD,7,San Diego Rockets,27,55,82,San Diego Sports Arena,32767
+272,1969,NBA,SEA,SEA,WD,5,Seattle Supersonics,36,46,82,Seattle Center Coliseum,32767
+273,1969,NBA,SFW,GSW,WD,6,San Francisco Warriors,30,52,82,Oakland-Alameda County Coliseum Arena,32767
+274,1970,ABA,CAR,SSL,ED,6,Carolina Cougars,34,50,84,Greensboro Coliseum,32767
+275,1970,ABA,DNR,DEN,WD,4,Denver Rockets,30,54,84,Denver Auditorium Arena,32767
+276,1970,ABA,FLO,FLO,ED,4,The Floridians,37,47,84,Miami Beach Convention Hall,0
+277,1970,ABA,INA,IND,WD,1,Indiana Pacers,58,26,84,Indiana State Fair Coliseum,32767
+278,1970,ABA,KEN,KEN,ED,2,Kentucky Colonels,44,40,84,Freedom Hall,32767
+279,1970,ABA,MMP,MMS,WD,3,Memphis Pros,41,43,84,Mid-South Coliseum,32767
+280,1970,ABA,NYA,NJN,ED,3,New York Nets,40,44,84,Island Garden,32767
+281,1970,ABA,PTC,PTC,ED,5,Pittsburgh Condors,36,48,84,Pittsburgh Civic Arena,32767
+282,1970,ABA,TEX,SAS,WD,4,Texas Chaparrals,30,54,84,Moody Coliseum,32767
+283,1970,ABA,UTS,UTS,WD,2,Utah Stars,57,27,84,Salt Palace,32767
+284,1970,ABA,VIR,VIR,ED,1,Virginia Squires,55,29,84,Old Dominion University Fieldhouse,32767
+285,1970,NBA,ATL,ATL,CD,2,Atlanta Hawks,36,46,82,Alexander Memorial Coliseum,32767
+286,1970,NBA,BAL,WAS,CD,1,Baltimore Bullets,42,40,82,Baltimore Civic Center,32767
+287,1970,NBA,BOS,BOS,AT,3,Boston Celtics,44,38,82,Boston Garden,32767
+288,1970,NBA,BUF,LAC,AT,4,Buffalo Braves,22,60,82,Buffalo Memorial Auditorium,32767
+289,1970,NBA,CHI,CHI,MW,2,Chicago Bulls,51,31,82,Chicago Stadium,32767
+290,1970,NBA,CIN,SAC,CD,3,Cincinnati Royals,33,49,82,Cincinnati Gardens,32767
+291,1970,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,15,67,82,Cleveland Arena,32767
+292,1970,NBA,DET,DET,MW,4,Detroit Pistons,45,37,82,Cobo Arena,32767
+293,1970,NBA,LAL,LAL,PC,1,Los Angeles Lakers,48,34,82,The Forum,32767
+294,1970,NBA,MIL,MIL,MW,1,Milwaukee Bucks,66,16,82,Milwaukee Arena,32767
+295,1970,NBA,NYK,NYK,AT,1,New York Knicks,52,30,82,Madison Square Garden (IV),32767
+296,1970,NBA,PHI,PHI,AT,2,Philadelphia 76ers,47,35,82,The Spectrum,32767
+297,1970,NBA,PHO,PHO,MW,3,Phoenix Suns,48,34,82,Arizona Veterans Memorial Coliseum,32767
+298,1970,NBA,POR,POR,PC,5,Portland Trail Blazers,29,53,82,Memorial Coliseum,32767
+299,1970,NBA,SDR,HOU,PC,3,San Diego Rockets,40,42,82,San Diego Sports Arena,32767
+300,1970,NBA,SEA,SEA,PC,4,Seattle Supersonics,38,44,82,Seattle Center Coliseum,32767
+301,1970,NBA,SFW,GSW,PC,2,San Francisco Warriors,41,41,82,Oakland-Alameda County Coliseum Arena,32767
+302,1971,ABA,CAR,SSL,ED,5,Carolina Cougars,35,49,84,Greensboro Coliseum,0
+303,1971,ABA,DLC,SAS,WD,3,Dallas Chaparrals,42,42,84,Moody Coliseum,32767
+304,1971,ABA,DNR,DEN,WD,4,Denver Rockets,34,50,84,Denver Auditorium Arena,32767
+305,1971,ABA,FLO,FLO,ED,4,The Floridians,36,48,84,Miami Beach Convention Hall,0
+306,1971,ABA,INA,IND,WD,2,Indiana Pacers,47,37,84,Indiana State Fair Coliseum,32767
+307,1971,ABA,KEN,KEN,ED,1,Kentucky Colonels,68,16,84,Freedom Hall,0
+308,1971,ABA,MMP,MMS,WD,5,Memphis Pros,26,58,84,Mid-South Coliseum,0
+309,1971,ABA,NYA,NJN,ED,3,New York Nets,44,40,84,Nassau Veterans Memorial Coliseum,32767
+310,1971,ABA,PTC,PTC,ED,6,Pittsburgh Condors,25,59,84,Pittsburgh Civic Arena,0
+311,1971,ABA,UTS,UTS,WD,1,Utah Stars,60,24,84,Salt Palace,0
+312,1971,ABA,VIR,VIR,ED,2,Virginia Squires,45,39,84,Norfolk Scope,0
+313,1971,NBA,ATL,ATL,CD,2,Atlanta Hawks,36,46,82,Alexander Memorial Coliseum,32767
+314,1971,NBA,BAL,WAS,CD,1,Baltimore Bullets,38,44,82,Baltimore Civic Center,32767
+315,1971,NBA,BOS,BOS,AT,1,Boston Celtics,56,26,82,Boston Garden,32767
+316,1971,NBA,BUF,LAC,AT,4,Buffalo Braves,22,60,82,Buffalo Memorial Auditorium,32767
+317,1971,NBA,CHI,CHI,MW,2,Chicago Bulls,57,25,82,Chicago Stadium,32767
+318,1971,NBA,CIN,SAC,CD,3,Cincinnati Royals,30,52,82,Cincinnati Gardens,32767
+319,1971,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,23,59,82,Cleveland Arena,32767
+320,1971,NBA,DET,DET,MW,4,Detroit Pistons,26,56,82,Cobo Arena,32767
+321,1971,NBA,GSW,GSW,PC,2,Golden State Warriors,51,31,82,Oakland-Alameda County Coliseum Arena,32767
+322,1971,NBA,HOU,HOU,PC,4,Houston Rockets,34,48,82,Hofheinz Pavilion,32767
+323,1971,NBA,LAL,LAL,PC,1,Los Angeles Lakers,69,13,82,The Forum,32767
+324,1971,NBA,MIL,MIL,MW,1,Milwaukee Bucks,63,19,82,Milwaukee Arena,32767
+325,1971,NBA,NYK,NYK,AT,2,New York Knicks,48,34,82,Madison Square Garden (IV),32767
+326,1971,NBA,PHI,PHI,AT,3,Philadelphia 76ers,30,52,82,The Spectrum,32767
+327,1971,NBA,PHO,PHO,MW,3,Phoenix Suns,49,33,82,Arizona Veterans Memorial Coliseum,32767
+328,1971,NBA,POR,POR,PC,5,Portland Trail Blazers,18,64,82,Memorial Coliseum,32767
+329,1971,NBA,SEA,SEA,PC,3,Seattle Supersonics,47,35,82,Seattle Center Coliseum,32767
+330,1972,ABA,CAR,SSL,ED,1,Carolina Cougars,57,27,84,Greensboro Coliseum,0
+331,1972,ABA,DLC,SAS,WD,5,Dallas Chaparrals,28,56,84,Moody Coliseum,0
+332,1972,ABA,DNR,DEN,WD,3,Denver Rockets,47,37,84,Denver Auditorium Arena,32767
+333,1972,ABA,INA,IND,WD,2,Indiana Pacers,51,33,84,Indiana State Fair Coliseum,32767
+334,1972,ABA,KEN,KEN,ED,2,Kentucky Colonels,56,28,84,Freedom Hall,0
+335,1972,ABA,MMT,MMS,ED,5,Memphis Tams,24,60,84,Mid-South Coliseum,0
+336,1972,ABA,NYA,NJN,ED,4,New York Nets,30,54,84,Nassau Veterans Memorial Coliseum,32767
+337,1972,ABA,SDA,SDS,WD,4,San Diego Conquistadors,30,54,84,Peterson Gym,0
+338,1972,ABA,UTS,UTS,WD,1,Utah Stars,55,29,84,Salt Palace,0
+339,1972,ABA,VIR,VIR,ED,3,Virginia Squires,42,42,84,Norfolk Scope,0
+340,1972,NBA,ATL,ATL,CD,2,Atlanta Hawks,46,36,82,Omni Coliseum,32767
+341,1972,NBA,BAL,WAS,CD,1,Baltimore Bullets,52,30,82,Baltimore Civic Center,32767
+342,1972,NBA,BOS,BOS,AT,1,Boston Celtics,68,14,82,Boston Garden,32767
+343,1972,NBA,BUF,LAC,AT,3,Buffalo Braves,21,61,82,Buffalo Memorial Auditorium,32767
+344,1972,NBA,CHI,CHI,MW,2,Chicago Bulls,51,31,82,Chicago Stadium,32767
+345,1972,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,32,50,82,Cleveland Arena,32767
+346,1972,NBA,DET,DET,MW,3,Detroit Pistons,40,42,82,Cobo Arena,32767
+347,1972,NBA,GSW,GSW,PC,2,Golden State Warriors,47,35,82,Oakland-Alameda County Coliseum Arena,32767
+348,1972,NBA,HOU,HOU,CD,3,Houston Rockets,33,49,82,Hofheinz Pavilion,32767
+349,1972,NBA,KCO,SAC,MW,4,KC-Omaha Kings,36,46,82,Municipal Auditorium,32767
+350,1972,NBA,LAL,LAL,PC,1,Los Angeles Lakers,60,22,82,The Forum,32767
+351,1972,NBA,MIL,MIL,MW,1,Milwaukee Bucks,60,22,82,Milwaukee Arena,32767
+352,1972,NBA,NYK,NYK,AT,2,New York Knicks,57,25,82,Madison Square Garden (IV),32767
+353,1972,NBA,PHI,PHI,AT,4,Philadelphia 76ers,9,73,82,The Spectrum,32767
+354,1972,NBA,PHO,PHO,PC,3,Phoenix Suns,38,44,82,Arizona Veterans Memorial Coliseum,32767
+355,1972,NBA,POR,POR,PC,5,Portland Trail Blazers,21,61,82,Memorial Coliseum,32767
+356,1972,NBA,SEA,SEA,PC,4,Seattle Supersonics,26,56,82,Seattle Center Coliseum,32767
+357,1973,ABA,CAR,SSL,ED,3,Carolina Cougars,47,37,84,Greensboro Coliseum,0
+358,1973,ABA,DNR,DEN,WD,4,Denver Rockets,37,47,84,Denver Auditorium Arena,32767
+359,1973,ABA,INA,IND,WD,2,Indiana Pacers,46,38,84,Indiana State Fair Coliseum,32767
+360,1973,ABA,KEN,KEN,ED,2,Kentucky Colonels,53,31,84,Freedom Hall,0
+361,1973,ABA,MMT,MMS,ED,5,Memphis Tams,21,63,84,Mid-South Coliseum,0
+362,1973,ABA,NYA,NJN,ED,1,New York Nets,55,29,84,Nassau Veterans Memorial Coliseum,32767
+363,1973,ABA,SAA,SAS,WD,3,San Antonio Spurs,45,39,84,HemisFair Arena,32767
+364,1973,ABA,SDA,SDS,WD,4,San Diego Conquistadors,37,47,84,Golden Hall,0
+365,1973,ABA,UTS,UTS,WD,1,Utah Stars,51,33,84,Salt Palace,0
+366,1973,ABA,VIR,VIR,ED,4,Virginia Squires,28,56,84,Norfolk Scope,0
+367,1973,NBA,ATL,ATL,CD,2,Atlanta Hawks,35,47,82,Omni Coliseum,32767
+368,1973,NBA,BOS,BOS,AT,1,Boston Celtics,56,26,82,Boston Garden,32767
+369,1973,NBA,BUF,LAC,AT,3,Buffalo Braves,42,40,82,Buffalo Memorial Auditorium,32767
+370,1973,NBA,CAP,WAS,CD,1,Capital Bullets,47,35,82,Capital Centre,32767
+371,1973,NBA,CHI,CHI,MW,2,Chicago Bulls,54,28,82,Chicago Stadium,32767
+372,1973,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,29,53,82,Cleveland Arena,32767
+373,1973,NBA,DET,DET,MW,3,Detroit Pistons,52,30,82,Cobo Arena,32767
+374,1973,NBA,GSW,GSW,PC,2,Golden State Warriors,44,38,82,Oakland-Alameda County Coliseum Arena,32767
+375,1973,NBA,HOU,HOU,CD,3,Houston Rockets,32,50,82,Hofheinz Pavilion,32767
+376,1973,NBA,KCO,SAC,MW,4,KC-Omaha Kings,33,49,82,Municipal Auditorium,32767
+377,1973,NBA,LAL,LAL,PC,1,Los Angeles Lakers,47,35,82,The Forum,32767
+378,1973,NBA,MIL,MIL,MW,1,Milwaukee Bucks,59,23,82,Milwaukee Arena,32767
+379,1973,NBA,NYK,NYK,AT,2,New York Knicks,49,33,82,Madison Square Garden (IV),32767
+380,1973,NBA,PHI,PHI,AT,4,Philadelphia 76ers,25,57,82,The Spectrum,32767
+381,1973,NBA,PHO,PHO,PC,4,Phoenix Suns,30,52,82,Arizona Veterans Memorial Coliseum,32767
+382,1973,NBA,POR,POR,PC,5,Portland Trail Blazers,27,55,82,Memorial Coliseum,32767
+383,1973,NBA,SEA,SEA,PC,3,Seattle Supersonics,36,46,82,Seattle Center Coliseum,32767
+384,1974,ABA,DNA,DEN,WD,1,Denver Nuggets,65,19,84,Denver Auditorium Arena,32767
+385,1974,ABA,INA,IND,WD,3,Indiana Pacers,45,39,84,Market Square Arena,32767
+386,1974,ABA,KEN,KEN,ED,1,Kentucky Colonels,58,26,84,Freedom Hall,0
+387,1974,ABA,MMS,MMS,ED,4,Memphis Sounds,27,57,84,Mid-South Coliseum,0
+388,1974,ABA,NYA,NJN,ED,1,New York Nets,58,26,84,Nassau Veterans Memorial Coliseum,32767
+389,1974,ABA,SAA,SAS,WD,2,San Antonio Spurs,51,33,84,HemisFair Arena,32767
+390,1974,ABA,SDA,SDS,WD,5,San Diego Conquistadors,31,53,84,San Diego Sports Arena,0
+391,1974,ABA,SSL,SSL,ED,3,Spirits of St. Louis,32,52,84,St. Louis Arena,0
+392,1974,ABA,UTS,UTS,WD,4,Utah Stars,38,46,84,Salt Palace,0
+393,1974,ABA,VIR,VIR,ED,5,Virginia Squires,15,69,84,Norfolk Scope,0
+394,1974,NBA,ATL,ATL,CD,4,Atlanta Hawks,31,51,82,Omni Coliseum,32767
+395,1974,NBA,BOS,BOS,AT,1,Boston Celtics,60,22,82,Boston Garden,32767
+396,1974,NBA,BUF,LAC,AT,2,Buffalo Braves,49,33,82,Buffalo Memorial Auditorium,32767
+397,1974,NBA,CHI,CHI,MW,1,Chicago Bulls,47,35,82,Chicago Stadium,32767
+398,1974,NBA,CLE,CLE,CD,3,Cleveland Cavaliers,40,42,82,Coliseum at Richfield,32767
+399,1974,NBA,DET,DET,MW,3,Detroit Pistons,40,42,82,Cobo Arena,32767
+400,1974,NBA,GSW,GSW,PC,1,Golden State Warriors,48,34,82,Oakland-Alameda County Coliseum Arena,32767
+401,1974,NBA,HOU,HOU,CD,2,Houston Rockets,41,41,82,Hofheinz Pavilion,32767
+402,1974,NBA,KCO,SAC,MW,2,KC-Omaha Kings,44,38,82,Kemper Arena,32767
+403,1974,NBA,LAL,LAL,PC,5,Los Angeles Lakers,30,52,82,The Forum,32767
+404,1974,NBA,MIL,MIL,MW,4,Milwaukee Bucks,38,44,82,MECCA Arena,32767
+405,1974,NBA,NOJ,UTA,CD,5,New Orleans Jazz,23,59,82,Municipal Auditorium,32767
+406,1974,NBA,NYK,NYK,AT,3,New York Knicks,40,42,82,Madison Square Garden (IV),32767
+407,1974,NBA,PHI,PHI,AT,4,Philadelphia 76ers,34,48,82,The Spectrum,32767
+408,1974,NBA,PHO,PHO,PC,4,Phoenix Suns,32,50,82,Arizona Veterans Memorial Coliseum,32767
+409,1974,NBA,POR,POR,PC,3,Portland Trail Blazers,38,44,82,Memorial Coliseum,32767
+410,1974,NBA,SEA,SEA,PC,2,Seattle Supersonics,43,39,82,Seattle Center Coliseum,32767
+411,1974,NBA,WSB,WAS,CD,1,Washington Bullets,60,22,82,Capital Centre,32767
+412,1975,ABA,DNA,DEN,,1,Denver Nuggets,60,24,84,McNichols Sports Arena,32767
+413,1975,ABA,INA,IND,,5,Indiana Pacers,39,45,84,Market Square Arena,32767
+414,1975,ABA,KEN,KEN,,4,Kentucky Colonels,46,38,84,Freedom Hall,32767
+415,1975,ABA,NYA,NJN,,2,New York Nets,55,29,84,Nassau Veterans Memorial Coliseum,32767
+416,1975,ABA,SAA,SAS,,3,San Antonio Spurs,50,34,84,HemisFair Arena,32767
+417,1975,ABA,SDS,SDS,,7,San Diego Sails,3,8,11,San Diego Sports Arena,7126
+418,1975,ABA,SSL,SSL,,6,Spirits of St. Louis,35,49,84,St. Louis Arena,32767
+419,1975,ABA,UTS,UTS,,8,Utah Stars,4,12,16,Salt Palace,32767
+420,1975,ABA,VIR,VIR,,9,Virginia Squires,15,68,83,Norfolk Scope,32767
+421,1975,NBA,ATL,ATL,CD,5,Atlanta Hawks,29,53,82,Omni Coliseum,32767
+422,1975,NBA,BOS,BOS,AT,1,Boston Celtics,54,28,82,Boston Garden,32767
+423,1975,NBA,BUF,LAC,AT,2,Buffalo Braves,46,36,82,Buffalo Memorial Auditorium,32767
+424,1975,NBA,CHI,CHI,MW,4,Chicago Bulls,24,58,82,Chicago Stadium,32767
+425,1975,NBA,CLE,CLE,CD,1,Cleveland Cavaliers,49,33,82,Coliseum at Richfield,32767
+426,1975,NBA,DET,DET,MW,2,Detroit Pistons,36,46,82,Cobo Arena,32767
+427,1975,NBA,GSW,GSW,PC,1,Golden State Warriors,59,23,82,Oakland-Alameda County Coliseum Arena,32767
+428,1975,NBA,HOU,HOU,CD,3,Houston Rockets,40,42,82,The Summit,32767
+429,1975,NBA,KCK,SAC,MW,3,Kansas City Kings,31,51,82,Kemper Arena,32767
+430,1975,NBA,LAL,LAL,PC,4,Los Angeles Lakers,40,42,82,The Forum,32767
+431,1975,NBA,MIL,MIL,MW,1,Milwaukee Bucks,38,44,82,MECCA Arena,32767
+432,1975,NBA,NOJ,UTA,CD,4,New Orleans Jazz,38,44,82,Louisiana Superdome,32767
+433,1975,NBA,NYK,NYK,AT,4,New York Knicks,38,44,82,Madison Square Garden (IV),32767
+434,1975,NBA,PHI,PHI,AT,2,Philadelphia 76ers,46,36,82,The Spectrum,32767
+435,1975,NBA,PHO,PHO,PC,3,Phoenix Suns,42,40,82,Arizona Veterans Memorial Coliseum,32767
+436,1975,NBA,POR,POR,PC,5,Portland Trail Blazers,37,45,82,Memorial Coliseum,32767
+437,1975,NBA,SEA,SEA,PC,2,Seattle Supersonics,43,39,82,Seattle Center Coliseum,32767
+438,1975,NBA,WSB,WAS,CD,2,Washington Bullets,48,34,82,Capital Centre,32767
+439,1976,NBA,ATL,ATL,CD,6,Atlanta Hawks,31,51,82,Omni Coliseum,32767
+440,1976,NBA,BOS,BOS,AT,2,Boston Celtics,44,38,82,Boston Garden,32767
+441,1976,NBA,BUF,LAC,AT,4,Buffalo Braves,30,52,82,Buffalo Memorial Auditorium,32767
+442,1976,NBA,CHI,CHI,MW,2,Chicago Bulls,44,38,82,Chicago Stadium,32767
+443,1976,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,43,39,82,Coliseum at Richfield,32767
+444,1976,NBA,DEN,DEN,MW,1,Denver Nuggets,50,32,82,McNichols Sports Arena,32767
+445,1976,NBA,DET,DET,MW,2,Detroit Pistons,44,38,82,Cobo Arena,32767
+446,1976,NBA,GSW,GSW,PC,3,Golden State Warriors,46,36,82,Oakland-Alameda County Coliseum Arena,32767
+447,1976,NBA,HOU,HOU,CD,1,Houston Rockets,49,33,82,The Summit,32767
+448,1976,NBA,IND,IND,MW,5,Indiana Pacers,36,46,82,Market Square Arena,32767
+449,1976,NBA,KCK,SAC,MW,4,Kansas City Kings,40,42,82,Kemper Arena,32767
+450,1976,NBA,LAL,LAL,PC,1,Los Angeles Lakers,53,29,82,The Forum,32767
+451,1976,NBA,MIL,MIL,MW,6,Milwaukee Bucks,30,52,82,MECCA Arena,32767
+452,1976,NBA,NOJ,UTA,CD,5,New Orleans Jazz,35,47,82,Louisiana Superdome,32767
+453,1976,NBA,NYK,NYK,AT,3,New York Knicks,40,42,82,Madison Square Garden (IV),32767
+454,1976,NBA,NYN,NJN,AT,5,New York Nets,22,60,82,Nassau Veterans Memorial Coliseum,32767
+455,1976,NBA,PHI,PHI,AT,1,Philadelphia 76ers,50,32,82,The Spectrum,32767
+456,1976,NBA,PHO,PHO,PC,5,Phoenix Suns,34,48,82,Arizona Veterans Memorial Coliseum,32767
+457,1976,NBA,POR,POR,PC,2,Portland Trail Blazers,49,33,82,Memorial Coliseum,32767
+458,1976,NBA,SAS,SAS,CD,3,San Antonio Spurs,44,38,82,HemisFair Arena,32767
+459,1976,NBA,SEA,SEA,PC,4,Seattle Supersonics,40,42,82,Seattle Center Coliseum,32767
+460,1976,NBA,WSB,WAS,CD,2,Washington Bullets,48,34,82,Capital Centre,32767
+461,1977,NBA,ATL,ATL,CD,4,Atlanta Hawks,41,41,82,Omni Coliseum,32767
+462,1977,NBA,BOS,BOS,AT,3,Boston Celtics,32,50,82,Boston Garden,0
+463,1977,NBA,BUF,LAC,AT,4,Buffalo Braves,27,55,82,Buffalo Memorial Auditorium,32767
+464,1977,NBA,CHI,CHI,MW,3,Chicago Bulls,40,42,82,Chicago Stadium,32767
+465,1977,NBA,CLE,CLE,CD,3,Cleveland Cavaliers,43,39,82,Coliseum at Richfield,32767
+466,1977,NBA,DEN,DEN,MW,1,Denver Nuggets,48,34,82,McNichols Sports Arena,32767
+467,1977,NBA,DET,DET,MW,4,Detroit Pistons,38,44,82,Cobo Arena,32767
+468,1977,NBA,GSW,GSW,PC,5,Golden State Warriors,43,39,82,Oakland-Alameda County Coliseum Arena,32767
+469,1977,NBA,HOU,HOU,CD,6,Houston Rockets,28,54,82,The Summit,32767
+470,1977,NBA,IND,IND,MW,5,Indiana Pacers,31,51,82,Market Square Arena,32767
+471,1977,NBA,KCK,SAC,MW,5,Kansas City Kings,31,51,82,Kemper Arena,32767
+472,1977,NBA,LAL,LAL,PC,4,Los Angeles Lakers,45,37,82,The Forum,32767
+473,1977,NBA,MIL,MIL,MW,2,Milwaukee Bucks,44,38,82,MECCA Arena,32767
+474,1977,NBA,NJN,NJN,AT,5,New Jersey Nets,24,58,82,Rutgers Athletic Center,32767
+475,1977,NBA,NOJ,UTA,CD,5,New Orleans Jazz,39,43,82,Louisiana Superdome,32767
+476,1977,NBA,NYK,NYK,AT,2,New York Knicks,43,39,82,Madison Square Garden (IV),32767
+477,1977,NBA,PHI,PHI,AT,1,Philadelphia 76ers,55,27,82,The Spectrum,32767
+478,1977,NBA,PHO,PHO,PC,2,Phoenix Suns,49,33,82,Arizona Veterans Memorial Coliseum,32767
+479,1977,NBA,POR,POR,PC,1,Portland Trail Blazers,58,24,82,Memorial Coliseum,32767
+480,1977,NBA,SAS,SAS,CD,1,San Antonio Spurs,52,30,82,HemisFair Arena,32767
+481,1977,NBA,SEA,SEA,PC,3,Seattle Supersonics,47,35,82,Seattle Center Coliseum,32767
+482,1977,NBA,WSB,WAS,CD,2,Washington Bullets,44,38,82,Capital Centre,32767
+483,1978,NBA,ATL,ATL,CD,3,Atlanta Hawks,46,36,82,Omni Coliseum,32767
+484,1978,NBA,BOS,BOS,AT,5,Boston Celtics,29,53,82,Boston Garden,32767
+485,1978,NBA,CHI,CHI,MW,5,Chicago Bulls,31,51,82,Chicago Stadium,32767
+486,1978,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,30,52,82,Coliseum at Richfield,32767
+487,1978,NBA,DEN,DEN,MW,2,Denver Nuggets,47,35,82,McNichols Sports Arena,32767
+488,1978,NBA,DET,DET,CD,4,Detroit Pistons,30,52,82,Pontiac Silverdome,32767
+489,1978,NBA,GSW,GSW,PC,6,Golden State Warriors,38,44,82,Oakland-Alameda County Coliseum Arena,32767
+490,1978,NBA,HOU,HOU,CD,2,Houston Rockets,47,35,82,The Summit,32767
+491,1978,NBA,IND,IND,MW,3,Indiana Pacers,38,44,82,Market Square Arena,32767
+492,1978,NBA,KCK,SAC,MW,1,Kansas City Kings,48,34,82,Kemper Arena,32767
+493,1978,NBA,LAL,LAL,PC,3,Los Angeles Lakers,47,35,82,The Forum,32767
+494,1978,NBA,MIL,MIL,MW,3,Milwaukee Bucks,38,44,82,MECCA Arena,32767
+495,1978,NBA,NJN,NJN,AT,3,New Jersey Nets,37,45,82,Rutgers Athletic Center,32767
+496,1978,NBA,NOJ,UTA,CD,6,New Orleans Jazz,26,56,82,Louisiana Superdome,32767
+497,1978,NBA,NYK,NYK,AT,4,New York Knicks,31,51,82,Madison Square Garden (IV),32767
+498,1978,NBA,PHI,PHI,AT,2,Philadelphia 76ers,47,35,82,The Spectrum,32767
+499,1978,NBA,PHO,PHO,PC,2,Phoenix Suns,50,32,82,Arizona Veterans Memorial Coliseum,32767
+500,1978,NBA,POR,POR,PC,4,Portland Trail Blazers,45,37,82,Memorial Coliseum,32767
+501,1978,NBA,SAS,SAS,CD,2,San Antonio Spurs,48,34,82,HemisFair Arena,32767
+502,1978,NBA,SDC,LAC,PC,5,San Diego Clippers,43,39,82,San Diego Sports Arena,32767
+503,1978,NBA,SEA,SEA,PC,1,Seattle Supersonics,52,30,82,King County Domed Stadium,32767
+504,1978,NBA,WSB,WAS,AT,1,Washington Bullets,54,28,82,Capital Centre,32767
+505,1979,NBA,ATL,ATL,CD,1,Atlanta Hawks,50,32,82,Omni Coliseum,32767
+506,1979,NBA,BOS,BOS,AT,1,Boston Celtics,61,21,82,Boston Garden,32767
+507,1979,NBA,CHI,CHI,MW,3,Chicago Bulls,30,52,82,Chicago Stadium,32767
+508,1979,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,37,45,82,Coliseum at Richfield,32767
+509,1979,NBA,DEN,DEN,MW,3,Denver Nuggets,30,52,82,McNichols Sports Arena,32767
+510,1979,NBA,DET,DET,CD,6,Detroit Pistons,16,66,82,Pontiac Silverdome,32767
+511,1979,NBA,GSW,GSW,PC,6,Golden State Warriors,24,58,82,Oakland-Alameda County Coliseum Arena,32767
+512,1979,NBA,HOU,HOU,CD,2,Houston Rockets,41,41,82,The Summit,32767
+513,1979,NBA,IND,IND,CD,4,Indiana Pacers,37,45,82,Market Square Arena,32767
+514,1979,NBA,KCK,SAC,MW,2,Kansas City Kings,47,35,82,Kemper Arena,32767
+515,1979,NBA,LAL,LAL,PC,1,Los Angeles Lakers,60,22,82,The Forum,32767
+516,1979,NBA,MIL,MIL,MW,1,Milwaukee Bucks,49,33,82,MECCA Arena,32767
+517,1979,NBA,NJN,NJN,AT,5,New Jersey Nets,34,48,82,Rutgers Athletic Center,32767
+518,1979,NBA,NYK,NYK,AT,3,New York Knicks,39,43,82,Madison Square Garden (IV),32767
+519,1979,NBA,PHI,PHI,AT,2,Philadelphia 76ers,59,23,82,The Spectrum,32767
+520,1979,NBA,PHO,PHO,PC,3,Phoenix Suns,55,27,82,Arizona Veterans Memorial Coliseum,32767
+521,1979,NBA,POR,POR,PC,4,Portland Trail Blazers,38,44,82,Memorial Coliseum,32767
+522,1979,NBA,SAS,SAS,CD,2,San Antonio Spurs,41,41,82,HemisFair Arena,32767
+523,1979,NBA,SDC,LAC,PC,5,San Diego Clippers,35,47,82,San Diego Sports Arena,32767
+524,1979,NBA,SEA,SEA,PC,2,Seattle Supersonics,56,26,82,King County Domed Stadium,32767
+525,1979,NBA,UTA,UTA,MW,5,Utah Jazz,24,58,82,Salt Palace,32767
+526,1979,NBA,WSB,WAS,AT,3,Washington Bullets,39,43,82,Capital Centre,32767
+527,1980,NBA,ATL,ATL,CD,4,Atlanta Hawks,31,51,82,Omni Coliseum,32767
+528,1980,NBA,BOS,BOS,AT,1,Boston Celtics,62,20,82,Boston Garden,32767
+529,1980,NBA,CHI,CHI,CD,2,Chicago Bulls,45,37,82,Chicago Stadium,32767
+530,1980,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,28,54,82,Coliseum at Richfield,32767
+531,1980,NBA,DAL,DAL,MW,6,Dallas Mavericks,15,67,82,Reunion Arena,32767
+532,1980,NBA,DEN,DEN,MW,4,Denver Nuggets,37,45,82,McNichols Sports Arena,32767
+533,1980,NBA,DET,DET,CD,6,Detroit Pistons,21,61,82,Pontiac Silverdome,32767
+534,1980,NBA,GSW,GSW,PC,4,Golden State Warriors,39,43,82,Oakland-Alameda County Coliseum Arena,32767
+535,1980,NBA,HOU,HOU,MW,2,Houston Rockets,40,42,82,The Summit,32767
+536,1980,NBA,IND,IND,CD,3,Indiana Pacers,44,38,82,Market Square Arena,32767
+537,1980,NBA,KCK,SAC,MW,2,Kansas City Kings,40,42,82,Kemper Arena,32767
+538,1980,NBA,LAL,LAL,PC,2,Los Angeles Lakers,54,28,82,The Forum,32767
+539,1980,NBA,MIL,MIL,CD,1,Milwaukee Bucks,60,22,82,MECCA Arena,32767
+540,1980,NBA,NJN,NJN,AT,5,New Jersey Nets,24,58,82,Rutgers Athletic Center,32767
+541,1980,NBA,NYK,NYK,AT,3,New York Knicks,50,32,82,Madison Square Garden (IV),32767
+542,1980,NBA,PHI,PHI,AT,1,Philadelphia 76ers,62,20,82,The Spectrum,32767
+543,1980,NBA,PHO,PHO,PC,1,Phoenix Suns,57,25,82,Arizona Veterans Memorial Coliseum,32767
+544,1980,NBA,POR,POR,PC,3,Portland Trail Blazers,45,37,82,Memorial Coliseum,32767
+545,1980,NBA,SAS,SAS,MW,1,San Antonio Spurs,52,30,82,HemisFair Arena,32767
+546,1980,NBA,SDC,LAC,PC,5,San Diego Clippers,36,46,82,San Diego Sports Arena,32767
+547,1980,NBA,SEA,SEA,PC,6,Seattle Supersonics,34,48,82,King County Domed Stadium,32767
+548,1980,NBA,UTA,UTA,MW,5,Utah Jazz,28,54,82,Salt Palace,32767
+549,1980,NBA,WSB,WAS,AT,4,Washington Bullets,39,43,82,Capital Centre,32767
+550,1981,NBA,ATL,ATL,CD,2,Atlanta Hawks,42,40,82,Omni Coliseum,32767
+551,1981,NBA,BOS,BOS,AT,1,Boston Celtics,63,19,82,Boston Garden,32767
+552,1981,NBA,CHI,CHI,CD,5,Chicago Bulls,34,48,82,Chicago Stadium,32767
+553,1981,NBA,CLE,CLE,CD,6,Cleveland Cavaliers,15,67,82,Coliseum at Richfield,32767
+554,1981,NBA,DAL,DAL,MW,5,Dallas Mavericks,28,54,82,Reunion Arena,32767
+555,1981,NBA,DEN,DEN,MW,2,Denver Nuggets,46,36,82,McNichols Sports Arena,32767
+556,1981,NBA,DET,DET,CD,3,Detroit Pistons,39,43,82,Pontiac Silverdome,32767
+557,1981,NBA,GSW,GSW,PC,4,Golden State Warriors,45,37,82,Oakland-Alameda County Coliseum Arena,32767
+558,1981,NBA,HOU,HOU,MW,2,Houston Rockets,46,36,82,The Summit,32767
+559,1981,NBA,IND,IND,CD,4,Indiana Pacers,35,47,82,Market Square Arena,32767
+560,1981,NBA,KCK,SAC,MW,4,Kansas City Kings,30,52,82,Kemper Arena,32767
+561,1981,NBA,LAL,LAL,PC,1,Los Angeles Lakers,57,25,82,The Forum,32767
+562,1981,NBA,MIL,MIL,CD,1,Milwaukee Bucks,55,27,82,MECCA Arena,32767
+563,1981,NBA,NJN,NJN,AT,3,New Jersey Nets,44,38,82,Brendan Byrne Arena,32767
+564,1981,NBA,NYK,NYK,AT,5,New York Knicks,33,49,82,Madison Square Garden (IV),32767
+565,1981,NBA,PHI,PHI,AT,2,Philadelphia 76ers,58,24,82,The Spectrum,32767
+566,1981,NBA,PHO,PHO,PC,3,Phoenix Suns,46,36,82,Arizona Veterans Memorial Coliseum,32767
+567,1981,NBA,POR,POR,PC,5,Portland Trail Blazers,42,40,82,Memorial Coliseum,32767
+568,1981,NBA,SAS,SAS,MW,1,San Antonio Spurs,48,34,82,HemisFair Arena,32767
+569,1981,NBA,SDC,LAC,PC,6,San Diego Clippers,17,65,82,San Diego Sports Arena,32767
+570,1981,NBA,SEA,SEA,PC,2,Seattle Supersonics,52,30,82,King County Domed Stadium,32767
+571,1981,NBA,UTA,UTA,MW,6,Utah Jazz,25,57,82,Salt Palace,32767
+572,1981,NBA,WSB,WAS,AT,4,Washington Bullets,43,39,82,Capital Centre,32767
+573,1982,NBA,ATL,ATL,CD,2,Atlanta Hawks,43,39,82,Omni Coliseum,32767
+574,1982,NBA,BOS,BOS,AT,2,Boston Celtics,56,26,82,Boston Garden,32767
+575,1982,NBA,CHI,CHI,CD,4,Chicago Bulls,28,54,82,Chicago Stadium,32767
+576,1982,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,23,59,82,Coliseum at Richfield,32767
+577,1982,NBA,DAL,DAL,MW,4,Dallas Mavericks,38,44,82,Reunion Arena,32767
+578,1982,NBA,DEN,DEN,MW,2,Denver Nuggets,45,37,82,McNichols Sports Arena,32767
+579,1982,NBA,DET,DET,CD,3,Detroit Pistons,37,45,82,Pontiac Silverdome,32767
+580,1982,NBA,GSW,GSW,PC,5,Golden State Warriors,30,52,82,Oakland-Alameda County Coliseum Arena,32767
+581,1982,NBA,HOU,HOU,MW,6,Houston Rockets,14,68,82,The Summit,32767
+582,1982,NBA,IND,IND,CD,6,Indiana Pacers,20,62,82,Market Square Arena,32767
+583,1982,NBA,KCK,SAC,MW,2,Kansas City Kings,45,37,82,Kemper Arena,32767
+584,1982,NBA,LAL,LAL,PC,0,Los Angeles Lakers,58,24,82,The Forum,32767
+585,1982,NBA,MIL,MIL,CD,1,Milwaukee Bucks,51,31,82,MECCA Arena,32767
+586,1982,NBA,NJN,NJN,AT,3,New Jersey Nets,49,33,82,Brendan Byrne Arena,32767
+587,1982,NBA,NYK,NYK,AT,4,New York Knicks,44,38,82,Madison Square Garden (IV),32767
+588,1982,NBA,PHI,PHI,AT,1,Philadelphia 76ers,65,17,82,The Spectrum,32767
+589,1982,NBA,PHO,PHO,PC,2,Phoenix Suns,53,29,82,Arizona Veterans Memorial Coliseum,32767
+590,1982,NBA,POR,POR,PC,4,Portland Trail Blazers,46,36,82,Memorial Coliseum,32767
+591,1982,NBA,SAS,SAS,MW,1,San Antonio Spurs,53,29,82,HemisFair Arena,32767
+592,1982,NBA,SDC,LAC,PC,6,San Diego Clippers,25,57,82,San Diego Sports Arena,32767
+593,1982,NBA,SEA,SEA,PC,3,Seattle Supersonics,48,34,82,King County Domed Stadium,32767
+594,1982,NBA,UTA,UTA,MW,5,Utah Jazz,30,52,82,Salt Palace,32767
+595,1982,NBA,WSB,WAS,AT,5,Washington Bullets,42,40,82,Capital Centre,32767
+596,1983,NBA,ATL,ATL,CD,3,Atlanta Hawks,40,42,82,Omni Coliseum,32767
+597,1983,NBA,BOS,BOS,AT,1,Boston Celtics,62,20,82,Boston Garden,32767
+598,1983,NBA,CHI,CHI,CD,5,Chicago Bulls,27,55,82,Chicago Stadium,32767
+599,1983,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,28,54,82,Coliseum at Richfield,32767
+600,1983,NBA,DAL,DAL,MW,2,Dallas Mavericks,43,39,82,Reunion Arena,32767
+601,1983,NBA,DEN,DEN,MW,3,Denver Nuggets,38,44,82,McNichols Sports Arena,32767
+602,1983,NBA,DET,DET,CD,2,Detroit Pistons,49,33,82,Pontiac Silverdome,32767
+603,1983,NBA,GSW,GSW,PC,5,Golden State Warriors,37,45,82,Oakland-Alameda County Coliseum Arena,32767
+604,1983,NBA,HOU,HOU,MW,6,Houston Rockets,29,53,82,The Summit,32767
+605,1983,NBA,IND,IND,CD,6,Indiana Pacers,26,56,82,Market Square Arena,32767
+606,1983,NBA,KCK,SAC,MW,3,Kansas City Kings,38,44,82,Kemper Arena,32767
+607,1983,NBA,LAL,LAL,PC,1,Los Angeles Lakers,54,28,82,The Forum,32767
+608,1983,NBA,MIL,MIL,CD,1,Milwaukee Bucks,50,32,82,MECCA Arena,32767
+609,1983,NBA,NJN,NJN,AT,4,New Jersey Nets,45,37,82,Brendan Byrne Arena,32767
+610,1983,NBA,NYK,NYK,AT,3,New York Knicks,47,35,82,Madison Square Garden (IV),32767
+611,1983,NBA,PHI,PHI,AT,2,Philadelphia 76ers,52,30,82,The Spectrum,32767
+612,1983,NBA,PHO,PHO,PC,4,Phoenix Suns,41,41,82,Arizona Veterans Memorial Coliseum,32767
+613,1983,NBA,POR,POR,PC,2,Portland Trail Blazers,48,34,82,Memorial Coliseum,32767
+614,1983,NBA,SAS,SAS,MW,5,San Antonio Spurs,37,45,82,HemisFair Arena,32767
+615,1983,NBA,SDC,LAC,PC,6,San Diego Clippers,30,52,82,San Diego Sports Arena,32767
+616,1983,NBA,SEA,SEA,PC,3,Seattle Supersonics,42,40,82,King County Domed Stadium,32767
+617,1983,NBA,UTA,UTA,MW,1,Utah Jazz,45,37,82,Salt Palace,32767
+618,1983,NBA,WSB,WAS,AT,5,Washington Bullets,35,47,82,Capital Centre,32767
+619,1984,NBA,ATL,ATL,CD,5,Atlanta Hawks,34,48,82,Omni Coliseum,32767
+620,1984,NBA,BOS,BOS,AT,1,Boston Celtics,63,19,82,Boston Garden,32767
+621,1984,NBA,CHI,CHI,CD,3,Chicago Bulls,38,44,82,Chicago Stadium,32767
+622,1984,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,36,46,82,Coliseum at Richfield,32767
+623,1984,NBA,DAL,DAL,MW,3,Dallas Mavericks,44,38,82,Reunion Arena,32767
+624,1984,NBA,DEN,DEN,MW,1,Denver Nuggets,52,30,82,McNichols Sports Arena,32767
+625,1984,NBA,DET,DET,CD,2,Detroit Pistons,46,36,82,Pontiac Silverdome,32767
+1309,2009,NBA,ATL,ATL,SE,2,Atlanta Hawks,53,29,0,,0
+626,1984,NBA,GSW,GSW,PC,6,Golden State Warriors,22,60,82,Oakland-Alameda County Coliseum Arena,32767
+627,1984,NBA,HOU,HOU,MW,2,Houston Rockets,48,34,82,The Summit,32767
+628,1984,NBA,IND,IND,CD,6,Indiana Pacers,22,60,82,Market Square Arena,32767
+629,1984,NBA,KCK,SAC,MW,6,Kansas City Kings,31,51,82,Kemper Arena,32767
+630,1984,NBA,LAC,LAC,PC,4,Los Angeles Clippers,31,51,82,Los Angeles Memorial Sports Arena,32767
+631,1984,NBA,LAL,LAL,PC,1,Los Angeles Lakers,62,20,82,The Forum,32767
+632,1984,NBA,MIL,MIL,CD,1,Milwaukee Bucks,59,23,82,MECCA Arena,32767
+633,1984,NBA,NJN,NJN,AT,3,New Jersey Nets,42,40,82,Brendan Byrne Arena,32767
+634,1984,NBA,NYK,NYK,AT,5,New York Knicks,24,58,82,Madison Square Garden (IV),32767
+635,1984,NBA,PHI,PHI,AT,2,Philadelphia 76ers,58,24,82,The Spectrum,32767
+636,1984,NBA,PHO,PHO,PC,3,Phoenix Suns,36,46,82,Arizona Veterans Memorial Coliseum,32767
+637,1984,NBA,POR,POR,PC,2,Portland Trail Blazers,42,40,82,Memorial Coliseum,32767
+638,1984,NBA,SAS,SAS,MW,4,San Antonio Spurs,41,41,82,HemisFair Arena,32767
+639,1984,NBA,SEA,SEA,PC,4,Seattle Supersonics,31,51,82,King County Domed Stadium,32767
+640,1984,NBA,UTA,UTA,MW,4,Utah Jazz,41,41,82,Salt Palace,32767
+641,1984,NBA,WSB,WAS,AT,4,Washington Bullets,40,42,82,Capital Centre,32767
+642,1985,NBA,ATL,ATL,CD,2,Atlanta Hawks,50,32,82,Omni Coliseum,32767
+643,1985,NBA,BOS,BOS,AT,1,Boston Celtics,67,15,82,Boston Garden,32767
+644,1985,NBA,CHI,CHI,CD,4,Chicago Bulls,30,52,82,Chicago Stadium,32767
+645,1985,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,29,53,82,Coliseum at Richfield,32767
+646,1985,NBA,DAL,DAL,MW,3,Dallas Mavericks,44,38,82,Reunion Arena,32767
+647,1985,NBA,DEN,DEN,MW,2,Denver Nuggets,47,35,82,McNichols Sports Arena,32767
+648,1985,NBA,DET,DET,CD,3,Detroit Pistons,46,36,82,Pontiac Silverdome,32767
+649,1985,NBA,GSW,GSW,PC,6,Golden State Warriors,30,52,82,Oakland-Alameda County Coliseum Arena,32767
+650,1985,NBA,HOU,HOU,MW,1,Houston Rockets,51,31,82,The Summit,32767
+651,1985,NBA,IND,IND,CD,6,Indiana Pacers,26,56,82,Market Square Arena,32767
+652,1985,NBA,LAC,LAC,PC,3,Los Angeles Clippers,32,50,82,Los Angeles Memorial Sports Arena,32767
+653,1985,NBA,LAL,LAL,PC,1,Los Angeles Lakers,62,20,82,The Forum,32767
+654,1985,NBA,MIL,MIL,CD,1,Milwaukee Bucks,57,25,82,MECCA Arena,32767
+655,1985,NBA,NJN,NJN,AT,3,New Jersey Nets,39,43,82,Brendan Byrne Arena,32767
+656,1985,NBA,NYK,NYK,AT,5,New York Knicks,23,59,82,Madison Square Garden (IV),32767
+657,1985,NBA,PHI,PHI,AT,2,Philadelphia 76ers,54,28,82,The Spectrum,32767
+658,1985,NBA,PHO,PHO,PC,3,Phoenix Suns,32,50,82,Arizona Veterans Memorial Coliseum,32767
+659,1985,NBA,POR,POR,PC,2,Portland Trail Blazers,40,42,82,Memorial Coliseum,32767
+660,1985,NBA,SAC,SAC,MW,5,Sacramento Kings,37,45,82,ARCO Arena (I),32767
+661,1985,NBA,SAS,SAS,MW,6,San Antonio Spurs,35,47,82,HemisFair Arena,32767
+662,1985,NBA,SEA,SEA,PC,5,Seattle Supersonics,31,51,82,Seattle Center Coliseum,32767
+663,1985,NBA,UTA,UTA,MW,4,Utah Jazz,42,40,82,Salt Palace,32767
+664,1985,NBA,WSB,WAS,AT,3,Washington Bullets,39,43,82,Capital Centre,32767
+665,1986,NBA,ATL,ATL,CD,1,Atlanta Hawks,57,25,82,Omni Coliseum,32767
+666,1986,NBA,BOS,BOS,AT,1,Boston Celtics,59,23,82,Boston Garden,32767
+667,1986,NBA,CHI,CHI,CD,5,Chicago Bulls,40,42,82,Chicago Stadium,32767
+668,1986,NBA,CLE,CLE,CD,6,Cleveland Cavaliers,31,51,82,Coliseum at Richfield,32767
+669,1986,NBA,DAL,DAL,MW,1,Dallas Mavericks,55,27,82,Reunion Arena,32767
+670,1986,NBA,DEN,DEN,MW,4,Denver Nuggets,37,45,82,McNichols Sports Arena,32767
+671,1986,NBA,DET,DET,CD,2,Detroit Pistons,52,30,82,Pontiac Silverdome,32767
+672,1986,NBA,GSW,GSW,PC,3,Golden State Warriors,42,40,82,Oakland-Alameda County Coliseum Arena,32767
+673,1986,NBA,HOU,HOU,MW,3,Houston Rockets,42,40,82,The Summit,32767
+674,1986,NBA,IND,IND,CD,4,Indiana Pacers,41,41,82,Market Square Arena,32767
+675,1986,NBA,LAC,LAC,PC,6,Los Angeles Clippers,12,70,82,Los Angeles Memorial Sports Arena,32767
+676,1986,NBA,LAL,LAL,PC,1,Los Angeles Lakers,65,17,82,The Forum,32767
+677,1986,NBA,MIL,MIL,CD,3,Milwaukee Bucks,50,32,82,MECCA Arena,32767
+678,1986,NBA,NJN,NJN,AT,4,New Jersey Nets,24,58,82,Brendan Byrne Arena,32767
+679,1986,NBA,NYK,NYK,AT,4,New York Knicks,24,58,82,Madison Square Garden (IV),32767
+680,1986,NBA,PHI,PHI,AT,2,Philadelphia 76ers,45,37,82,The Spectrum,32767
+681,1986,NBA,PHO,PHO,PC,5,Phoenix Suns,36,46,82,Arizona Veterans Memorial Coliseum,32767
+682,1986,NBA,POR,POR,PC,2,Portland Trail Blazers,49,33,82,Memorial Coliseum,32767
+683,1986,NBA,SAC,SAC,MW,5,Sacramento Kings,29,53,82,ARCO Arena (I),32767
+684,1986,NBA,SAS,SAS,MW,6,San Antonio Spurs,28,54,82,HemisFair Arena,32767
+685,1986,NBA,SEA,SEA,PC,4,Seattle Supersonics,39,43,82,Seattle Center Coliseum,32767
+686,1986,NBA,UTA,UTA,MW,2,Utah Jazz,44,38,82,Salt Palace,32767
+687,1986,NBA,WSB,WAS,AT,3,Washington Bullets,42,40,82,Capital Centre,32767
+688,1987,NBA,ATL,ATL,CD,2,Atlanta Hawks,50,32,82,Omni Coliseum,32767
+689,1987,NBA,BOS,BOS,AT,1,Boston Celtics,57,25,82,Boston Garden,32767
+690,1987,NBA,CHI,CHI,CD,2,Chicago Bulls,50,32,82,Chicago Stadium,32767
+691,1987,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,42,40,82,Coliseum at Richfield,32767
+692,1987,NBA,DAL,DAL,MW,2,Dallas Mavericks,53,29,82,Reunion Arena,32767
+693,1987,NBA,DEN,DEN,MW,1,Denver Nuggets,54,28,82,McNichols Sports Arena,32767
+694,1987,NBA,DET,DET,CD,1,Detroit Pistons,54,28,82,Pontiac Silverdome,32767
+695,1987,NBA,GSW,GSW,PC,5,Golden State Warriors,20,62,82,Oakland-Alameda County Coliseum Arena,32767
+696,1987,NBA,HOU,HOU,MW,4,Houston Rockets,46,36,82,The Summit,32767
+697,1987,NBA,IND,IND,CD,6,Indiana Pacers,38,44,82,Market Square Arena,32767
+698,1987,NBA,LAC,LAC,PC,6,Los Angeles Clippers,17,65,82,Los Angeles Memorial Sports Arena,32767
+699,1987,NBA,LAL,LAL,PC,1,Los Angeles Lakers,62,20,82,The Forum,32767
+700,1987,NBA,MIL,MIL,CD,4,Milwaukee Bucks,42,40,82,MECCA Arena,32767
+701,1987,NBA,NJN,NJN,AT,5,New Jersey Nets,19,63,82,Brendan Byrne Arena,32767
+702,1987,NBA,NYK,NYK,AT,2,New York Knicks,38,44,82,Madison Square Garden (IV),32767
+703,1987,NBA,PHI,PHI,AT,4,Philadelphia 76ers,36,46,82,The Spectrum,32767
+704,1987,NBA,PHO,PHO,PC,4,Phoenix Suns,28,54,82,Arizona Veterans Memorial Coliseum,32767
+705,1987,NBA,POR,POR,PC,2,Portland Trail Blazers,53,29,82,Memorial Coliseum,32767
+706,1987,NBA,SAC,SAC,MW,6,Sacramento Kings,24,58,82,ARCO Arena (I),32767
+707,1987,NBA,SAS,SAS,MW,5,San Antonio Spurs,31,51,82,HemisFair Arena,32767
+708,1987,NBA,SEA,SEA,PC,3,Seattle Supersonics,44,38,82,Seattle Center Coliseum,32767
+709,1987,NBA,UTA,UTA,MW,3,Utah Jazz,47,35,82,Salt Palace,32767
+710,1987,NBA,WSB,WAS,AT,2,Washington Bullets,38,44,82,Capital Centre,32767
+711,1988,NBA,ATL,ATL,CD,3,Atlanta Hawks,52,30,82,Omni Coliseum,32767
+712,1988,NBA,BOS,BOS,AT,3,Boston Celtics,42,40,82,Boston Garden,32767
+713,1988,NBA,CHH,NOH,AT,6,Charlotte Hornets,20,62,82,Charlotte Coliseum,32767
+714,1988,NBA,CHI,CHI,CD,5,Chicago Bulls,47,35,82,Chicago Stadium,32767
+715,1988,NBA,CLE,CLE,CD,2,Cleveland Cavaliers,57,25,82,Coliseum at Richfield,32767
+716,1988,NBA,DAL,DAL,MW,4,Dallas Mavericks,38,44,82,Reunion Arena,32767
+717,1988,NBA,DEN,DEN,MW,3,Denver Nuggets,44,38,82,McNichols Sports Arena,32767
+718,1988,NBA,DET,DET,CD,1,Detroit Pistons,63,19,82,The Palace of Auburn Hills,32767
+719,1988,NBA,GSW,GSW,PC,4,Golden State Warriors,43,39,82,Oakland-Alameda County Coliseum Arena,32767
+720,1988,NBA,HOU,HOU,MW,2,Houston Rockets,45,37,82,The Summit,32767
+721,1988,NBA,IND,IND,CD,6,Indiana Pacers,28,54,82,Market Square Arena,32767
+722,1988,NBA,LAC,LAC,PC,7,Los Angeles Clippers,21,61,82,Los Angeles Memorial Sports Arena,32767
+723,1988,NBA,LAL,LAL,PC,1,Los Angeles Lakers,57,25,82,Great Western Forum,32767
+724,1988,NBA,MIA,MIA,MW,6,Miami Heat,15,67,82,Miami Arena,32767
+725,1988,NBA,MIL,MIL,CD,4,Milwaukee Bucks,49,33,82,Bradley Center,32767
+726,1988,NBA,NJN,NJN,AT,5,New Jersey Nets,26,56,82,Brendan Byrne Arena,32767
+727,1988,NBA,NYK,NYK,AT,1,New York Knicks,52,30,82,Madison Square Garden (IV),32767
+728,1988,NBA,PHI,PHI,AT,2,Philadelphia 76ers,46,36,82,The Spectrum,32767
+729,1988,NBA,PHO,PHO,PC,2,Phoenix Suns,55,27,82,Arizona Veterans Memorial Coliseum,32767
+730,1988,NBA,POR,POR,PC,5,Portland Trail Blazers,39,43,82,Memorial Coliseum,32767
+731,1988,NBA,SAC,SAC,PC,6,Sacramento Kings,27,55,82,ARCO Arena (II),32767
+732,1988,NBA,SAS,SAS,MW,5,San Antonio Spurs,21,61,82,HemisFair Arena,32767
+733,1988,NBA,SEA,SEA,PC,3,Seattle Supersonics,47,35,82,Seattle Center Coliseum,32767
+734,1988,NBA,UTA,UTA,MW,1,Utah Jazz,51,31,82,Salt Palace,32767
+735,1988,NBA,WSB,WAS,AT,4,Washington Bullets,40,42,82,Capital Centre,32767
+736,1989,NBA,ATL,ATL,CD,6,Atlanta Hawks,41,41,82,Omni Coliseum,32767
+737,1989,NBA,BOS,BOS,AT,2,Boston Celtics,52,30,82,Boston Garden,32767
+738,1989,NBA,CHH,NOH,MW,7,Charlotte Hornets,19,63,82,Charlotte Coliseum,32767
+739,1989,NBA,CHI,CHI,CD,2,Chicago Bulls,55,27,82,Chicago Stadium,32767
+740,1989,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,42,40,82,Coliseum at Richfield,32767
+741,1989,NBA,DAL,DAL,MW,3,Dallas Mavericks,47,35,82,Reunion Arena,32767
+742,1989,NBA,DEN,DEN,MW,4,Denver Nuggets,43,39,82,McNichols Sports Arena,32767
+743,1989,NBA,DET,DET,CD,1,Detroit Pistons,59,23,82,The Palace of Auburn Hills,32767
+744,1989,NBA,GSW,GSW,PC,5,Golden State Warriors,37,45,82,Oakland-Alameda County Coliseum Arena,32767
+745,1989,NBA,HOU,HOU,MW,5,Houston Rockets,41,41,82,The Summit,32767
+746,1989,NBA,IND,IND,CD,4,Indiana Pacers,42,40,82,Market Square Arena,32767
+747,1989,NBA,LAC,LAC,PC,6,Los Angeles Clippers,30,52,82,Los Angeles Memorial Sports Arena,32767
+748,1989,NBA,LAL,LAL,PC,1,Los Angeles Lakers,63,19,82,Great Western Forum,32767
+749,1989,NBA,MIA,MIA,AT,5,Miami Heat,18,64,82,Miami Arena,32767
+750,1989,NBA,MIL,MIL,CD,3,Milwaukee Bucks,44,38,82,Bradley Center,32767
+751,1989,NBA,MIN,MIN,MW,6,Minnesota Timberwolves,22,60,82,Hubert H. Humphrey Metrodome,32767
+752,1989,NBA,NJN,NJN,AT,6,New Jersey Nets,17,65,82,Brendan Byrne Arena,32767
+753,1989,NBA,NYK,NYK,AT,3,New York Knicks,45,37,82,Madison Square Garden (IV),32767
+754,1989,NBA,ORL,ORL,CD,7,Orlando Magic,18,64,82,Orlando Arena,32767
+755,1989,NBA,PHI,PHI,AT,1,Philadelphia 76ers,53,29,82,The Spectrum,32767
+756,1989,NBA,PHO,PHO,PC,3,Phoenix Suns,54,28,82,Arizona Veterans Memorial Coliseum,32767
+757,1989,NBA,POR,POR,PC,2,Portland Trail Blazers,59,23,82,Memorial Coliseum,32767
+758,1989,NBA,SAC,SAC,PC,7,Sacramento Kings,23,59,82,ARCO Arena (II),32767
+759,1989,NBA,SAS,SAS,MW,1,San Antonio Spurs,56,26,82,HemisFair Arena,32767
+760,1989,NBA,SEA,SEA,PC,4,Seattle Supersonics,41,41,82,Seattle Center Coliseum,32767
+761,1989,NBA,UTA,UTA,MW,2,Utah Jazz,55,27,82,Salt Palace,32767
+762,1989,NBA,WSB,WAS,AT,4,Washington Bullets,31,51,82,Capital Centre,32767
+763,1990,NBA,ATL,ATL,CD,4,Atlanta Hawks,43,39,82,Omni Coliseum,32767
+764,1990,NBA,BOS,BOS,AT,1,Boston Celtics,56,26,82,Boston Garden,32767
+765,1990,NBA,CHH,NOH,CD,7,Charlotte Hornets,26,56,82,Charlotte Coliseum,32767
+766,1990,NBA,CHI,CHI,CD,1,Chicago Bulls,61,21,82,Chicago Stadium,32767
+767,1990,NBA,CLE,CLE,CD,6,Cleveland Cavaliers,33,49,82,Coliseum at Richfield,32767
+768,1990,NBA,DAL,DAL,MW,6,Dallas Mavericks,28,54,82,Reunion Arena,32767
+769,1990,NBA,DEN,DEN,MW,7,Denver Nuggets,20,62,82,McNichols Sports Arena,32767
+770,1990,NBA,DET,DET,CD,2,Detroit Pistons,50,32,82,The Palace of Auburn Hills,32767
+771,1990,NBA,GSW,GSW,PC,4,Golden State Warriors,44,38,82,Oakland-Alameda County Coliseum Arena,32767
+772,1990,NBA,HOU,HOU,MW,3,Houston Rockets,52,30,82,The Summit,32767
+773,1990,NBA,IND,IND,CD,5,Indiana Pacers,41,41,82,Market Square Arena,32767
+774,1990,NBA,LAC,LAC,PC,6,Los Angeles Clippers,31,51,82,Los Angeles Memorial Sports Arena,32767
+775,1990,NBA,LAL,LAL,PC,2,Los Angeles Lakers,58,24,82,Great Western Forum,32767
+776,1990,NBA,MIA,MIA,AT,6,Miami Heat,24,58,82,Miami Arena,32767
+777,1990,NBA,MIL,MIL,CD,3,Milwaukee Bucks,48,34,82,Bradley Center,32767
+778,1990,NBA,MIN,MIN,MW,5,Minnesota Timberwolves,29,53,82,Target Center,32767
+779,1990,NBA,NJN,NJN,AT,5,New Jersey Nets,26,56,82,Brendan Byrne Arena,32767
+780,1990,NBA,NYK,NYK,AT,3,New York Knicks,39,43,82,Madison Square Garden (IV),32767
+781,1990,NBA,ORL,ORL,MW,4,Orlando Magic,31,51,82,Orlando Arena,32767
+782,1990,NBA,PHI,PHI,AT,2,Philadelphia 76ers,44,38,82,The Spectrum,32767
+783,1990,NBA,PHO,PHO,PC,3,Phoenix Suns,55,27,82,Arizona Veterans Memorial Coliseum,32767
+784,1990,NBA,POR,POR,PC,1,Portland Trail Blazers,63,19,82,Memorial Coliseum,32767
+785,1990,NBA,SAC,SAC,PC,7,Sacramento Kings,25,57,82,ARCO Arena (II),32767
+786,1990,NBA,SAS,SAS,MW,1,San Antonio Spurs,55,27,82,HemisFair Arena,32767
+787,1990,NBA,SEA,SEA,PC,5,Seattle Supersonics,41,41,82,Seattle Center Coliseum,32767
+788,1990,NBA,UTA,UTA,MW,2,Utah Jazz,54,28,82,Salt Palace,32767
+789,1990,NBA,WSB,WAS,AT,4,Washington Bullets,30,52,82,Capital Centre,32767
+790,1991,NBA,ATL,ATL,CD,5,Atlanta Hawks,38,44,82,Omni Coliseum,32767
+791,1991,NBA,BOS,BOS,AT,1,Boston Celtics,51,31,82,Boston Garden,32767
+792,1991,NBA,CHH,NOH,CD,6,Charlotte Hornets,31,51,82,Charlotte Coliseum,32767
+793,1991,NBA,CHI,CHI,CD,1,Chicago Bulls,67,15,82,Chicago Stadium,32767
+794,1991,NBA,CLE,CLE,CD,2,Cleveland Cavaliers,57,25,82,Coliseum at Richfield,32767
+795,1991,NBA,DAL,DAL,MW,5,Dallas Mavericks,22,60,82,Reunion Arena,32767
+796,1991,NBA,DEN,DEN,MW,4,Denver Nuggets,24,58,82,McNichols Sports Arena,32767
+797,1991,NBA,DET,DET,CD,3,Detroit Pistons,48,34,82,The Palace of Auburn Hills,32767
+798,1991,NBA,GSW,GSW,PC,2,Golden State Warriors,55,27,82,Oakland-Alameda County Coliseum Arena,32767
+799,1991,NBA,HOU,HOU,MW,3,Houston Rockets,42,40,82,The Summit,32767
+800,1991,NBA,IND,IND,CD,4,Indiana Pacers,40,42,82,Market Square Arena,32767
+801,1991,NBA,LAC,LAC,PC,5,Los Angeles Clippers,45,37,82,Los Angeles Memorial Sports Arena,32767
+802,1991,NBA,LAL,LAL,PC,6,Los Angeles Lakers,43,39,82,Great Western Forum,32767
+803,1991,NBA,MIA,MIA,AT,4,Miami Heat,38,44,82,Miami Arena,32767
+804,1991,NBA,MIL,MIL,CD,6,Milwaukee Bucks,31,51,82,Bradley Center,32767
+805,1991,NBA,MIN,MIN,MW,6,Minnesota Timberwolves,15,67,82,Target Center,32767
+806,1991,NBA,NJN,NJN,AT,3,New Jersey Nets,40,42,82,Brendan Byrne Arena,32767
+807,1991,NBA,NYK,NYK,AT,1,New York Knicks,51,31,82,Madison Square Garden (IV),32767
+808,1991,NBA,ORL,ORL,AT,7,Orlando Magic,21,61,82,Orlando Arena,32767
+809,1991,NBA,PHI,PHI,AT,5,Philadelphia 76ers,35,47,82,The Spectrum,32767
+810,1991,NBA,PHO,PHO,PC,3,Phoenix Suns,53,29,82,Arizona Veterans Memorial Coliseum,32767
+811,1991,NBA,POR,POR,PC,1,Portland Trail Blazers,57,25,82,Memorial Coliseum,32767
+812,1991,NBA,SAC,SAC,PC,7,Sacramento Kings,29,53,82,ARCO Arena (II),32767
+813,1991,NBA,SAS,SAS,MW,2,San Antonio Spurs,47,35,82,HemisFair Arena,32767
+814,1991,NBA,SEA,SEA,PC,4,Seattle Supersonics,47,35,82,Seattle Center Coliseum,32767
+815,1991,NBA,UTA,UTA,MW,1,Utah Jazz,55,27,82,Delta Center,32767
+816,1991,NBA,WSB,WAS,AT,6,Washington Bullets,25,57,82,Capital Centre,32767
+817,1992,NBA,ATL,ATL,CD,4,Atlanta Hawks,43,39,82,Omni Coliseum,32767
+818,1992,NBA,BOS,BOS,AT,2,Boston Celtics,48,34,82,Boston Garden,32767
+819,1992,NBA,CHH,NOH,CD,3,Charlotte Hornets,44,38,82,Charlotte Coliseum,32767
+820,1992,NBA,CHI,CHI,CD,1,Chicago Bulls,57,25,82,Chicago Stadium,32767
+821,1992,NBA,CLE,CLE,CD,2,Cleveland Cavaliers,54,28,82,Coliseum at Richfield,32767
+822,1992,NBA,DAL,DAL,MW,6,Dallas Mavericks,11,71,82,Reunion Arena,32767
+823,1992,NBA,DEN,DEN,MW,4,Denver Nuggets,36,46,82,McNichols Sports Arena,32767
+824,1992,NBA,DET,DET,CD,6,Detroit Pistons,40,42,82,The Palace of Auburn Hills,32767
+825,1992,NBA,GSW,GSW,PC,6,Golden State Warriors,34,48,82,Oakland-Alameda County Coliseum Arena,32767
+826,1992,NBA,HOU,HOU,MW,1,Houston Rockets,55,27,82,The Summit,32767
+827,1992,NBA,IND,IND,CD,5,Indiana Pacers,41,41,82,Market Square Arena,32767
+828,1992,NBA,LAC,LAC,PC,4,Los Angeles Clippers,41,41,82,Los Angeles Memorial Sports Arena,32767
+829,1992,NBA,LAL,LAL,PC,5,Los Angeles Lakers,39,43,82,Great Western Forum,32767
+830,1992,NBA,MIA,MIA,AT,5,Miami Heat,36,46,82,Miami Arena,32767
+831,1992,NBA,MIL,MIL,CD,7,Milwaukee Bucks,28,54,82,Bradley Center,32767
+832,1992,NBA,MIN,MIN,MW,5,Minnesota Timberwolves,19,63,82,Target Center,32767
+833,1992,NBA,NJN,NJN,AT,3,New Jersey Nets,43,39,82,Brendan Byrne Arena,32767
+834,1992,NBA,NYK,NYK,AT,1,New York Knicks,60,22,82,Madison Square Garden (IV),32767
+835,1992,NBA,ORL,ORL,AT,4,Orlando Magic,41,41,82,Orlando Arena,32767
+836,1992,NBA,PHI,PHI,AT,6,Philadelphia 76ers,26,56,82,The Spectrum,32767
+837,1992,NBA,PHO,PHO,PC,1,Phoenix Suns,62,20,82,America West Arena,32767
+838,1992,NBA,POR,POR,PC,3,Portland Trail Blazers,51,31,82,Memorial Coliseum,32767
+839,1992,NBA,SAC,SAC,PC,7,Sacramento Kings,25,57,82,ARCO Arena (II),32767
+840,1992,NBA,SAS,SAS,MW,2,San Antonio Spurs,49,33,82,HemisFair Arena,32767
+841,1992,NBA,SEA,SEA,PC,2,Seattle Supersonics,55,27,82,Seattle Center Coliseum,32767
+842,1992,NBA,UTA,UTA,MW,3,Utah Jazz,47,35,82,Delta Center,32767
+843,1992,NBA,WSB,WAS,AT,7,Washington Bullets,22,60,82,Capital Centre,32767
+844,1993,NBA,ATL,ATL,CD,1,Atlanta Hawks,57,25,82,Omni Coliseum,32767
+845,1993,NBA,BOS,BOS,AT,5,Boston Celtics,32,50,82,Boston Garden,32767
+846,1993,NBA,CHH,NOH,CD,5,Charlotte Hornets,41,41,82,Charlotte Coliseum,32767
+847,1993,NBA,CHI,CHI,CD,2,Chicago Bulls,55,27,82,Chicago Stadium,32767
+848,1993,NBA,CLE,CLE,CD,3,Cleveland Cavaliers,47,35,82,Coliseum at Richfield,32767
+849,1993,NBA,DAL,DAL,MW,6,Dallas Mavericks,13,69,82,Reunion Arena,32767
+850,1993,NBA,DEN,DEN,MW,4,Denver Nuggets,42,40,82,McNichols Sports Arena,32767
+851,1993,NBA,DET,DET,CD,6,Detroit Pistons,20,62,82,The Palace of Auburn Hills,32767
+852,1993,NBA,GSW,GSW,PC,3,Golden State Warriors,50,32,82,Oakland-Alameda County Coliseum Arena,32767
+853,1993,NBA,HOU,HOU,MW,1,Houston Rockets,58,24,82,The Summit,32767
+854,1993,NBA,IND,IND,CD,3,Indiana Pacers,47,35,82,Market Square Arena,32767
+855,1993,NBA,LAC,LAC,PC,7,Los Angeles Clippers,27,55,82,Los Angeles Memorial Sports Arena,32767
+856,1993,NBA,LAL,LAL,PC,5,Los Angeles Lakers,33,49,82,Great Western Forum,32767
+857,1993,NBA,MIA,MIA,AT,4,Miami Heat,42,40,82,Miami Arena,32767
+858,1993,NBA,MIL,MIL,CD,6,Milwaukee Bucks,20,62,82,Bradley Center,32767
+859,1993,NBA,MIN,MIN,MW,5,Minnesota Timberwolves,20,62,82,Target Center,32767
+860,1993,NBA,NJN,NJN,AT,3,New Jersey Nets,45,37,82,Brendan Byrne Arena,32767
+861,1993,NBA,NYK,NYK,AT,1,New York Knicks,57,25,82,Madison Square Garden (IV),32767
+862,1993,NBA,ORL,ORL,AT,2,Orlando Magic,50,32,82,Orlando Arena,32767
+863,1993,NBA,PHI,PHI,AT,6,Philadelphia 76ers,25,57,82,The Spectrum,32767
+864,1993,NBA,PHO,PHO,PC,2,Phoenix Suns,56,26,82,America West Arena,32767
+865,1993,NBA,POR,POR,PC,4,Portland Trail Blazers,47,35,82,Memorial Coliseum,32767
+866,1993,NBA,SAC,SAC,PC,6,Sacramento Kings,28,54,82,ARCO Arena (II),32767
+867,1993,NBA,SAS,SAS,MW,2,San Antonio Spurs,55,27,82,Alamodome,32767
+868,1993,NBA,SEA,SEA,PC,1,Seattle Supersonics,63,19,82,Seattle Center Coliseum,32767
+869,1993,NBA,UTA,UTA,MW,3,Utah Jazz,53,29,82,Delta Center,32767
+870,1993,NBA,WSB,WAS,AT,7,Washington Bullets,24,58,82,US Airways Arena,32767
+871,1994,NBA,ATL,ATL,CD,5,Atlanta Hawks,42,40,82,Omni Coliseum,32767
+872,1994,NBA,BOS,BOS,AT,3,Boston Celtics,35,47,82,Boston Garden,32767
+873,1994,NBA,CHH,NOH,CD,2,Charlotte Hornets,50,32,82,Charlotte Coliseum,32767
+874,1994,NBA,CHI,CHI,CD,3,Chicago Bulls,47,35,82,United Center,32767
+875,1994,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,43,39,82,Gund Arena,32767
+876,1994,NBA,DAL,DAL,MW,5,Dallas Mavericks,36,46,82,Reunion Arena,32767
+877,1994,NBA,DEN,DEN,MW,4,Denver Nuggets,41,41,82,McNichols Sports Arena,32767
+878,1994,NBA,DET,DET,CD,7,Detroit Pistons,28,54,82,The Palace of Auburn Hills,32767
+879,1994,NBA,GSW,GSW,PC,6,Golden State Warriors,26,56,82,Oakland-Alameda County Coliseum Arena,32767
+880,1994,NBA,HOU,HOU,MW,3,Houston Rockets,47,35,82,The Summit,32767
+881,1994,NBA,IND,IND,CD,1,Indiana Pacers,52,30,82,Market Square Arena,32767
+882,1994,NBA,LAC,LAC,PC,7,Los Angeles Clippers,17,65,82,Los Angeles Memorial Sports Arena,32767
+883,1994,NBA,LAL,LAL,PC,3,Los Angeles Lakers,48,34,82,Great Western Forum,32767
+884,1994,NBA,MIA,MIA,AT,4,Miami Heat,32,50,82,Miami Arena,32767
+885,1994,NBA,MIL,MIL,CD,6,Milwaukee Bucks,34,48,82,Bradley Center,32767
+1310,2009,NBA,BOS,BOS,AT,1,Boston Celtics,50,32,0,,0
+886,1994,NBA,MIN,MIN,MW,6,Minnesota Timberwolves,21,61,82,Target Center,32767
+887,1994,NBA,NJN,NJN,AT,5,New Jersey Nets,30,52,82,Brendan Byrne Arena,32767
+888,1994,NBA,NYK,NYK,AT,2,New York Knicks,55,27,82,Madison Square Garden (IV),32767
+889,1994,NBA,ORL,ORL,AT,1,Orlando Magic,57,25,82,Orlando Arena,32767
+890,1994,NBA,PHI,PHI,AT,6,Philadelphia 76ers,24,58,82,CoreStates Spectrum,32767
+891,1994,NBA,PHO,PHO,PC,1,Phoenix Suns,59,23,82,America West Arena,32767
+892,1994,NBA,POR,POR,PC,4,Portland Trail Blazers,44,38,82,Memorial Coliseum,32767
+893,1994,NBA,SAC,SAC,PC,5,Sacramento Kings,39,43,82,ARCO Arena (II),32767
+894,1994,NBA,SAS,SAS,MW,1,San Antonio Spurs,62,20,82,Alamodome,32767
+895,1994,NBA,SEA,SEA,PC,2,Seattle Supersonics,57,25,82,Tacoma Dome,32767
+896,1994,NBA,UTA,UTA,MW,2,Utah Jazz,60,22,82,Delta Center,32767
+897,1994,NBA,WSB,WAS,AT,7,Washington Bullets,21,61,82,US Airways Arena,32767
+898,1995,NBA,ATL,ATL,CD,4,Atlanta Hawks,46,36,82,Omni Coliseum,32767
+899,1995,NBA,BOS,BOS,AT,5,Boston Celtics,33,49,82,FleetCenter,32767
+900,1995,NBA,CHH,NOH,CD,6,Charlotte Hornets,41,41,82,Charlotte Coliseum,32767
+901,1995,NBA,CHI,CHI,CD,1,Chicago Bulls,72,10,82,United Center,32767
+902,1995,NBA,CLE,CLE,CD,3,Cleveland Cavaliers,47,35,82,Gund Arena,32767
+903,1995,NBA,DAL,DAL,MW,5,Dallas Mavericks,26,56,82,Reunion Arena,32767
+904,1995,NBA,DEN,DEN,MW,4,Denver Nuggets,35,47,82,McNichols Sports Arena,32767
+905,1995,NBA,DET,DET,CD,4,Detroit Pistons,46,36,82,The Palace of Auburn Hills,32767
+906,1995,NBA,GSW,GSW,PC,6,Golden State Warriors,36,46,82,Oakland-Alameda County Coliseum Arena,32767
+907,1995,NBA,HOU,HOU,MW,3,Houston Rockets,48,34,82,The Summit,32767
+908,1995,NBA,IND,IND,CD,2,Indiana Pacers,52,30,82,Market Square Arena,32767
+909,1995,NBA,LAC,LAC,PC,7,Los Angeles Clippers,29,53,82,Los Angeles Memorial Sports Arena,32767
+910,1995,NBA,LAL,LAL,PC,2,Los Angeles Lakers,53,29,82,Great Western Forum,32767
+911,1995,NBA,MIA,MIA,AT,3,Miami Heat,42,40,82,Miami Arena,32767
+1311,2009,NBA,CHA,CHA,SE,4,Charlotte Bobcats,44,38,0,,0
+912,1995,NBA,MIL,MIL,CD,7,Milwaukee Bucks,25,57,82,Bradley Center,32767
+913,1995,NBA,MIN,MIN,MW,5,Minnesota Timberwolves,26,56,82,Target Center,32767
+914,1995,NBA,NJN,NJN,AT,6,New Jersey Nets,30,52,82,Brendan Byrne Arena,32767
+915,1995,NBA,NYK,NYK,AT,2,New York Knicks,47,35,82,Madison Square Garden (IV),32767
+916,1995,NBA,ORL,ORL,AT,1,Orlando Magic,60,22,82,Orlando Arena,32767
+917,1995,NBA,PHI,PHI,AT,7,Philadelphia 76ers,18,64,82,CoreStates Spectrum,32767
+918,1995,NBA,PHO,PHO,PC,4,Phoenix Suns,41,41,82,America West Arena,32767
+919,1995,NBA,POR,POR,PC,3,Portland Trail Blazers,44,38,82,Rose Garden Arena,32767
+920,1995,NBA,SAC,SAC,PC,5,Sacramento Kings,39,43,82,ARCO Arena (II),32767
+921,1995,NBA,SAS,SAS,MW,1,San Antonio Spurs,59,23,82,Alamodome,32767
+922,1995,NBA,SEA,SEA,PC,1,Seattle Supersonics,64,18,82,KeyArena at Seattle Center,32767
+923,1995,NBA,TOR,TOR,CD,8,Toronto Raptors,21,61,82,SkyDome,32767
+924,1995,NBA,UTA,UTA,MW,2,Utah Jazz,55,27,82,Delta Center,32767
+925,1995,NBA,VAN,MEM,MW,7,Vancouver Grizzlies,15,67,82,General Motors Place,32767
+926,1995,NBA,WSB,WAS,AT,4,Washington Bullets,39,43,82,US Airways Arena,32767
+927,1996,NBA,ATL,ATL,CD,2,Atlanta Hawks,56,26,82,Omni Coliseum,32767
+928,1996,NBA,BOS,BOS,AT,7,Boston Celtics,15,67,82,FleetCenter,32767
+929,1996,NBA,CHH,NOH,CD,3,Charlotte Hornets,54,28,82,Charlotte Coliseum,32767
+930,1996,NBA,CHI,CHI,CD,1,Chicago Bulls,69,13,82,United Center,32767
+931,1996,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,42,40,82,Gund Arena,32767
+932,1996,NBA,DAL,DAL,MW,4,Dallas Mavericks,24,58,82,Reunion Arena,32767
+933,1996,NBA,DEN,DEN,MW,5,Denver Nuggets,21,61,82,McNichols Sports Arena,32767
+934,1996,NBA,DET,DET,CD,3,Detroit Pistons,54,28,82,The Palace of Auburn Hills,32767
+935,1996,NBA,GSW,GSW,PC,7,Golden State Warriors,30,52,82,San Jose Arena,32767
+936,1996,NBA,HOU,HOU,MW,2,Houston Rockets,57,25,82,The Summit,32767
+937,1996,NBA,IND,IND,CD,6,Indiana Pacers,39,43,82,Market Square Arena,32767
+1312,2009,NBA,CHI,CHI,CD,3,Chicago Bulls,41,41,0,,0
+938,1996,NBA,LAC,LAC,PC,5,Los Angeles Clippers,36,46,82,Los Angeles Memorial Sports Arena,32767
+939,1996,NBA,LAL,LAL,PC,2,Los Angeles Lakers,56,26,82,Great Western Forum,32767
+940,1996,NBA,MIA,MIA,AT,1,Miami Heat,61,21,82,Miami Arena,32767
+941,1996,NBA,MIL,MIL,CD,7,Milwaukee Bucks,33,49,82,Bradley Center,32767
+942,1996,NBA,MIN,MIN,MW,3,Minnesota Timberwolves,40,42,82,Target Center,32767
+943,1996,NBA,NJN,NJN,AT,5,New Jersey Nets,26,56,82,Continental Airlines Arena,32767
+944,1996,NBA,NYK,NYK,AT,2,New York Knicks,57,25,82,Madison Square Garden (IV),32767
+945,1996,NBA,ORL,ORL,AT,3,Orlando Magic,45,37,82,Orlando Arena,32767
+946,1996,NBA,PHI,PHI,AT,6,Philadelphia 76ers,22,60,82,CoreStates Center,32767
+947,1996,NBA,PHO,PHO,PC,4,Phoenix Suns,40,42,82,America West Arena,32767
+948,1996,NBA,POR,POR,PC,3,Portland Trail Blazers,49,33,82,Rose Garden Arena,32767
+949,1996,NBA,SAC,SAC,PC,6,Sacramento Kings,34,48,82,ARCO Arena (II),32767
+950,1996,NBA,SAS,SAS,MW,6,San Antonio Spurs,20,62,82,Alamodome,32767
+951,1996,NBA,SEA,SEA,PC,1,Seattle Supersonics,57,25,82,KeyArena at Seattle Center,32767
+952,1996,NBA,TOR,TOR,CD,8,Toronto Raptors,30,52,82,SkyDome,32767
+953,1996,NBA,UTA,UTA,MW,1,Utah Jazz,64,18,82,Delta Center,32767
+954,1996,NBA,VAN,MEM,MW,7,Vancouver Grizzlies,14,68,82,General Motors Place,32767
+955,1996,NBA,WSB,WAS,AT,4,Washington Bullets,44,38,82,Capital Centre,32767
+956,1997,NBA,ATL,ATL,CD,4,Atlanta Hawks,50,32,82,Georgia Dome,32767
+957,1997,NBA,BOS,BOS,AT,6,Boston Celtics,36,46,82,FleetCenter,32767
+958,1997,NBA,CHH,NOH,CD,3,Charlotte Hornets,51,31,82,Charlotte Coliseum,32767
+959,1997,NBA,CHI,CHI,CD,1,Chicago Bulls,62,20,82,United Center,32767
+960,1997,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,47,35,82,Gund Arena,32767
+961,1997,NBA,DAL,DAL,MW,5,Dallas Mavericks,20,62,82,Reunion Arena,32767
+962,1997,NBA,DEN,DEN,MW,7,Denver Nuggets,11,71,82,McNichols Sports Arena,32767
+963,1997,NBA,DET,DET,CD,6,Detroit Pistons,37,45,82,The Palace of Auburn Hills,32767
+1313,2009,NBA,CLE,CLE,CD,1,Cleveland Cavaliers,61,21,0,,0
+964,1997,NBA,GSW,GSW,PC,6,Golden State Warriors,19,63,82,The Arena in Oakland,32767
+965,1997,NBA,HOU,HOU,MW,4,Houston Rockets,41,41,82,The Summit,32767
+966,1997,NBA,IND,IND,CD,2,Indiana Pacers,58,24,82,Market Square Arena,32767
+967,1997,NBA,LAC,LAC,PC,7,Los Angeles Clippers,17,65,82,Los Angeles Memorial Sports Arena,32767
+968,1997,NBA,LAL,LAL,PC,1,Los Angeles Lakers,61,21,82,Great Western Forum,32767
+969,1997,NBA,MIA,MIA,AT,1,Miami Heat,55,27,82,Miami Arena,32767
+970,1997,NBA,MIL,MIL,CD,7,Milwaukee Bucks,36,46,82,Bradley Center,32767
+971,1997,NBA,MIN,MIN,MW,3,Minnesota Timberwolves,45,37,82,Target Center,32767
+972,1997,NBA,NJN,NJN,AT,2,New Jersey Nets,43,39,82,Continental Airlines Arena,32767
+973,1997,NBA,NYK,NYK,AT,2,New York Knicks,43,39,82,Madison Square Garden (IV),32767
+974,1997,NBA,ORL,ORL,AT,5,Orlando Magic,41,41,82,Orlando Arena,32767
+975,1997,NBA,PHI,PHI,AT,7,Philadelphia 76ers,31,51,82,CoreStates Center,32767
+976,1997,NBA,PHO,PHO,PC,3,Phoenix Suns,56,26,82,America West Arena,32767
+977,1997,NBA,POR,POR,PC,4,Portland Trail Blazers,46,36,82,Rose Garden Arena,32767
+978,1997,NBA,SAC,SAC,PC,5,Sacramento Kings,27,55,82,ARCO Arena (II),32767
+979,1997,NBA,SAS,SAS,MW,2,San Antonio Spurs,56,26,82,Alamodome,32767
+980,1997,NBA,SEA,SEA,PC,1,Seattle Supersonics,61,21,82,KeyArena at Seattle Center,32767
+981,1997,NBA,TOR,TOR,CD,8,Toronto Raptors,16,66,82,SkyDome,32767
+982,1997,NBA,UTA,UTA,MW,1,Utah Jazz,62,20,82,Delta Center,32767
+983,1997,NBA,VAN,MEM,MW,6,Vancouver Grizzlies,19,63,82,General Motors Place,32767
+984,1997,NBA,WAS,WAS,AT,4,Washington Wizards,42,40,82,MCI Center,32767
+985,1998,NBA,ATL,ATL,CD,2,Atlanta Hawks,31,19,50,Georgia Dome,32767
+986,1998,NBA,BOS,BOS,AT,5,Boston Celtics,19,31,50,FleetCenter,32767
+987,1998,NBA,CHH,NOH,CD,5,Charlotte Hornets,26,24,50,Charlotte Coliseum,32767
+988,1998,NBA,CHI,CHI,CD,8,Chicago Bulls,13,37,50,United Center,32767
+989,1998,NBA,CLE,CLE,CD,7,Cleveland Cavaliers,22,28,50,Gund Arena,32767
+990,1998,NBA,DAL,DAL,MW,5,Dallas Mavericks,19,31,50,Reunion Arena,32767
+991,1998,NBA,DEN,DEN,MW,6,Denver Nuggets,14,36,50,McNichols Sports Arena,32767
+992,1998,NBA,DET,DET,CD,3,Detroit Pistons,29,21,50,The Palace of Auburn Hills,32767
+993,1998,NBA,GSW,GSW,PC,6,Golden State Warriors,21,29,50,The Arena in Oakland,32767
+994,1998,NBA,HOU,HOU,MW,3,Houston Rockets,31,19,50,Compaq Center,32767
+995,1998,NBA,IND,IND,CD,1,Indiana Pacers,33,17,50,Market Square Arena,32767
+996,1998,NBA,LAC,LAC,PC,7,Los Angeles Clippers,9,41,50,Los Angeles Memorial Sports Arena,32767
+997,1998,NBA,LAL,LAL,PC,2,Los Angeles Lakers,31,19,50,Great Western Forum,32767
+998,1998,NBA,MIA,MIA,AT,1,Miami Heat,33,17,50,Miami Arena,32767
+999,1998,NBA,MIL,MIL,CD,4,Milwaukee Bucks,28,22,50,Bradley Center,32767
+1000,1998,NBA,MIN,MIN,MW,4,Minnesota Timberwolves,25,25,50,Target Center,32767
+1001,1998,NBA,NJN,NJN,AT,7,New Jersey Nets,16,34,50,Continental Airlines Arena,32767
+1002,1998,NBA,NYK,NYK,AT,4,New York Knicks,27,23,50,Madison Square Garden (IV),32767
+1003,1998,NBA,ORL,ORL,AT,1,Orlando Magic,33,17,50,Orlando Arena,32767
+1004,1998,NBA,PHI,PHI,AT,3,Philadelphia 76ers,28,22,50,First Union Center,32767
+1005,1998,NBA,PHO,PHO,PC,3,Phoenix Suns,27,23,50,America West Arena,32767
+1006,1998,NBA,POR,POR,PC,1,Portland Trail Blazers,35,15,50,Rose Garden Arena,32767
+1007,1998,NBA,SAC,SAC,PC,3,Sacramento Kings,27,23,50,ARCO Arena (II),32767
+1008,1998,NBA,SAS,SAS,MW,1,San Antonio Spurs,37,13,50,Alamodome,32767
+1009,1998,NBA,SEA,SEA,PC,5,Seattle Supersonics,25,25,50,KeyArena at Seattle Center,32767
+1010,1998,NBA,TOR,TOR,CD,6,Toronto Raptors,23,27,50,SkyDome,32767
+1011,1998,NBA,UTA,UTA,MW,1,Utah Jazz,37,13,50,Delta Center,32767
+1012,1998,NBA,VAN,MEM,MW,7,Vancouver Grizzlies,8,42,50,General Motors Place,32767
+1013,1998,NBA,WAS,WAS,AT,6,Washington Wizards,18,32,50,MCI Center,32767
+1014,1999,NBA,ATL,ATL,CD,7,Atlanta Hawks,28,54,82,Philips Arena,32767
+1015,1999,NBA,BOS,BOS,AT,5,Boston Celtics,35,47,82,FleetCenter,32767
+1016,1999,NBA,CHH,NOH,CD,2,Charlotte Hornets,49,33,82,Charlotte Coliseum,32767
+1314,2009,NBA,DAL,DAL,SW,1,Dallas Mavericks,55,27,0,,0
+1017,1999,NBA,CHI,CHI,CD,8,Chicago Bulls,17,65,82,United Center,32767
+1018,1999,NBA,CLE,CLE,CD,6,Cleveland Cavaliers,32,50,82,Gund Arena,32767
+1019,1999,NBA,DAL,DAL,MW,4,Dallas Mavericks,40,42,82,Reunion Arena,32767
+1020,1999,NBA,DEN,DEN,MW,5,Denver Nuggets,35,47,82,Pepsi Center,32767
+1021,1999,NBA,DET,DET,CD,4,Detroit Pistons,42,40,82,The Palace of Auburn Hills,32767
+1022,1999,NBA,GSW,GSW,PC,6,Golden State Warriors,19,63,82,The Arena in Oakland,32767
+1023,1999,NBA,HOU,HOU,MW,6,Houston Rockets,34,48,82,Compaq Center,32767
+1024,1999,NBA,IND,IND,CD,1,Indiana Pacers,56,26,82,Conseco Fieldhouse,32767
+1025,1999,NBA,LAC,LAC,PC,7,Los Angeles Clippers,15,67,82,Staples Center,32767
+1026,1999,NBA,LAL,LAL,PC,1,Los Angeles Lakers,67,15,82,Staples Center,32767
+1027,1999,NBA,MIA,MIA,AT,1,Miami Heat,52,30,82,AmericanAirlines Arena,32767
+1028,1999,NBA,MIL,MIL,CD,4,Milwaukee Bucks,42,40,82,Bradley Center,32767
+1029,1999,NBA,MIN,MIN,MW,3,Minnesota Timberwolves,50,32,82,Target Center,32767
+1030,1999,NBA,NJN,NJN,AT,6,New Jersey Nets,31,51,82,Continental Airlines Arena,32767
+1031,1999,NBA,NYK,NYK,AT,2,New York Knicks,50,32,82,Madison Square Garden (IV),32767
+1032,1999,NBA,ORL,ORL,AT,4,Orlando Magic,41,41,82,TD Waterhouse Centre,32767
+1033,1999,NBA,PHI,PHI,AT,3,Philadelphia 76ers,49,33,82,First Union Center,32767
+1034,1999,NBA,PHO,PHO,PC,3,Phoenix Suns,53,29,82,America West Arena,32767
+1035,1999,NBA,POR,POR,PC,2,Portland Trail Blazers,59,23,82,Rose Garden Arena,32767
+1036,1999,NBA,SAC,SAC,PC,5,Sacramento Kings,44,38,82,ARCO Arena (II),32767
+1037,1999,NBA,SAS,SAS,MW,2,San Antonio Spurs,53,29,82,Alamodome,32767
+1038,1999,NBA,SEA,SEA,PC,4,Seattle Supersonics,45,37,82,KeyArena at Seattle Center,32767
+1039,1999,NBA,TOR,TOR,CD,3,Toronto Raptors,45,37,82,Air Canada Centre,32767
+1040,1999,NBA,UTA,UTA,MW,1,Utah Jazz,55,27,82,Delta Center,32767
+1041,1999,NBA,VAN,MEM,MW,7,Vancouver Grizzlies,22,60,82,General Motors Place,32767
+1042,1999,NBA,WAS,WAS,AT,7,Washington Wizards,29,53,82,MCI Center,32767
+1043,2000,NBA,ATL,ATL,CD,7,Atlanta Hawks,25,57,82,Philips Arena,32767
+1044,2000,NBA,BOS,BOS,AT,5,Boston Celtics,36,46,82,FleetCenter,32767
+1045,2000,NBA,CHH,NOH,CD,3,Charlotte Hornets,46,36,82,Charlotte Coliseum,32767
+1046,2000,NBA,CHI,CHI,CD,8,Chicago Bulls,15,67,82,United Center,32767
+1047,2000,NBA,CLE,CLE,CD,6,Cleveland Cavaliers,30,52,82,Gund Arena,32767
+1048,2000,NBA,DAL,DAL,MW,2,Dallas Mavericks,53,29,82,Reunion Arena,32767
+1049,2000,NBA,DEN,DEN,MW,6,Denver Nuggets,40,42,82,Pepsi Center,32767
+1050,2000,NBA,DET,DET,CD,5,Detroit Pistons,32,50,82,The Palace of Auburn Hills,32767
+1051,2000,NBA,GSW,GSW,PC,7,Golden State Warriors,17,65,82,The Arena in Oakland,32767
+1052,2000,NBA,HOU,HOU,MW,5,Houston Rockets,45,37,82,Compaq Center,32767
+1053,2000,NBA,IND,IND,CD,4,Indiana Pacers,41,41,82,Conseco Fieldhouse,32767
+1054,2000,NBA,LAC,LAC,PC,6,Los Angeles Clippers,31,51,82,Staples Center,32767
+1055,2000,NBA,LAL,LAL,PC,1,Los Angeles Lakers,56,26,82,Staples Center,32767
+1056,2000,NBA,MIA,MIA,AT,2,Miami Heat,50,32,82,AmericanAirlines Arena,32767
+1057,2000,NBA,MIL,MIL,CD,1,Milwaukee Bucks,52,30,82,Bradley Center,32767
+1058,2000,NBA,MIN,MIN,MW,4,Minnesota Timberwolves,47,35,82,Target Center,32767
+1059,2000,NBA,NJN,NJN,AT,6,New Jersey Nets,26,56,82,Continental Airlines Arena,32767
+1060,2000,NBA,NYK,NYK,AT,3,New York Knicks,48,34,82,Madison Square Garden (IV),32767
+1061,2000,NBA,ORL,ORL,AT,4,Orlando Magic,43,39,82,TD Waterhouse Centre,32767
+1062,2000,NBA,PHI,PHI,AT,1,Philadelphia 76ers,56,26,82,First Union Center,32767
+1063,2000,NBA,PHO,PHO,PC,3,Phoenix Suns,51,31,82,America West Arena,32767
+1064,2000,NBA,POR,POR,PC,4,Portland Trail Blazers,50,32,82,Rose Garden Arena,32767
+1065,2000,NBA,SAC,SAC,PC,2,Sacramento Kings,55,27,82,ARCO Arena (II),32767
+1066,2000,NBA,SAS,SAS,MW,1,San Antonio Spurs,58,24,82,Alamodome,32767
+1067,2000,NBA,SEA,SEA,PC,5,Seattle Supersonics,44,38,82,KeyArena at Seattle Center,32767
+1068,2000,NBA,TOR,TOR,CD,2,Toronto Raptors,47,35,82,Air Canada Centre,32767
+1069,2000,NBA,UTA,UTA,MW,2,Utah Jazz,53,29,82,Delta Center,32767
+1070,2000,NBA,VAN,MEM,MW,7,Vancouver Grizzlies,23,59,82,General Motors Place,32767
+1071,2000,NBA,WAS,WAS,AT,7,Washington Wizards,19,63,82,MCI Center,32767
+1072,2001,NBA,ATL,ATL,CD,6,Atlanta Hawks,33,49,82,Philips Arena,32767
+1073,2001,NBA,BOS,BOS,AT,2,Boston Celtics,49,33,82,FleetCenter,32767
+1074,2001,NBA,CHH,NOH,CD,2,Charlotte Hornets,44,38,82,Charlotte Coliseum,32767
+1075,2001,NBA,CHI,CHI,CD,8,Chicago Bulls,21,61,82,United Center,32767
+1076,2001,NBA,CLE,CLE,CD,7,Cleveland Cavaliers,29,53,82,Gund Arena,32767
+1077,2001,NBA,DAL,DAL,MW,2,Dallas Mavericks,57,25,82,American Airlines Center,32767
+1078,2001,NBA,DEN,DEN,MW,6,Denver Nuggets,27,55,82,Pepsi Center,32767
+1079,2001,NBA,DET,DET,CD,1,Detroit Pistons,50,32,82,The Palace of Auburn Hills,32767
+1080,2001,NBA,GSW,GSW,PC,7,Golden State Warriors,21,61,82,The Arena in Oakland,32767
+1081,2001,NBA,HOU,HOU,MW,5,Houston Rockets,28,54,82,Compaq Center,32767
+1082,2001,NBA,IND,IND,CD,3,Indiana Pacers,42,40,82,Conseco Fieldhouse,32767
+1083,2001,NBA,LAC,LAC,PC,5,Los Angeles Clippers,39,43,82,Staples Center,32767
+1084,2001,NBA,LAL,LAL,PC,2,Los Angeles Lakers,58,24,82,Staples Center,32767
+1085,2001,NBA,MEM,MEM,MW,7,Memphis Grizzlies,23,59,82,Pyramid Arena,32767
+1086,2001,NBA,MIA,MIA,AT,6,Miami Heat,36,46,82,AmericanAirlines Arena,32767
+1087,2001,NBA,MIL,MIL,CD,5,Milwaukee Bucks,41,41,82,Bradley Center,32767
+1088,2001,NBA,MIN,MIN,MW,3,Minnesota Timberwolves,50,32,82,Target Center,32767
+1089,2001,NBA,NJN,NJN,AT,1,New Jersey Nets,52,30,82,Continental Airlines Arena,32767
+1090,2001,NBA,NYK,NYK,AT,7,New York Knicks,30,52,82,Madison Square Garden (IV),32767
+1091,2001,NBA,ORL,ORL,AT,3,Orlando Magic,44,38,82,TD Waterhouse Centre,32767
+1092,2001,NBA,PHI,PHI,AT,4,Philadelphia 76ers,43,39,82,First Union Center,32767
+1093,2001,NBA,PHO,PHO,PC,6,Phoenix Suns,36,46,82,America West Arena,32767
+1094,2001,NBA,POR,POR,PC,3,Portland Trail Blazers,49,33,82,Rose Garden Arena,32767
+1095,2001,NBA,SAC,SAC,PC,1,Sacramento Kings,61,21,82,ARCO Arena (II),32767
+1096,2001,NBA,SAS,SAS,MW,1,San Antonio Spurs,58,24,82,Alamodome,32767
+1097,2001,NBA,SEA,SEA,PC,4,Seattle Supersonics,45,37,82,KeyArena at Seattle Center,32767
+1098,2001,NBA,TOR,TOR,CD,3,Toronto Raptors,42,40,82,Air Canada Centre,32767
+1099,2001,NBA,UTA,UTA,MW,4,Utah Jazz,44,38,82,Delta Center,32767
+1100,2001,NBA,WAS,WAS,AT,5,Washington Wizards,37,45,82,MCI Center,32767
+1101,2002,NBA,ATL,ATL,CD,5,Atlanta Hawks,35,47,82,Philips Arena,32767
+1102,2002,NBA,BOS,BOS,AT,3,Boston Celtics,44,38,82,FleetCenter,32767
+1103,2002,NBA,CHI,CHI,CD,6,Chicago Bulls,30,52,82,United Center,32767
+1104,2002,NBA,CLE,CLE,CD,8,Cleveland Cavaliers,17,65,82,Gund Arena,32767
+1105,2002,NBA,DAL,DAL,MW,1,Dallas Mavericks,60,22,82,American Airlines Center,32767
+1106,2002,NBA,DEN,DEN,MW,7,Denver Nuggets,17,65,82,Pepsi Center,32767
+1107,2002,NBA,DET,DET,CD,1,Detroit Pistons,50,32,82,The Palace of Auburn Hills,32767
+1108,2002,NBA,GSW,GSW,PC,6,Golden State Warriors,38,44,82,The Arena in Oakland,32767
+1109,2002,NBA,HOU,HOU,MW,5,Houston Rockets,43,39,82,Compaq Center,32767
+1110,2002,NBA,IND,IND,CD,2,Indiana Pacers,48,34,82,Conseco Fieldhouse,32767
+1111,2002,NBA,LAC,LAC,PC,7,Los Angeles Clippers,27,55,82,Staples Center,32767
+1112,2002,NBA,LAL,LAL,PC,2,Los Angeles Lakers,50,32,82,Staples Center,32767
+1113,2002,NBA,MEM,MEM,MW,6,Memphis Grizzlies,28,54,82,Pyramid Arena,32767
+1114,2002,NBA,MIA,MIA,AT,7,Miami Heat,25,57,82,AmericanAirlines Arena,32767
+1115,2002,NBA,MIL,MIL,CD,4,Milwaukee Bucks,42,40,82,Bradley Center,32767
+1116,2002,NBA,MIN,MIN,MW,3,Minnesota Timberwolves,51,31,82,Target Center,32767
+1117,2002,NBA,NJN,NJN,AT,1,New Jersey Nets,49,33,82,Continental Airlines Arena,32767
+1118,2002,NBA,NOH,NOH,CD,3,New Orleans Hornets,47,35,82,New Orleans Arena,32767
+1119,2002,NBA,NYK,NYK,AT,5,New York Knicks,37,45,82,Madison Square Garden (IV),32767
+1120,2002,NBA,ORL,ORL,AT,4,Orlando Magic,42,40,82,TD Waterhouse Centre,32767
+1121,2002,NBA,PHI,PHI,AT,2,Philadelphia 76ers,48,34,82,First Union Center,32767
+1122,2002,NBA,PHO,PHO,PC,4,Phoenix Suns,44,38,82,America West Arena,32767
+1123,2002,NBA,POR,POR,PC,2,Portland Trail Blazers,50,32,82,Rose Garden Arena,32767
+1124,2002,NBA,SAC,SAC,PC,1,Sacramento Kings,59,23,82,ARCO Arena (II),32767
+1125,2002,NBA,SAS,SAS,MW,1,San Antonio Spurs,60,22,82,SBC Center,32767
+1126,2002,NBA,SEA,SEA,PC,5,Seattle Supersonics,40,42,82,KeyArena at Seattle Center,32767
+1127,2002,NBA,TOR,TOR,CD,7,Toronto Raptors,24,58,82,Air Canada Centre,32767
+1128,2002,NBA,UTA,UTA,MW,4,Utah Jazz,47,35,82,Delta Center,32767
+1129,2002,NBA,WAS,WAS,AT,5,Washington Wizards,37,45,82,MCI Center,32767
+1130,2003,NBA,ATL,ATL,CD,7,Atlanta Hawks,28,54,82,Philips Arena,32767
+1131,2003,NBA,BOS,BOS,AT,4,Boston Celtics,36,46,82,FleetCenter,32767
+1132,2003,NBA,CHI,CHI,CD,8,Chicago Bulls,23,59,82,United Center,32767
+1133,2003,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,35,47,82,Gund Arena,32767
+1134,2003,NBA,DAL,DAL,MW,3,Dallas Mavericks,52,30,82,American Airlines Center,32767
+1135,2003,NBA,DEN,DEN,MW,6,Denver Nuggets,43,39,82,Pepsi Center,32767
+1136,2003,NBA,DET,DET,CD,2,Detroit Pistons,54,28,82,The Palace of Auburn Hills,32767
+1137,2003,NBA,GSW,GSW,PC,4,Golden State Warriors,37,45,82,The Arena in Oakland,32767
+1138,2003,NBA,HOU,HOU,MW,5,Houston Rockets,45,37,82,Toyota Center,32767
+1139,2003,NBA,IND,IND,CD,1,Indiana Pacers,61,21,82,Conseco Fieldhouse,32767
+1140,2003,NBA,LAC,LAC,PC,7,Los Angeles Clippers,28,54,82,Staples Center,32767
+1141,2003,NBA,LAL,LAL,PC,1,Los Angeles Lakers,56,26,82,Staples Center,32767
+1142,2003,NBA,MEM,MEM,MW,4,Memphis Grizzlies,50,32,82,Pyramid Arena,32767
+1143,2003,NBA,MIA,MIA,AT,2,Miami Heat,42,40,82,AmericanAirlines Arena,32767
+1144,2003,NBA,MIL,MIL,CD,3,Milwaukee Bucks,41,41,82,Bradley Center,32767
+1145,2003,NBA,MIN,MIN,MW,1,Minnesota Timberwolves,58,24,82,Target Center,32767
+1146,2003,NBA,NJN,NJN,AT,1,New Jersey Nets,47,35,82,Continental Airlines Arena,32767
+1147,2003,NBA,NOH,NOH,CD,3,New Orleans Hornets,41,41,82,New Orleans Arena,32767
+1148,2003,NBA,NYK,NYK,AT,3,New York Knicks,39,43,82,Madison Square Garden (IV),32767
+1149,2003,NBA,ORL,ORL,AT,7,Orlando Magic,21,61,82,TD Waterhouse Centre,32767
+1150,2003,NBA,PHI,PHI,AT,5,Philadelphia 76ers,33,49,82,Wachovia Center,32767
+1151,2003,NBA,PHO,PHO,PC,6,Phoenix Suns,29,53,82,America West Arena,32767
+1152,2003,NBA,POR,POR,PC,3,Portland Trail Blazers,41,41,82,Rose Garden Arena,32767
+1153,2003,NBA,SAC,SAC,PC,2,Sacramento Kings,55,27,82,ARCO Arena (II),32767
+1154,2003,NBA,SAS,SAS,MW,2,San Antonio Spurs,57,25,82,SBC Center,32767
+1155,2003,NBA,SEA,SEA,PC,4,Seattle Supersonics,37,45,82,KeyArena at Seattle Center,32767
+1156,2003,NBA,TOR,TOR,CD,6,Toronto Raptors,33,49,82,Air Canada Centre,32767
+1157,2003,NBA,UTA,UTA,MW,7,Utah Jazz,42,40,82,Delta Center,32767
+1158,2003,NBA,WAS,WAS,AT,6,Washington Wizards,25,57,82,MCI Center,32767
+1159,2004,NBA,ATL,ATL,SE,5,Atlanta Hawks,13,69,82,Philips Arena,32767
+1160,2004,NBA,BOS,BOS,AT,1,Boston Celtics,45,37,82,FleetCenter,32767
+1161,2004,NBA,CHA,CHA,SE,4,Charlotte Bobcats,18,64,82,Charlotte Coliseum,32767
+1162,2004,NBA,CHI,CHI,CD,2,Chicago Bulls,47,35,82,United Center,32767
+1163,2004,NBA,CLE,CLE,CD,4,Cleveland Cavaliers,42,40,82,Gund Arena,32767
+1164,2004,NBA,DAL,DAL,SW,2,Dallas Mavericks,58,24,82,American Airlines Center,32767
+1165,2004,NBA,DEN,DEN,NW,2,Denver Nuggets,49,33,82,Pepsi Center,32767
+1166,2004,NBA,DET,DET,CD,1,Detroit Pistons,54,28,82,The Palace of Auburn Hills,32767
+1167,2004,NBA,GSW,GSW,PC,4,Golden State Warriors,34,48,82,Oakland Arena,32767
+1168,2004,NBA,HOU,HOU,SW,3,Houston Rockets,51,31,82,Toyota Center,32767
+1169,2004,NBA,IND,IND,CD,3,Indiana Pacers,44,38,82,Conseco Fieldhouse,32767
+1170,2004,NBA,LAC,LAC,PC,3,Los Angeles Clippers,37,45,82,Staples Center,32767
+1171,2004,NBA,LAL,LAL,PC,4,Los Angeles Lakers,34,48,82,Staples Center,32767
+1172,2004,NBA,MEM,MEM,SW,4,Memphis Grizzlies,45,37,82,FedExForum,32767
+1173,2004,NBA,MIA,MIA,SE,1,Miami Heat,59,23,82,AmericanAirlines Arena,32767
+1174,2004,NBA,MIL,MIL,CD,5,Milwaukee Bucks,30,52,82,Bradley Center,32767
+1175,2004,NBA,MIN,MIN,NW,3,Minnesota Timberwolves,44,38,82,Target Center,32767
+1176,2004,NBA,NJN,NJN,AT,3,New Jersey Nets,42,40,82,Continental Airlines Arena,32767
+1177,2004,NBA,NOH,NOH,SW,5,New Orleans Hornets,18,64,82,New Orleans Arena,32767
+1178,2004,NBA,NYK,NYK,AT,4,New York Knicks,33,49,82,Madison Square Garden (IV),32767
+1179,2004,NBA,ORL,ORL,SE,3,Orlando Magic,36,46,82,TD Waterhouse Centre,32767
+1180,2004,NBA,PHI,PHI,AT,2,Philadelphia 76ers,43,39,82,Wachovia Center,32767
+1181,2004,NBA,PHO,PHO,PC,1,Phoenix Suns,62,20,82,America West Arena,32767
+1182,2004,NBA,POR,POR,NW,4,Portland Trail Blazers,27,55,82,Rose Garden Arena,32767
+1183,2004,NBA,SAC,SAC,PC,2,Sacramento Kings,50,32,82,ARCO Arena (II),32767
+1184,2004,NBA,SAS,SAS,SW,1,San Antonio Spurs,59,23,82,SBC Center,32767
+1185,2004,NBA,SEA,SEA,NW,1,Seattle Supersonics,52,30,82,KeyArena at Seattle Center,32767
+1186,2004,NBA,TOR,TOR,AT,4,Toronto Raptors,33,49,82,Air Canada Centre,32767
+1187,2004,NBA,UTA,UTA,NW,5,Utah Jazz,26,56,82,Delta Center,32767
+1188,2004,NBA,WAS,WAS,SE,2,Washington Wizards,45,37,82,MCI Center,32767
+1189,2005,NBA,ATL,ATL,SE,4,Atlanta Hawks,26,56,82,Philips Arena,32767
+1190,2005,NBA,BOS,BOS,AT,3,Boston Celtics,33,49,82,TD Banknorth Garden,32767
+1191,2005,NBA,CHA,CHA,SE,4,Charlotte Bobcats,26,56,82,Charlotte Bobcats Arena,32767
+1192,2005,NBA,CHI,CHI,CD,3,Chicago Bulls,41,41,82,United Center,32767
+1193,2005,NBA,CLE,CLE,CD,2,Cleveland Cavaliers,50,32,82,Gund Arena,32767
+1194,2005,NBA,DAL,DAL,SW,2,Dallas Mavericks,60,22,82,American Airlines Center,32767
+1195,2005,NBA,DEN,DEN,NW,1,Denver Nuggets,44,38,82,Pepsi Center,32767
+1196,2005,NBA,DET,DET,CD,1,Detroit Pistons,64,18,82,The Palace of Auburn Hills,32767
+1197,2005,NBA,GSW,GSW,PC,5,Golden State Warriors,34,48,82,Oakland Arena,32767
+1198,2005,NBA,HOU,HOU,SW,5,Houston Rockets,34,48,82,Toyota Center,32767
+1199,2005,NBA,IND,IND,CD,3,Indiana Pacers,41,41,82,Conseco Fieldhouse,32767
+1200,2005,NBA,LAC,LAC,PC,2,Los Angeles Clippers,47,35,82,Staples Center,32767
+1201,2005,NBA,LAL,LAL,PC,3,Los Angeles Lakers,45,37,82,Staples Center,32767
+1202,2005,NBA,MEM,MEM,SW,3,Memphis Grizzlies,49,33,82,FedExForum,32767
+1203,2005,NBA,MIA,MIA,SE,1,Miami Heat,52,30,82,AmericanAirlines Arena,32767
+1204,2005,NBA,MIL,MIL,CD,5,Milwaukee Bucks,40,42,82,Bradley Center,32767
+1205,2005,NBA,MIN,MIN,NW,4,Minnesota Timberwolves,33,49,82,Target Center,32767
+1206,2005,NBA,NJN,NJN,AT,1,New Jersey Nets,49,33,82,Continental Airlines Arena,32767
+1207,2005,NBA,NOK,NOH,SW,4,NO/Oklahoma City Hornets,38,44,82,Ford Center,32767
+1208,2005,NBA,NYK,NYK,AT,5,New York Knicks,23,59,82,Madison Square Garden (IV),32767
+1209,2005,NBA,ORL,ORL,SE,3,Orlando Magic,36,46,82,TD Waterhouse Centre,32767
+1210,2005,NBA,PHI,PHI,AT,2,Philadelphia 76ers,38,44,82,Wachovia Center,32767
+1211,2005,NBA,PHO,PHO,PC,1,Phoenix Suns,54,28,82,America West Arena,32767
+1212,2005,NBA,POR,POR,NW,5,Portland Trail Blazers,21,61,82,Rose Garden Arena,32767
+1213,2005,NBA,SAC,SAC,PC,4,Sacramento Kings,44,38,82,ARCO Arena (II),32767
+1214,2005,NBA,SAS,SAS,SW,1,San Antonio Spurs,63,19,82,SBC Center,32767
+1215,2005,NBA,SEA,SEA,NW,3,Seattle Supersonics,35,47,82,KeyArena at Seattle Center,32767
+1216,2005,NBA,TOR,TOR,AT,4,Toronto Raptors,27,55,82,Air Canada Centre,32767
+1217,2005,NBA,UTA,UTA,NW,2,Utah Jazz,41,41,82,Delta Center,32767
+1218,2005,NBA,WAS,WAS,SE,2,Washington Wizards,42,40,82,MCI Center,32767
+1219,2006,NBA,ATL,ATL,SE,5,Atlanta Hawks,30,52,82,Philips Arena,32767
+1220,2006,NBA,BOS,BOS,AT,5,Boston Celtics,24,58,82,TD Banknorth Garden,32767
+1221,2006,NBA,CHA,CHA,SE,4,Charlotte Bobcats,33,49,82,Charlotte Bobcats Arena,32767
+1222,2006,NBA,CHI,CHI,CD,3,Chicago Bulls,49,33,82,United Center,32767
+1223,2006,NBA,CLE,CLE,CD,2,Cleveland Cavaliers,50,32,82,Quicken Loans Arena,32767
+1224,2006,NBA,DAL,DAL,SW,1,Dallas Mavericks,67,15,82,American Airlines Center,32767
+1225,2006,NBA,DEN,DEN,NW,2,Denver Nuggets,45,37,82,Pepsi Center,32767
+1226,2006,NBA,DET,DET,CD,1,Detroit Pistons,53,29,82,The Palace of Auburn Hills,32767
+1227,2006,NBA,GSW,GSW,PC,2,Golden State Warriors,42,40,82,Oracle Arena,32767
+1228,2006,NBA,HOU,HOU,SW,3,Houston Rockets,52,30,82,Toyota Center,32767
+1229,2006,NBA,IND,IND,CD,4,Indiana Pacers,35,47,82,Conseco Fieldhouse,32767
+1230,2006,NBA,LAC,LAC,PC,4,Los Angeles Clippers,40,42,82,Staples Center,32767
+1231,2006,NBA,LAL,LAL,PC,2,Los Angeles Lakers,42,40,82,Staples Center,32767
+1232,2006,NBA,MEM,MEM,SW,5,Memphis Grizzlies,22,60,82,FedExForum,32767
+1233,2006,NBA,MIA,MIA,SE,1,Miami Heat,44,38,82,AmericanAirlines Arena,32767
+1234,2006,NBA,MIL,MIL,CD,5,Milwaukee Bucks,28,54,82,Bradley Center,32767
+1235,2006,NBA,MIN,MIN,NW,3,Minnesota Timberwolves,32,50,82,Target Center,32767
+1236,2006,NBA,NJN,NJN,AT,2,New Jersey Nets,41,41,82,Continental Airlines Arena,32767
+1237,2006,NBA,NOK,NOH,SW,4,NO/Oklahoma City Hornets,39,43,82,Ford Center,32767
+1238,2006,NBA,NYK,NYK,AT,4,New York Knicks,33,49,82,Madison Square Garden (IV),32767
+1239,2006,NBA,ORL,ORL,SE,3,Orlando Magic,40,42,82,Amway Arena,32767
+1240,2006,NBA,PHI,PHI,AT,3,Philadelphia 76ers,35,47,82,Wachovia Center,32767
+1241,2006,NBA,PHO,PHO,PC,1,Phoenix Suns,61,21,82,US Airways Center,32767
+1242,2006,NBA,POR,POR,NW,3,Portland Trail Blazers,32,50,82,Rose Garden Arena,32767
+1243,2006,NBA,SAC,SAC,PC,5,Sacramento Kings,33,49,82,ARCO Arena (II),32767
+1244,2006,NBA,SAS,SAS,SW,2,San Antonio Spurs,58,24,82,AT&T Center,32767
+1245,2006,NBA,SEA,SEA,NW,5,Seattle Supersonics,31,51,82,KeyArena at Seattle Center,32767
+1246,2006,NBA,TOR,TOR,AT,1,Toronto Raptors,47,35,82,Air Canada Centre,32767
+1247,2006,NBA,UTA,UTA,NW,1,Utah Jazz,51,31,82,EnergySolutions Arena,32767
+1248,2006,NBA,WAS,WAS,SE,2,Washington Wizards,41,41,82,Verizon Center,32767
+1249,2007,NBA,ATL,ATL,SE,3,Atlanta Hawks,37,45,82,Philips Arena,32767
+1250,2007,NBA,BOS,BOS,AT,1,Boston Celtics,66,16,82,TD Banknorth Garden,32767
+1251,2007,NBA,CHA,CHA,SE,4,Charlotte Bobcats,32,50,82,Charlotte Bobcats Arena,32767
+1252,2007,NBA,CHI,CHI,CD,4,Chicago Bulls,33,49,82,United Center,32767
+1253,2007,NBA,CLE,CLE,CD,2,Cleveland Cavaliers,45,37,82,Quicken Loans Arena,32767
+1254,2007,NBA,DAL,DAL,SW,4,Dallas Mavericks,51,31,82,American Airlines Center,32767
+1255,2007,NBA,DEN,DEN,NW,2,Denver Nuggets,50,32,82,Pepsi Center,32767
+1256,2007,NBA,DET,DET,CD,1,Detroit Pistons,59,23,82,The Palace of Auburn Hills,32767
+1257,2007,NBA,GSW,GSW,PC,3,Golden State Warriors,48,34,82,Oracle Arena,32767
+1258,2007,NBA,HOU,HOU,SW,3,Houston Rockets,55,27,82,Toyota Center,32767
+1259,2007,NBA,IND,IND,CD,3,Indiana Pacers,36,46,82,Conseco Fieldhouse,32767
+1260,2007,NBA,LAC,LAC,PC,5,Los Angeles Clippers,23,59,82,Staples Center,32767
+1261,2007,NBA,LAL,LAL,PC,1,Los Angeles Lakers,57,25,82,Staples Center,32767
+1262,2007,NBA,MEM,MEM,SW,5,Memphis Grizzlies,22,60,82,FedExForum,32767
+1263,2007,NBA,MIA,MIA,SE,5,Miami Heat,15,67,82,AmericanAirlines Arena,32767
+1264,2007,NBA,MIL,MIL,CD,5,Milwaukee Bucks,26,56,82,Bradley Center,32767
+1265,2007,NBA,MIN,MIN,NW,4,Minnesota Timberwolves,22,60,82,Target Center,32767
+1266,2007,NBA,NJN,NJN,AT,4,New Jersey Nets,34,48,82,Izod Center,32767
+1267,2007,NBA,NOH,NOH,SW,1,New Orleans Hornets,56,26,82,New Orleans Arena,32767
+1268,2007,NBA,NYK,NYK,AT,5,New York Knicks,23,59,82,Madison Square Garden (IV),32767
+1269,2007,NBA,ORL,ORL,SE,1,Orlando Magic,52,30,82,Amway Arena,32767
+1270,2007,NBA,PHI,PHI,AT,3,Philadelphia 76ers,40,42,82,Wachovia Center,32767
+1271,2007,NBA,PHO,PHO,PC,2,Phoenix Suns,55,27,82,US Airways Center,32767
+1272,2007,NBA,POR,POR,NW,3,Portland Trail Blazers,41,41,82,Rose Garden Arena,32767
+1273,2007,NBA,SAC,SAC,PC,4,Sacramento Kings,38,44,82,ARCO Arena (II),32767
+1274,2007,NBA,SAS,SAS,SW,2,San Antonio Spurs,56,26,82,AT&T Center,32767
+1275,2007,NBA,SEA,SEA,NW,5,Seattle Supersonics,20,62,82,KeyArena at Seattle Center,32767
+1276,2007,NBA,TOR,TOR,AT,2,Toronto Raptors,41,41,82,Air Canada Centre,32767
+1277,2007,NBA,UTA,UTA,NW,1,Utah Jazz,54,28,82,EnergySolutions Arena,32767
+1278,2007,NBA,WAS,WAS,SE,2,Washington Wizards,43,39,82,Verizon Center,32767
+1279,2008,NBA,ATL,ATL,SE,2,Atlanta Hawks,47,35,82,Philips Arena,32767
+1280,2008,NBA,BOS,BOS,AT,1,Boston Celtics,62,20,82,TD Banknorth Garden,32767
+1281,2008,NBA,CHA,CHA,SE,4,Charlotte Bobcats,35,47,82,Time Warner Cable Arena,32767
+1315,2009,NBA,DEN,DEN,NW,1,Denver Nuggets,53,29,0,,0
+1282,2008,NBA,CHI,CHI,CD,2,Chicago Bulls,41,41,82,United Center,32767
+1283,2008,NBA,CLE,CLE,CD,1,Cleveland Cavaliers,66,16,82,Quicken Loans Arena,32767
+1284,2008,NBA,DAL,DAL,SW,3,Dallas Mavericks,50,32,82,American Airlines Center,32767
+1285,2008,NBA,DEN,DEN,NW,1,Denver Nuggets,54,28,82,Pepsi Center,32767
+1286,2008,NBA,DET,DET,CD,3,Detroit Pistons,39,43,82,The Palace of Auburn Hills,32767
+1287,2008,NBA,GSW,GSW,PC,3,Golden State Warriors,29,53,82,Oracle Arena,32767
+1288,2008,NBA,HOU,HOU,SW,2,Houston Rockets,53,29,82,Toyota Center,32767
+1289,2008,NBA,IND,IND,CD,4,Indiana Pacers,36,46,82,Conseco Fieldhouse,32767
+1290,2008,NBA,LAC,LAC,PC,4,Los Angeles Clippers,19,63,82,Staples Center,32767
+1291,2008,NBA,LAL,LAL,PC,1,Los Angeles Lakers,65,17,82,Staples Center,32767
+1292,2008,NBA,MEM,MEM,SW,5,Memphis Grizzlies,24,58,82,FedExForum,32767
+1293,2008,NBA,MIA,MIA,SE,3,Miami Heat,43,39,82,AmericanAirlines Arena,32767
+1294,2008,NBA,MIL,MIL,CD,5,Milwaukee Bucks,34,48,82,Bradley Center,32767
+1295,2008,NBA,MIN,MIN,NW,4,Minnesota Timberwolves,24,58,82,Target Center,32767
+1296,2008,NBA,NJN,NJN,AT,3,New Jersey Nets,34,48,82,Izod Center,32767
+1297,2008,NBA,NOH,NOH,SW,4,New Orleans Hornets,49,33,82,New Orleans Arena,32767
+1298,2008,NBA,NYK,NYK,AT,5,New York Knicks,32,50,82,Madison Square Garden (IV),32767
+1299,2008,NBA,OKC,SEA,NW,5,Oklahoma City Thunder,23,59,82,Ford Center,32767
+1300,2008,NBA,ORL,ORL,SE,1,Orlando Magic,59,23,82,Amway Arena,32767
+1301,2008,NBA,PHI,PHI,AT,2,Philadelphia 76ers,41,41,82,Wachovia Center,32767
+1302,2008,NBA,PHO,PHO,PC,2,Phoenix Suns,46,36,82,US Airways Center,32767
+1303,2008,NBA,POR,POR,NW,2,Portland Trail Blazers,54,28,82,Rose Garden Arena,32767
+1304,2008,NBA,SAC,SAC,PC,5,Sacramento Kings,17,65,82,ARCO Arena (II),32767
+1305,2008,NBA,SAS,SAS,SW,1,San Antonio Spurs,54,28,82,AT&T Center,32767
+1306,2008,NBA,TOR,TOR,AT,4,Toronto Raptors,33,49,82,Air Canada Centre,32767
+1307,2008,NBA,UTA,UTA,NW,3,Utah Jazz,48,34,82,EnergySolutions Arena,32767
+1308,2008,NBA,WAS,WAS,SE,5,Washington Wizards,19,63,82,Verizon Center,32767
+1316,2009,NBA,DET,DET,CD,5,Detroit Pistons,27,55,0,,0
+1317,2009,NBA,GSW,GSW,PC,4,Golden State Warriors,26,56,0,,0
+1318,2009,NBA,HOU,HOU,SW,3,Houston Rockets,42,40,0,,0
+1319,2009,NBA,IND,IND,CD,4,Indiana Pacers,32,50,0,,0
+1320,2009,NBA,LAC,LAC,PC,3,Los Angeles Clippers,29,53,0,,0
+1321,2009,NBA,LAL,LAL,PC,1,Los Angeles Lakers,57,25,0,,0
+1322,2009,NBA,MEM,MEM,SW,4,Memphis Grizzlies,40,42,0,,0
+1323,2009,NBA,MIA,MIA,SE,3,Miami Heat,47,35,0,,0
+1324,2009,NBA,MIL,MIL,CD,2,Milwaukee Bucks,46,36,0,,0
+1325,2009,NBA,MIN,MIN,NW,5,Minnesota Timberwolves,15,67,0,,0
+1326,2009,NBA,NJN,NJN,AT,5,New Jersey Nets,12,70,0,,0
+1327,2009,NBA,NOH,NOH,SW,5,New Orleans Hornets,37,45,0,,0
+1328,2009,NBA,NYK,NYK,AT,3,New York Knicks,29,53,0,,0
+1329,2009,NBA,OKC,SEA,NW,4,Oklahoma City Thunder,50,32,0,,0
+1330,2009,NBA,ORL,ORL,SE,1,Orlando Magic,59,23,0,,0
+1331,2009,NBA,PHI,PHI,AT,4,Philadelphia 76ers,27,55,0,,0
+1332,2009,NBA,PHO,PHO,PC,2,Phoenix Suns,54,28,0,,0
+1333,2009,NBA,POR,POR,NW,3,Portland Trail Blazers,50,32,0,,0
+1334,2009,NBA,SAC,SAC,PC,5,Sacramento Kings,25,57,0,,0
+1335,2009,NBA,SAS,SAS,SW,2,San Antonio Spurs,50,32,0,,0
+1336,2009,NBA,TOR,TOR,AT,2,Toronto Raptors,40,42,0,,0
+1337,2009,NBA,UTA,UTA,NW,2,Utah Jazz,53,29,0,,0
+1338,2009,NBA,WAS,WAS,SE,5,Washington Wizards,26,56,0,,0
+1339,2010,NBA,ATL,ATL,SE,3,Atlanta Hawks,44,38,0,,0
+1340,2010,NBA,BOS,BOS,AT,1,Boston Celtics,56,26,0,,0
+1341,2010,NBA,CHA,CHA,SE,4,Charlotte Bobcats,34,48,0,,0
+1342,2010,NBA,CHI,CHI,CD,1,Chicago Bulls,62,20,0,,0
+1343,2010,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,19,63,0,,0
+1344,2010,NBA,DAL,DAL,SW,2,Dallas Mavericks,57,25,0,,0
+1345,2010,NBA,DEN,DEN,NW,2,Denver Nuggets,50,32,0,,0
+1346,2010,NBA,DET,DET,CD,4,Detroit Pistons,30,52,0,,0
+1347,2010,NBA,GSW,GSW,PC,3,Golden State Warriors,36,46,0,,0
+1348,2010,NBA,HOU,HOU,SW,5,Houston Rockets,43,39,0,,0
+1349,2010,NBA,IND,IND,CD,2,Indiana Pacers,37,45,0,,0
+1350,2010,NBA,LAC,LAC,PC,4,Los Angeles Clippers,32,50,0,,0
+1351,2010,NBA,LAL,LAL,PC,1,Los Angeles Lakers,57,25,0,,0
+1352,2010,NBA,MEM,MEM,SW,4,Memphis Grizzlies,46,36,0,,0
+1353,2010,NBA,MIA,MIA,SE,1,Miami Heat,58,24,0,,0
+1354,2010,NBA,MIL,MIL,CD,3,Milwaukee Bucks,35,47,0,,0
+1355,2010,NBA,MIN,MIN,NW,5,Minnesota Timberwolves,17,65,0,,0
+1356,2010,NBA,NJN,NJN,AT,4,New Jersey Nets,24,58,0,,0
+1357,2010,NBA,NOH,NOH,SW,3,New Orleans Hornets,46,36,0,,0
+1358,2010,NBA,NYK,NYK,AT,2,New York Knicks,42,40,0,,0
+1359,2010,NBA,OKC,SEA,NW,1,Oklahoma City Thunder,55,27,0,,0
+1360,2010,NBA,ORL,ORL,SE,2,Orlando Magic,52,30,0,,0
+1361,2010,NBA,PHI,PHI,AT,3,Philadelphia 76ers,41,41,0,,0
+1362,2010,NBA,PHO,PHO,PC,2,Phoenix Suns,40,42,0,,0
+1363,2010,NBA,POR,POR,NW,3,Portland Trail Blazers,48,34,0,,0
+1364,2010,NBA,SAC,SAC,PC,5,Sacramento Kings,24,58,0,,0
+1365,2010,NBA,SAS,SAS,SW,1,San Antonio Spurs,61,21,0,,0
+1366,2010,NBA,TOR,TOR,AT,5,Toronto Raptors,22,60,0,,0
+1367,2010,NBA,UTA,UTA,NW,4,Utah Jazz,39,43,0,,0
+1368,2010,NBA,WAS,WAS,SE,5,Washington Wizards,23,59,0,,0
+1369,2011,NBA,ATL,ATL,SE,2,Atlanta Hawks,40,26,0,,0
+1370,2011,NBA,BOS,BOS,AT,1,Boston Celtics,39,27,0,,0
+1371,2011,NBA,CHA,CHA,SE,5,Charlotte Bobcats,7,59,0,,0
+1372,2011,NBA,CHI,CHI,CD,1,Chicago Bulls,50,16,0,,0
+1373,2011,NBA,CLE,CLE,CD,5,Cleveland Cavaliers,21,45,0,,0
+1374,2011,NBA,DAL,DAL,SW,3,Dallas Mavericks,36,30,0,,0
+1375,2011,NBA,DEN,DEN,NW,2,Denver Nuggets,38,28,0,,0
+1376,2011,NBA,DET,DET,CD,4,Detroit Pistons,25,41,0,,0
+1377,2011,NBA,GSW,GSW,PC,4,Golden State Warriors,23,43,0,,0
+1378,2011,NBA,HOU,HOU,SW,4,Houston Rockets,34,32,0,,0
+1379,2011,NBA,IND,IND,CD,2,Indiana Pacers,42,24,0,,0
+1380,2011,NBA,LAC,LAC,PC,2,Los Angeles Clippers,40,26,0,,0
+1381,2011,NBA,LAL,LAL,PC,1,Los Angeles Lakers,41,25,0,,0
+1382,2011,NBA,MEM,MEM,SW,2,Memphis Grizzlies,41,25,0,,0
+1383,2011,NBA,MIA,MIA,SE,1,Miami Heat,46,20,0,,0
+1384,2011,NBA,MIL,MIL,CD,3,Milwaukee Bucks,31,35,0,,0
+1385,2011,NBA,MIN,MIN,NW,5,Minnesota Timberwolves,26,40,0,,0
+1386,2011,NBA,NJN,NJN,AT,5,New Jersey Nets,22,44,0,,0
+1387,2011,NBA,NOH,NOH,SW,5,New Orleans Hornets,21,45,0,,0
+1388,2011,NBA,NYK,NYK,AT,2,New York Knicks,36,30,0,,0
+1389,2011,NBA,OKC,SEA,NW,1,Oklahoma City Thunder,47,19,0,,0
+1390,2011,NBA,ORL,ORL,SE,3,Orlando Magic,37,29,0,,0
+1391,2011,NBA,PHI,PHI,AT,3,Philadelphia 76ers,35,31,0,,0
+1392,2011,NBA,PHO,PHO,PC,3,Phoenix Suns,33,33,0,,0
+1393,2011,NBA,POR,POR,NW,4,Portland Trail Blazers,28,38,0,,0
+1394,2011,NBA,SAC,SAC,PC,5,Sacramento Kings,22,44,0,,0
+1395,2011,NBA,SAS,SAS,SW,1,San Antonio Spurs,50,16,0,,0
+1396,2011,NBA,TOR,TOR,AT,4,Toronto Raptors,23,43,0,,0
+1397,2011,NBA,UTA,UTA,NW,3,Utah Jazz,36,30,0,,0
+1398,2011,NBA,WAS,WAS,SE,4,Washington Wizards,20,46,0,,0
+1399,1962,ABL1,CHM,CHM,,6,Chicago Majors,8,20,28,Chicago International Amphitheater,0
+1400,1962,ABL1,KCS,KCS,,1,Kansas City Steers,22,9,31,Municipal Auditorium,0
+1401,1962,ABL1,LBC,LBC,,2,Long Beach Chiefs,16,8,24,Long Beach Sports Arena,0
+1402,1962,ABL1,OAO,OAO,,4,Oakland Oaks,11,14,25,Oakland Auditorium,0
+1403,1962,ABL1,PGR,PGR,,3,Pittsburgh Rens,12,10,22,Pittsburgh Civic Arena,0
+1404,1962,ABL1,PHT,PHT,,5,Philadelphia Tapers,10,18,28,Convention Hall,0
+1405,1961,ABL1,CHM,CHM,EA,3,Chicago Majors,39,44,83,Chicago International Amphitheater,0
+1406,1961,ABL1,CLP,CLP,EA,1,Cleveland Pipers,45,36,81,Cleveland Arena,0
+1407,1961,ABL1,HAW,LBC,WE,3,Hawaii Chiefs,29,53,82,Honolulu City Auditorium,0
+1408,1961,ABL1,KCS,KCS,WE,1,Kansas City Steers,54,25,79,Municipal Auditorium,0
+1409,1961,ABL1,LAJ,LAJ,WE,4,Los Angeles Jets,24,15,39,Los Angeles Memorial Sports Arena,0
+1410,1961,ABL1,PGR,PGR,EA,2,Pittsburgh Rens,41,40,81,Pittsburgh Civic Arena,0
+1411,1961,ABL1,SFS,OAO,WE,2,San Francisco Saints,38,38,76,San Francisco Civic Auditorium,0
+1412,1961,ABL1,WNY,PHT,EA,4,Washington/New York Tapers,31,50,81,Washington Coliseum/Long Island Arena,0
+1413,1950,NPBL,AND,AND,EA,2,Anderson Packers,22,22,44,Anderson High School Wigwam,0
+1414,1950,NPBL,DNN,DNN,WE,2,Denver Refiners,18,16,34,Denver Auditorium Arena,0
+1415,1950,NPBL,EVA,EVA,EA,5,Evansville Agogans,0,6,6,Agoga Tabernacle,0
+1416,1950,NPBL,GRH,GRH,EA,4,Grand Rapids Hornets,6,13,19,Grand Rapids Stadium,0
+1417,1950,NPBL,KCH,KCH,WE,4,Kansas City Hi-Spots,4,19,23,Pla-Mor Arena,0
+1418,1950,NPBL,LOA,LOA,EA,3,Louisville Alumnites,18,17,35,Louisville Male High Gym,0
+1419,1950,NPBL,SHE,SHE,EA,1,Sheboygan Redskins,29,16,45,Sheboygan Municipal Auditorium and Armory,0
+1420,1950,NPBL,SPL,SPL,WE,3,St. Paul Lights,12,8,20,St. Paul Auditorium,0
+1421,1950,NPBL,WAT,WAT,WE,1,Waterloo Hawks,32,24,56,Waterloo Hippodrome,0
+1422,1948,NBL,AND,AND,EA,1,Anderson Duffey Packers,49,15,64,,0
+1423,1948,NBL,DAY,DAY,EA,4,Dayton Rens,14,26,40,,0
+1424,1948,NBL,DNN,DNN,WE,5,Denver Nuggets,18,44,62,,0
+1425,1948,NBL,DTK,DTK,EA,5,Detroit Vagabond Kings,2,17,19,,0
+1426,1948,NBL,HCB,HCB,EA,3,Hammond Calumet Buccaneers,21,41,62,,0
+1427,1948,NBL,OSH,OSH,WE,1,Oshkosh All-Stars,37,27,64,,0
+1428,1948,NBL,SHE,SHE,WE,3,Sheboygan Redskins,35,29,64,,0
+1429,1948,NBL,SYR,PHI,EA,2,Syracuse Nationals,40,23,63,,0
+1430,1948,NBL,TRI,ATL,WE,2,Tri-Cities Blackhawks,36,28,64,,0
+1431,1948,NBL,WAT,WAT,WE,4,Waterloo Hawks,30,32,62,,0
+1432,1947,NBL,AND,AND,EA,2,Anderson Duffey Packers,42,18,60,,0
+1433,1947,NBL,FNT,FNT,EA,6,Flint/Midland Dow A.C.'s,8,52,60,,0
+1434,1947,NBL,FTW,DET,EA,3,Fort Wayne Zollner Pistons,40,20,60,,0
+1435,1947,NBL,INK,INJ,WE,4,Indianapolis Kautskys,24,35,59,,0
+1436,1947,NBL,MNL,LAL,WE,1,Minneapolis Lakers,43,17,60,,0
+1437,1947,NBL,OSH,OSH,WE,3,Oshkosh All-Stars,29,31,60,,0
+1438,1947,NBL,ROC,SAC,EA,1,Rochester Royals,44,16,60,,0
+1439,1947,NBL,SHE,SHE,WE,5,Sheboygan Redskins,23,37,60,,0
+1440,1947,NBL,SYR,PHI,EA,4,Syracuse Nationals,24,36,60,,0
+1441,1947,NBL,TOL,TOL,EA,5,Toledo Jeeps,22,37,59,,0
+1442,1947,NBL,TRI,ATL,WE,2,Tri-Cities Blackhawks,30,30,60,,0
+1443,1947,PBLA,ATC,ATC,SO,1,Atlanta Crackers,7,1,8,Sports Arena,0
+1444,1947,PBLA,BIR,BIR,SO,3,Birmingham Skyhawks,5,2,7,Municipal Auditorium,0
+1445,1947,PBLA,CHG,CHG,NO,1,Chicago Gears,8,0,8,International Amphitheatre,0
+1446,1947,PBLA,CHT,CHT,SO,4,Chattanooga Majors,3,3,6,Memorial Auditorium,0
+1447,1947,PBLA,GRR,GRR,NO,3,Grand Rapids Rangers,3,3,6,Civic Auditorium,0
+1448,1947,PBLA,HMV,HMV,SO,7,Houston Mavericks,2,0,2,Municipal Auditorium,0
+1449,1947,PBLA,KCB,KCB,NO,6,Kansas City Blues,1,5,6,Municipal Auditorium (MO),0
+1450,1947,PBLA,LOU,LOU,NO,4,Louisville Colonels,2,4,6,Louisville Armory,0
+1451,1947,PBLA,NOL,NOL,SO,5,New Orleans Hurricanes,3,5,8,Coliseum Arena,0
+1452,1947,PBLA,OKD,OKD,SO,6,Oklahoma City Drillers,2,3,5,Municipal Auditorium,0
+1453,1947,PBLA,OMA,OMA,NO,5,Omaha Tomahawks,2,4,6,Creighton University,0
+1454,1947,PBLA,SPR,SPR,SO,8,Springfield Squires,1,7,8,Mosque Temple,0
+1455,1947,PBLA,STJ,STJ,NO,8,St. Joseph Outlaws,1,6,7,City Auditorium,0
+1456,1947,PBLA,STP,STP,NO,2,St. Paul Saints,6,3,9,St. Paul Auditorium,0
+1457,1947,PBLA,TUL,TUL,SO,2,Tulsa Ranchers,7,3,10,Fair Grounds Pavilion,0
+1458,1947,PBLA,WAT,WAT,NO,7,Waterloo Hawks,1,5,6,Waterloo Hippodrome,0
+1459,1946,NBL,AND,AND,WE,5,Anderson Duffey Packers,24,20,44,,0
+1460,1946,NBL,CHG,CHG,WE,3,Chicago American Gears,26,18,44,,0
+1461,1946,NBL,DTG,LAL,WE,6,Detroit Gems,4,40,44,,0
+1462,1946,NBL,FTW,DET,EA,2,Fort Wayne Zollner Pistons,25,19,44,,0
+1463,1946,NBL,INK,INJ,WE,2,Indianapolis Kautskys,27,17,44,,0
+1464,1946,NBL,OSH,OSH,WE,1,Oshkosh All-Stars,28,16,44,,0
+1465,1946,NBL,ROC,SAC,EA,1,Rochester Royals,31,13,44,,0
+1466,1946,NBL,SHE,SHE,WE,4,Sheboygan Redskins,26,18,44,,0
+1467,1946,NBL,SYR,PHI,EA,4,Syracuse Nationals,21,23,44,,0
+1468,1946,NBL,TOL,TOL,EA,3,Toledo Jeeps,21,23,44,,0
+1469,1946,NBL,TRI,ATL,EA,5,Tri-Cities Blackhawks,19,25,44,,0
+1470,1946,NBL,YOU,YOU,EA,6,Youngstown Bears,12,32,44,,0
+1471,1945,NBL,CAT,CAT,EA,4,Cleveland Allmen Transfers,4,29,33,,0
+1472,1945,NBL,CHG,CHG,WE,3,Chicago American Gears,17,17,34,,0
+1473,1945,NBL,FTW,DET,EA,1,Fort Wayne Zollner Pistons,26,8,34,,0
+1474,1945,NBL,INK,INJ,WE,4,Indianapolis Kautskys,10,22,32,,0
+1475,1945,NBL,OSH,OSH,WE,2,Oshkosh All-Stars,19,15,34,,0
+1476,1945,NBL,ROC,SAC,EA,2,Rochester Royals,24,10,34,,0
+1477,1945,NBL,SHE,SHE,WE,1,Sheboygan Redskins,21,13,34,,0
+1478,1945,NBL,YOU,YOU,EA,3,Youngstown Bears,13,20,33,,0
+1479,1944,NBL,CAT,CAT,EA,2,Cleveland Allmen Transfers,13,17,30,,0
+1480,1944,NBL,CHG,CHG,WE,2,Chicago American Gears,14,16,30,,0
+1481,1944,NBL,FTW,DET,EA,1,Fort Wayne Zollner Pistons,25,5,30,,0
+1482,1944,NBL,OSH,OSH,WE,3,Oshkosh All-Stars,12,18,30,,0
+1483,1944,NBL,PTR,PTR,EA,3,Pittsburgh Raiders,7,23,30,,0
+1484,1944,NBL,SHE,SHE,WE,1,Sheboygan Redskins,19,11,30,,0
+1485,1943,NBL,CCB,CAT,,4,Cleveland Chase Brassmen,3,15,18,,0
+1486,1943,NBL,FTW,DET,,1,Fort Wayne Zollner Pistons,18,4,22,,0
+1487,1943,NBL,OSH,OSH,,3,Oshkosh All-Stars,7,15,22,,0
+1488,1943,NBL,SHE,SHE,,2,Sheboygan Redskins,14,8,22,,0
+1489,1942,NBL,CHF,CHF,,4,Chicago Studebaker Flyers,8,15,23,,0
+1490,1942,NBL,FTW,DET,,1,Fort Wayne Zollner Pistons,17,6,23,,0
+1491,1942,NBL,OSH,OSH,,3,Oshkosh All-Stars,11,12,23,,0
+1492,1942,NBL,SHE,SHE,,2,Sheboygan Redskins,12,11,23,,0
+1493,1942,NBL,TCH,TCH,,5,Toledo Jim White Chevrolets,0,4,4,,0
+1494,1941,NBL,AGW,AGW,,3,Akron Goodyear Wingfoots,15,9,24,,0
+1495,1941,NBL,CHB,CHF,,6,Chicago Bruins,8,15,23,,0
+1496,1941,NBL,FTW,DET,,2,Fort Wayne Zollner Pistons,15,9,24,,0
+1497,1941,NBL,INK,INJ,,4,Indianapolis Kautskys,12,11,23,,0
+1498,1941,NBL,OSH,OSH,,1,Oshkosh All-Stars,20,4,24,,0
+1499,1941,NBL,SHE,SHE,,5,Sheboygan Redskins,10,14,24,,0
+1500,1941,NBL,TCH,TCH,,7,Toledo Jim White Chevrolets,3,21,24,,0
+1501,1940,NBL,AFS,AFS,,3,Akron Firestone Non-Skids,13,11,24,,0
+1502,1940,NBL,AGW,AGW,,6,Akron Goodyear Wingfoots,11,13,24,,0
+1503,1940,NBL,CHB,CHF,,5,Chicago Bruins,11,13,24,,0
+1504,1940,NBL,DTE,DTE,,4,Detroit Eagles,12,12,24,,0
+1505,1940,NBL,HAM,HAM,,7,Hammond Ciesar All-Americans,6,18,24,,0
+1506,1940,NBL,OSH,OSH,,1,Oshkosh All-Stars,18,6,24,,0
+1507,1940,NBL,SHE,SHE,,2,Sheboygan Redskins,13,11,24,,0
+1508,1939,NBL,AFS,AFS,EA,1,Akron Firestone Non-Skids,18,9,27,,0
+1509,1939,NBL,AGW,AGW,EA,3,Akron Goodyear Wingfoots,14,14,28,,0
+1510,1939,NBL,CHB,CHF,WE,3,Chicago Bruins,14,14,28,,0
+1511,1939,NBL,DTE,DTE,EA,2,Detroit Eagles,17,10,27,,0
+1512,1939,NBL,HAM,HAM,WE,4,Hammond Ciesar All-Americans,9,19,28,,0
+1513,1939,NBL,INK,INJ,EA,4,Indianapolis Kautskys,9,19,28,,0
+1514,1939,NBL,OSH,OSH,WE,1,Oshkosh All-Stars,15,13,28,,0
+1515,1939,NBL,SHE,SHE,WE,2,Sheboygan Redskins,15,13,28,,0
+1516,1938,NBL,AFS,AFS,EA,1,Akron Firestone Non-Skids,24,3,27,,0
+1517,1938,NBL,AGW,AGW,EA,2,Akron Goodyear Wingfoots,14,14,28,,0
+1518,1938,NBL,CWH,CWH,EA,3,Warren Penns/Cleveland White Horses,14,14,28,,0
+1519,1938,NBL,HAM,HAM,WE,4,Hammond Ciesar All-Americans,4,24,28,,0
+1520,1938,NBL,INK,INJ,WE,2,Indianapolis Kautskys,13,13,26,,0
+1521,1938,NBL,OSH,OSH,WE,1,Oshkosh All-Stars,17,11,28,,0
+1522,1938,NBL,PGP,PGP,EA,4,Pittsburgh Pirates,13,14,27,,0
+1523,1938,NBL,SHE,SHE,WE,3,Sheboygan Redskins,11,17,28,,0
+1524,1937,NBL,AFS,AFS,EA,1,Akron Firestone Non-Skids,14,4,18,,0
+1525,1937,NBL,AGW,AGW,EA,2,Akron Goodyear Wingfoots,13,5,18,,0
+1526,1937,NBL,BFB,BFB,EA,4,Buffalo Bisons,3,6,9,,0
+1527,1937,NBL,CNC,CNC,WE,5,Richmond King Clothiers/Cincinnati Comellos,3,7,10,,0
+1528,1937,NBL,COL,COL,EA,6,Columbus Athletic Supply,1,12,13,,0
+1529,1937,NBL,DYM,DYM,WE,7,Dayton Metropolitans,2,11,13,,0
+1530,1937,NBL,FWE,FWE,WE,3,Fort Wayne General Electrics,13,7,20,,0
+1531,1937,NBL,INK,INJ,WE,4,Indianapolis Kautskys,4,9,13,,0
+1532,1937,NBL,KNK,KNK,WE,6,Kankakee Gallagher Trojans,3,11,14,,0
+1533,1937,NBL,OSH,OSH,WE,1,Oshkosh All-Stars,12,2,14,,0
+1534,1937,NBL,PGP,PGP,EA,3,Pittsburgh Pirates,8,5,13,,0
+1535,1937,NBL,WAR,CWH,EA,5,Warren Penns,3,9,12,,0
+1536,1937,NBL,WHT,HAM,WE,2,Whiting Ciesar All-Americans,12,3,15,,0

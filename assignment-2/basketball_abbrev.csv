@@ -1,0 +1,40 @@
+1,Round,DF,Division Finals
+2,Conference,EC,Eastern Conference
+3,Conference,WC,Western Conference
+4,Division,AT,Atlantic Division
+5,Division,ED,Eastern Division
+6,Division,CD,Central Division
+7,Division,WD,Western Division
+8,Division,SE,Southeast Division
+9,Division,MW,Midwest Division
+10,Division,NW,Northwest Division
+11,Division,SW,Southwest Division
+12,Division,PC,Pacific Division
+13,Playoffs,R1,Lost round 1
+14,Playoffs,SF,Lost semi-finals
+15,Playoffs,F,Lost finals
+16,Playoffs,NC,Won NBA championship
+17,Playoffs,AC,Won ABA championship
+18,Playoffs,DT,Lost division tie
+19,Playoffs,DF,Lost division finals
+20,Playoffs,DS,Lost division semi-finals
+21,Playoffs,DR,Lost division round-robin
+22,Playoffs,CF,Lost conference finals
+23,Playoffs,CS,Lost conference semi-finals
+24,Playoffs,C1,Lost conference 1st round
+25,Round,DT,Division Tiebreaker
+26,Round,DSF,Division Semifinals
+27,Round,CF,Conference Finals
+28,Round,CFR,Conference First Round
+29,Round,CSF,Conference Semifinals
+30,Round,RR,Round Robin
+31,Round,F,Finals
+32,Round,QF,Quarterfinals
+33,Round,SF,Semifinals
+34,Round,FR,First Round
+35,Division,EA,East Division
+36,Division,WE,West Division
+37,Playoffs,WC,Won Championship
+38,Playoffs,LC,Lost Championship
+39,Division,SO,South Division
+40,Division,NO,North Division

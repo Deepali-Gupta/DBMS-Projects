@@ -1,0 +1,262 @@
+--1--
+ Sort  (cost=180.98..183.81 rows=1130 width=100)
+   Sort Key: house.housename
+   ->  GroupAggregate  (cost=32.65..123.68 rows=1130 width=100)
+         Group Key: house.houseid
+         ->  Merge Left Join  (cost=32.65..106.73 rows=1130 width=100)
+               Merge Cond: (house.houseid = appliance.houseid)
+               ->  Index Scan using houseprime on house  (cost=0.15..65.10 rows=1130 width=42)
+               ->  Sort  (cost=32.50..33.55 rows=420 width=62)
+                     Sort Key: appliance.houseid
+                     ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=62)
+
+--2--
+ Sort  (cost=73.70..74.75 rows=420 width=194)
+   Sort Key: house.housename, appliance.appname
+   ->  Hash Join  (cost=35.42..55.40 rows=420 width=194)
+         Hash Cond: (appliance.houseid = house.houseid)
+         ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=160)
+         ->  Hash  (cost=21.30..21.30 rows=1130 width=42)
+               ->  Seq Scan on house  (cost=0.00..21.30 rows=1130 width=42)
+
+--3--
+ Sort  (cost=16450.46..16450.47 rows=2 width=106)
+   Sort Key: appliance.appname
+   InitPlan 1 (returns $0)
+     ->  Seq Scan on house  (cost=0.00..24.12 rows=6 width=4)
+           Filter: ((housename)::text = 'House2'::text)
+   ->  GroupAggregate  (cost=1100.03..16426.33 rows=2 width=106)
+         Group Key: appliance.applianceid
+         ->  Nested Loop  (cost=1100.03..16402.83 rows=4693 width=106)
+               ->  Index Scan using appprime on appliance  (cost=0.15..55.50 rows=2 width=102)
+                     Filter: (houseid = $0)
+               ->  Bitmap Heap Scan on plugdata  (cost=1099.88..7865.66 rows=30800 width=8)
+                     Recheck Cond: (applianceid = appliance.applianceid)
+                     Filter: (power <> (-1)::double precision)
+                     ->  Bitmap Index Scan on plugprime  (cost=0.00..1092.18 rows=32768 width=0)
+                           Index Cond: (applianceid = appliance.applianceid)
+
+--4--
+ Sort  (cost=16473.95..16473.95 rows=2 width=106)
+   Sort Key: appliance.appname
+   InitPlan 1 (returns $0)
+     ->  Seq Scan on house  (cost=0.00..24.12 rows=6 width=4)
+           Filter: ((housename)::text = 'House4'::text)
+   ->  GroupAggregate  (cost=1100.03..16449.81 rows=2 width=106)
+         Group Key: appliance.applianceid
+         ->  Nested Loop  (cost=1100.03..16402.83 rows=4693 width=106)
+               ->  Index Scan using appprime on appliance  (cost=0.15..55.50 rows=2 width=102)
+                     Filter: (houseid = $0)
+               ->  Bitmap Heap Scan on plugdata  (cost=1099.88..7865.66 rows=30800 width=8)
+                     Recheck Cond: (applianceid = appliance.applianceid)
+                     Filter: (power <> (-1)::double precision)
+                     ->  Bitmap Index Scan on plugprime  (cost=0.00..1092.18 rows=32768 width=0)
+                           Index Cond: (applianceid = appliance.applianceid)
+
+--5--
+ Unique  (cost=43281.32..43287.62 rows=200 width=96)
+   ->  Subquery Scan on v2  (cost=43281.32..43286.57 rows=420 width=96)
+         ->  Sort  (cost=43281.32..43282.37 rows=420 width=100)
+               Sort Key: appliance.devicetype, (sum(plugdata.power)), house.housename
+               ->  Hash Join  (cost=43248.85..43263.02 rows=420 width=100)
+                     Hash Cond: (appliance.houseid = house.houseid)
+                     ->  HashAggregate  (cost=43213.42..43217.62 rows=420 width=70)
+                           Group Key: appliance.houseid, appliance.applianceid, appliance.devicetype
+                           ->  Hash Join  (cost=19.45..33357.51 rows=985591 width=70)
+                                 Hash Cond: (plugdata.applianceid = appliance.applianceid)
+                                 ->  Seq Scan on plugdata  (cost=0.00..19786.19 rows=985591 width=8)
+                                       Filter: (power <> (-1)::double precision)
+                                 ->  Hash  (cost=14.20..14.20 rows=420 width=66)
+                                       ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=66)
+                     ->  Hash  (cost=21.30..21.30 rows=1130 width=42)
+                           ->  Seq Scan on house  (cost=0.00..21.30 rows=1130 width=42)
+
+--6--
+ Sort  (cost=38296.61..38297.11 rows=200 width=62)
+   Sort Key: appliance.devicetype
+   ->  HashAggregate  (cost=38285.47..38288.97 rows=200 width=62)
+         Group Key: appliance.devicetype
+         ->  Hash Join  (cost=19.45..33357.51 rows=985591 width=62)
+               Hash Cond: (plugdata.applianceid = appliance.applianceid)
+               ->  Seq Scan on plugdata  (cost=0.00..19786.19 rows=985591 width=8)
+                     Filter: (power <> (-1)::double precision)
+               ->  Hash  (cost=14.20..14.20 rows=420 width=62)
+                     ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=62)
+
+--7--
+ Sort  (cost=44588.24..44588.25 rows=6 width=102)
+   Sort Key: house.housename
+   ->  Nested Loop  (cost=44584.69..44588.16 rows=6 width=102)
+         ->  Merge Join  (cost=44584.54..44585.63 rows=6 width=72)
+               Merge Cond: (sub1.houseid = sub2.houseid)
+               ->  Sort  (cost=38298.61..38299.11 rows=200 width=36)
+                     Sort Key: sub1.houseid
+                     ->  Subquery Scan on sub1  (cost=38285.47..38290.97 rows=200 width=36)
+                           ->  HashAggregate  (cost=38285.47..38288.97 rows=200 width=8)
+                                 Group Key: appliance.houseid
+                                 ->  Hash Join  (cost=19.45..33357.51 rows=985591 width=8)
+                                       Hash Cond: (plugdata.applianceid = appliance.applianceid)
+                                       ->  Seq Scan on plugdata  (cost=0.00..19786.19 rows=985591 width=8)
+                                             Filter: (power <> (-1)::double precision)
+                                       ->  Hash  (cost=14.20..14.20 rows=420 width=8)
+                                             ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=8)
+               ->  Sort  (cost=6285.92..6285.94 rows=6 width=36)
+                     Sort Key: sub2.houseid
+                     ->  Subquery Scan on sub2  (cost=6285.68..6285.85 rows=6 width=36)
+                           ->  HashAggregate  (cost=6285.68..6285.79 rows=6 width=8)
+                                 Group Key: smartmeterdata.houseid
+                                 ->  Seq Scan on smartmeterdata  (cost=0.00..4973.00 rows=262536 width=8)
+                                       Filter: (powerallphases <> (-1)::double precision)
+         ->  Index Scan using houseprime on house  (cost=0.15..0.41 rows=1 width=42)
+               Index Cond: (houseid = sub1.houseid)
+
+--8--
+ Sort  (cost=5227.77..5246.06 rows=7313 width=16)
+   Sort Key: (date_part('hour'::text, smartmeterdata.readingtime))
+   InitPlan 1 (returns $0)
+     ->  Seq Scan on house  (cost=0.00..24.12 rows=6 width=4)
+           Filter: ((housename)::text = 'House1'::text)
+   ->  HashAggregate  (cost=4514.90..4734.29 rows=7313 width=16)
+         Group Key: date_part('hour'::text, smartmeterdata.readingtime), smartmeterdata.houseid
+         ->  Bitmap Heap Scan on smartmeterdata  (cost=1520.76..3967.95 rows=43756 width=16)
+               Recheck Cond: (houseid = $0)
+               Filter: (powerallphases <> (-1)::double precision)
+               ->  Bitmap Index Scan on meterprime  (cost=0.00..1509.82 rows=43920 width=0)
+                     Index Cond: (houseid = $0)
+
+--9--
+ Unique  (cost=693728.70..693928.70 rows=200 width=136)
+   ->  Sort  (cost=693728.70..693828.70 rows=40000 width=136)
+         Sort Key: t1.housename, appliance.appname
+         ->  Hash Join  (cost=686884.15..687934.15 rows=40000 width=136)
+               Hash Cond: (t1.applianceid = appliance.applianceid)
+               ->  Sort  (cost=686864.70..686964.70 rows=40000 width=58)
+                     Sort Key: t1.housename, (max(((60::double precision * date_part('hour'::text, (t2.readingtime - t1.readingtime))) + date_pa
+rt('minute'::text, (t2.readingtime - t1.readingtime)))))
+                     ->  GroupAggregate  (cost=682229.29..683807.16 rows=40000 width=58)
+                           Group Key: t1.housename, t1.applianceid
+                           ->  Sort  (cost=682229.29..682347.07 rows=47115 width=58)
+                                 Sort Key: t1.housename, t1.applianceid
+                                 ->  Merge Join  (cost=410228.18..678572.24 rows=47115 width=58)
+                                       Merge Cond: ((t1.applianceid = t2.applianceid) AND ((date_part('day'::text, t1.readingtime)) = (date_part
+('day'::text, t2.readingtime))))
+                                       Join Filter: ((t2.id - t1.id) = 1)
+                                       ->  Sort  (cost=210360.59..211895.44 rows=613941 width=58)
+                                             Sort Key: t1.applianceid, (date_part('day'::text, t1.readingtime))
+                                             ->  Subquery Scan on t1  (cost=108298.02..128251.10 rows=613941 width=58)
+                                                   ->  WindowAgg  (cost=108298.02..122111.69 rows=613941 width=54)
+                                                         ->  Sort  (cost=108298.02..109832.87 rows=613941 width=54)
+                                                               Sort Key: house.housename, appliance_1.applianceid, plugdata.readingtime
+                                                               ->  Hash Join  (cost=60.65..28288.53 rows=613941 width=54)
+                                                                     Hash Cond: (plugdata.applianceid = appliance_1.applianceid)
+                                                                     ->  Seq Scan on plugdata  (cost=0.00..19786.19 rows=613941 width=16)
+                                                                           Filter: (power = 0::double precision)
+                                                                     ->  Hash  (cost=55.40..55.40 rows=420 width=42)
+                                                                           ->  Hash Join  (cost=35.42..55.40 rows=420 width=42)
+                                                                                 Hash Cond: (appliance_1.houseid = house.houseid)
+                                                                                 ->  Seq Scan on appliance appliance_1  (cost=0.00..14.20 rows=420 width=8)
+                                                                                 ->  Hash  (cost=21.30..21.30 rows=1130 width=42)
+                                                                                       ->  Seq Scan on house  (cost=0.00..21.30 rows=1130 width=42)
+                                       ->  Materialize  (cost=199867.59..202937.30 rows=613941 width=20)
+                                             ->  Sort  (cost=199867.59..201402.44 rows=613941 width=20)
+                                                  Sort Key: t2.applianceid, (date_part('day'::text, t2.readingtime))
+                                                   ->  Subquery Scan on t2  (cost=108298.02..128251.10 rows=613941 width=20)
+                                                         ->  WindowAgg  (cost=108298.02..122111.69 rows=613941 width=54)
+                                                               ->  Sort  (cost=108298.02..109832.87 rows=613941 width=54)
+                                                                     Sort Key: house_1.housename, appliance_2.applianceid, plugdata_1.readingtime
+                                                                     ->  Hash Join  (cost=60.65..28288.53 rows=613941 width=54)
+                                                                           Hash Cond: (plugdata_1.applianceid = appliance_2.applianceid)
+                                                                           ->  Seq Scan on plugdata plugdata_1  (cost=0.00..19786.19 rows=613941 width=16)
+                                                                                 Filter: (power = 0::double precision)
+                                                                           ->  Hash  (cost=55.40..55.40 rows=420 width=42)
+                                                                                 ->  Hash Join  (cost=35.42..55.40 rows=420 width=42)
+                                                                                       Hash Cond: (appliance_2.houseid = house_1.houseid)
+                                                                                       ->  Seq Scan on appliance appliance_2  (cost=0.00..14.20 rows=420 width=8)
+                                                                                       ->  Hash  (cost=21.30..21.30 rows=1130 width=42)
+                                                                                             ->  Seq Scan on house house_1  (cost=0.00..21.30 rows=1130 width=42)
+               ->  Hash  (cost=14.20..14.20 rows=420 width=102)
+                     ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=102)
+
+--10--
+ Aggregate  (cost=41318.72..41318.73 rows=1 width=0)
+   ->  Hash Join  (cost=40657.79..41318.72 rows=1 width=0)
+         Hash Cond: (sub1.houseid = house.houseid)
+         ->  Unique  (cost=40633.59..41291.76 rows=200 width=12)
+               ->  Subquery Scan on sub1  (cost=40633.59..41182.06 rows=43878 width=12)
+                     ->  Sort  (cost=40633.59..40743.28 rows=43878 width=16)
+                           Sort Key: (date_part('day'::text, smartmeterdata.readingtime)), (round((avg(smartmeterdata.powerallphases))::numeric, 2))
+                           ->  GroupAggregate  (cost=33747.41..37250.33 rows=43878 width=16)
+                                 Group Key: smartmeterdata.houseid, (date_part('day'::text, smartmeterdata.readingtime))
+                                 ->  Sort  (cost=33747.41..34403.75 rows=262536 width=16)
+                                       Sort Key: smartmeterdata.houseid, (date_part('day'::text, smartmeterdata.readingtime))
+                                       ->  Seq Scan on smartmeterdata  (cost=0.00..5629.34 rows=262536 width=16)
+                                             Filter: (powerallphases <> (-1)::double precision)
+         ->  Hash  (cost=24.12..24.12 rows=6 width=4)
+               ->  Seq Scan on house  (cost=0.00..24.12 rows=6 width=4)
+                     Filter: ((housename)::text = 'House6'::text)
+
+--11--
+ GroupAggregate  (cost=87516.03..87835.31 rows=15964 width=8)
+   Group Key: t1.houseid, t2.houseid
+   ->  Sort  (cost=87516.03..87555.94 rows=15964 width=8)
+         Sort Key: t1.houseid, t2.houseid
+         ->  Merge Join  (cost=84989.49..86401.54 rows=15964 width=8)
+               Merge Cond: ((t1.day = t2.day) AND (t1.hour = t2.hour))
+               Join Filter: ((t1.houseid <> t2.houseid) AND (t1.avgpower > t2.avgpower))
+               ->  Sort  (cost=42494.74..42604.44 rows=43878 width=52)
+                     Sort Key: t1.day, t1.hour
+                     ->  Subquery Scan on t1  (cost=34403.75..39111.48 rows=43878 width=52)
+                           ->  GroupAggregate  (cost=34403.75..38672.70 rows=43878 width=16)
+                                 Group Key: smartmeterdata.houseid, (date_part('day'::text, smartmeterdata.readingtime)), (date_part('hour'::text, smartmeterdata.readingtime))
+                                 ->  Sort  (cost=34403.75..35060.09 rows=262536 width=16)
+                                       Sort Key: smartmeterdata.houseid, (date_part('day'::text, smartmeterdata.readingtime)), (date_part('hour'::text, smartmeterdata.readingtime))
+                                       ->  Seq Scan on smartmeterdata  (cost=0.00..6285.68 rows=262536 width=16)
+                                             Filter: (powerallphases <> (-1)::double precision)
+               ->  Sort  (cost=42494.74..42604.44 rows=43878 width=52)
+                     Sort Key: t2.day, t2.hour
+                     ->  Subquery Scan on t2  (cost=34403.75..39111.48 rows=43878 width=52)
+                           ->  GroupAggregate  (cost=34403.75..38672.70 rows=43878 width=16)
+                                 Group Key: smartmeterdata_1.houseid, (date_part('day'::text, smartmeterdata_1.readingtime)), (date_part('hour'::text, smartmeterdata_1.readingtime))
+                                 ->  Sort  (cost=34403.75..35060.09 rows=262536 width=16)
+                                       Sort Key: smartmeterdata_1.houseid, (date_part('day'::text, smartmeterdata_1.readingtime)), (date_part('hour'::text, smartmeterdata_1.readingtime))
+                                       ->  Seq Scan on smartmeterdata smartmeterdata_1  (cost=0.00..6285.68 rows=262536 width=16)
+                                             Filter: (powerallphases <> (-1)::double precision)
+
+--12--
+ Sort  (cost=47152.05..47152.13 rows=31 width=152)
+   Sort Key: house.housename, appliance.appname
+   ->  Nested Loop  (cost=47125.76..47151.28 rows=31 width=152)
+         ->  Hash Join  (cost=47125.61..47141.69 rows=31 width=118)
+               Hash Cond: (appliance.applianceid = v1.applianceid)
+               ->  Seq Scan on appliance  (cost=0.00..14.20 rows=420 width=106)
+               ->  Hash  (cost=47125.22..47125.22 rows=31 width=24)
+                     ->  Merge Join  (cost=47124.60..47125.22 rows=31 width=24)
+                           Merge Cond: (v1.applianceid = v2.applianceid)
+                           ->  Sort  (cost=22409.06..22409.15 rows=32 width=12)
+                                 Sort Key: v1.applianceid
+                                 ->  Subquery Scan on v1  (cost=22407.62..22408.26 rows=32 width=12)
+                                       ->  HashAggregate  (cost=22407.62..22407.94 rows=32 width=4)
+                                             Group Key: plugdata.applianceid
+                                             ->  Seq Scan on plugdata  (cost=0.00..17164.75 rows=1048575 width=4)
+                           ->  Sort  (cost=24715.53..24715.61 rows=31 width=12)
+                                 Sort Key: v2.applianceid
+                                 ->  Subquery Scan on v2  (cost=24714.14..24714.76 rows=31 width=12)
+                                       ->  HashAggregate  (cost=24714.14..24714.45 rows=31 width=4)
+                                             Group Key: plugdata_1.applianceid
+                                             ->  Seq Scan on plugdata plugdata_1  (cost=0.00..19786.19 rows=985591 width=4)
+                                                   Filter: (power <> (-1)::double precision)
+         ->  Index Scan using houseprime on house  (cost=0.15..0.29 rows=1 width=42)
+               Index Cond: (houseid = appliance.houseid)
+
+--13--
+ Aggregate  (cost=4557.92..4557.93 rows=1 width=32)
+   ->  HashAggregate  (cost=4320.25..4466.51 rows=7313 width=16)
+         Group Key: smartmeterdata.houseid, date_part('week'::text, smartmeterdata.readingtime)
+         InitPlan 1 (returns $0)
+           ->  Seq Scan on house  (cost=0.00..24.12 rows=6 width=4)
+                 Filter: ((housename)::text = 'House3'::text)
+         ->  Bitmap Heap Scan on smartmeterdata  (cost=1520.76..3967.95 rows=43756 width=16)
+               Recheck Cond: (houseid = $0)
+               Filter: (powerallphases <> (-1)::double precision)
+               ->  Bitmap Index Scan on meterprime  (cost=0.00..1509.82 rows=43920 width=0)
+                     Index Cond: (houseid = $0)

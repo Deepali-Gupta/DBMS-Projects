@@ -1,0 +1,307 @@
+--1--
+ Sort  (cost=119.55..119.55 rows=2 width=9)
+   Sort Key: basketball_coaches.coachid
+   ->  Hash Join  (cost=108.33..119.54 rows=2 width=9)
+         Hash Cond: ((((sum(basketball_coaches.won))::real / (sum((basketball_coaches.won + basketball_coaches.lost)))::real)) = (max((((sum(basketball_coaches_1.won))::real / (sum((basketball_coaches_1.won + basketball_coaches_1.lost)))::real)))))
+         ->  HashAggregate  (cost=48.78..55.05 rows=358 width=17)
+               Group Key: basketball_coaches.coachid
+               ->  Seq Scan on basketball_coaches  (cost=0.00..31.89 rows=1689 width=17)
+                     Filter: ((won IS NOT NULL) OR (lost IS NOT NULL))
+         ->  Hash  (cost=59.54..59.54 rows=1 width=4)
+               ->  Aggregate  (cost=59.52..59.53 rows=1 width=4)
+                     ->  HashAggregate  (cost=48.78..55.05 rows=358 width=17)
+                           Group Key: basketball_coaches_1.coachid
+                           ->  Seq Scan on basketball_coaches basketball_coaches_1  (cost=0.00..31.89 rows=1689 width=17)
+                                 Filter: ((won IS NOT NULL) OR (lost IS NOT NULL))
+
+--2--
+ Sort  (cost=70.23..71.13 rows=358 width=17)
+   Sort Key: (COALESCE(((sum(won))::real / (sum((won + lost)))::real), 0::real)), coachid
+   ->  HashAggregate  (cost=48.78..55.05 rows=358 width=17)
+         Group Key: coachid
+         ->  Seq Scan on basketball_coaches  (cost=0.00..31.89 rows=1689 width=17)
+         
+--3--
+ Sort  (cost=52.82..53.53 rows=285 width=8)
+   Sort Key: tmid, year
+   ->  Seq Scan on basketball_team  (cost=0.00..41.20 rows=285 width=8)
+         Filter: (rank = 1)
+
+--4--
+ Sort  (cost=38.36..38.36 rows=1 width=12)
+   Sort Key: (count(*)), basketball_series.year
+   ->  Hash Join  (cost=36.77..38.35 rows=1 width=12)
+         Hash Cond: ((count(*)) = (max((count(*)))))
+         ->  HashAggregate  (cost=17.62..18.29 rows=66 width=4)
+               Group Key: basketball_series.year
+               ->  Seq Scan on basketball_series  (cost=0.00..13.75 rows=775 width=4)
+         ->  Hash  (cost=19.13..19.13 rows=1 width=8)
+               ->  Aggregate  (cost=19.11..19.12 rows=1 width=8)
+                     ->  HashAggregate  (cost=17.62..18.29 rows=66 width=4)
+                           Group Key: basketball_series_1.year
+                           ->  Seq Scan on basketball_series basketball_series_1  (cost=0.00..13.75 rows=775 width=4)
+
+--5--
+ Sort  (cost=243470.58..243479.71 rows=3653 width=13)
+   Sort Key: basketball_team_1.tmid, basketball_player.playerid
+   ->  Merge Join  (cost=224924.39..243254.41 rows=3653 width=13)
+         Merge Cond: (((basketball_team.tmid)::text = (basketball_team_1.tmid)::text) AND ((((basketball_player.points)::real / ((basketball_player.gp)::numeric)::double precision)) = (max((((basketball_player_1.points)::real / ((basketball_player_1.gp)::numeric)::double precision))))))
+         ->  Unique  (cost=103325.57..110631.01 rows=730544 width=21)
+               ->  Sort  (cost=103325.57..105151.93 rows=730544 width=21)
+                     Sort Key: basketball_team.tmid, (((basketball_player.points)::real / ((basketball_player.gp)::numeric)::double precision)), basketball_player.playerid
+                     ->  Hash Join  (cost=56.56..17192.16 rows=730544 width=21)
+                           Hash Cond: ((basketball_player.tmid)::text = (basketball_team.tmid)::text)
+                           ->  Seq Scan on basketball_player  (cost=0.00..518.89 rows=23598 width=21)
+                                 Filter: (gp <> 0)
+                           ->  Hash  (cost=37.36..37.36 rows=1536 width=4)
+                                 ->  Seq Scan on basketball_team  (cost=0.00..37.36 rows=1536 width=4)
+         ->  Materialize  (cost=121598.82..121601.82 rows=200 width=12)
+               ->  Sort  (cost=121598.82..121599.32 rows=200 width=12)
+                     Sort Key: basketball_team_1.tmid, (max((((basketball_player_1.points)::real / ((basketball_player_1.gp)::numeric)::double precision))))
+                     ->  GroupAggregate  (cost=103325.57..121591.17 rows=200 width=12)
+                           Group Key: basketball_team_1.tmid
+                           ->  Unique  (cost=103325.57..110631.01 rows=730544 width=21)
+                                 ->  Sort  (cost=103325.57..105151.93 rows=730544 width=21)
+                                       Sort Key: basketball_team_1.tmid, (((basketball_player_1.points)::real / ((basketball_player_1.gp)::numeric)::double precision)), basketball_player_1.playerid
+                                       ->  Hash Join  (cost=56.56..17192.16 rows=730544 width=21)
+                                             Hash Cond: ((basketball_player_1.tmid)::text = (basketball_team_1.tmid)::text)
+                                             ->  Seq Scan on basketball_player basketball_player_1  (cost=0.00..518.89 rows=23598 width=21)
+                                                   Filter: (gp <> 0)
+                                             ->  Hash  (cost=37.36..37.36 rows=1536 width=4)
+                                                   ->  Seq Scan on basketball_team basketball_team_1  (cost=0.00..37.36 rows=1536 width=4)
+
+--6--
+ Sort  (cost=174.09..174.10 rows=1 width=20)
+   Sort Key: basketball_series_1.tmidwinner, (((count(*)) + (count(*))))
+   ->  Hash Join  (cost=173.47..174.08 rows=1 width=20)
+         Hash Cond: (((count(*)) + (count(*))) = (max(((count(*)) + (count(*))))))
+         ->  Merge Join  (cost=86.41..86.95 rows=12 width=20)
+               Merge Cond: ((basketball_series.tmidloser)::text = (basketball_series_1.tmidwinner)::text)
+               ->  Sort  (cost=43.24..43.28 rows=14 width=4)
+                     Sort Key: basketball_series.tmidloser
+                     InitPlan 7 (returns $6)
+                       ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                             ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                   Sort Key: basketball_abbrev_6.code
+                                   ->  Seq Scan on basketball_abbrev basketball_abbrev_6  (cost=0.00..12.25 rows=1 width=24)
+                                         Filter: ((full_name)::text = 'Semifinals'::text)
+                     InitPlan 8 (returns $7)
+                       ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                             ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                   Sort Key: basketball_abbrev_7.code
+                                   ->  Seq Scan on basketball_abbrev basketball_abbrev_7  (cost=0.00..12.25 rows=1 width=24)
+                                         Filter: ((full_name)::text = 'Finals'::text)
+                     ->  HashAggregate  (cost=18.30..18.44 rows=14 width=4)
+                           Group Key: basketball_series.tmidloser
+                           ->  Seq Scan on basketball_series  (cost=0.00..17.62 rows=135 width=4)
+                                 Filter: (((round)::text = ($6)::text) OR ((round)::text = ($7)::text))
+               ->  Materialize  (cost=43.17..43.35 rows=12 width=12)
+                     ->  Sort  (cost=43.17..43.20 rows=12 width=4)
+                           Sort Key: basketball_series_1.tmidwinner
+                           InitPlan 5 (returns $4)
+                             ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                                   ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                         Sort Key: basketball_abbrev_4.code
+                                         ->  Seq Scan on basketball_abbrev basketball_abbrev_4  (cost=0.00..12.25 rows=1 width=24)
+                                               Filter: ((full_name)::text = 'Semifinals'::text)
+                           InitPlan 6 (returns $5)
+                             ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                                   ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                         Sort Key: basketball_abbrev_5.code
+                                         ->  Seq Scan on basketball_abbrev basketball_abbrev_5  (cost=0.00..12.25 rows=1 width=24)
+                                               Filter: ((full_name)::text = 'Finals'::text)
+                           ->  HashAggregate  (cost=18.30..18.42 rows=12 width=4)
+                                 Group Key: basketball_series_1.tmidwinner
+                                 ->  Seq Scan on basketball_series basketball_series_1  (cost=0.00..17.62 rows=135 width=4)
+                                       Filter: (((round)::text = ($4)::text) OR ((round)::text = ($5)::text))
+         ->  Hash  (cost=87.05..87.05 rows=1 width=8)
+               ->  Sort  (cost=87.03..87.04 rows=1 width=16)
+                     Sort Key: (max(((count(*)) + (count(*)))))
+                     ->  Aggregate  (cost=87.01..87.02 rows=1 width=16)
+                           ->  Merge Join  (cost=86.41..86.95 rows=12 width=16)
+                                 Merge Cond: ((basketball_series_2.tmidloser)::text = (basketball_series_3.tmidwinner)::text)
+                                 ->  Sort  (cost=43.24..43.28 rows=14 width=4)
+                                       Sort Key: basketball_series_2.tmidloser
+                                       InitPlan 3 (returns $2)
+                                         ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                                               ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                                     Sort Key: basketball_abbrev_2.code
+                                                     ->  Seq Scan on basketball_abbrev basketball_abbrev_2  (cost=0.00..12.25 rows=1 width=24)
+                                                           Filter: ((full_name)::text = 'Semifinals'::text)
+                                       InitPlan 4 (returns $3)
+                                         ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                                               ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                                     Sort Key: basketball_abbrev_3.code
+                                                     ->  Seq Scan on basketball_abbrev basketball_abbrev_3  (cost=0.00..12.25 rows=1 width=24)
+                                                           Filter: ((full_name)::text = 'Finals'::text)
+                                       ->  HashAggregate  (cost=18.30..18.44 rows=14 width=4)
+                                             Group Key: basketball_series_2.tmidloser
+                                             ->  Seq Scan on basketball_series basketball_series_2  (cost=0.00..17.62 rows=135 width=4)
+                                                   Filter: (((round)::text = ($2)::text) OR ((round)::text = ($3)::text))
+                                 ->  Materialize  (cost=43.17..43.35 rows=12 width=12)
+                                       ->  Sort  (cost=43.17..43.20 rows=12 width=4)
+                                             Sort Key: basketball_series_3.tmidwinner
+                                             InitPlan 1 (returns $0)
+                                               ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                                                     ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                                           Sort Key: basketball_abbrev.code
+                                                           ->  Seq Scan on basketball_abbrev  (cost=0.00..12.25 rows=1 width=24)
+                                                                 Filter: ((full_name)::text = 'Semifinals'::text)
+                                             InitPlan 2 (returns $1)
+                                               ->  Unique  (cost=12.26..12.27 rows=1 width=24)
+                                                     ->  Sort  (cost=12.26..12.27 rows=1 width=24)
+                                                           Sort Key: basketball_abbrev_1.code
+                                                           ->  Seq Scan on basketball_abbrev basketball_abbrev_1  (cost=0.00..12.25 rows=1 width=24)
+                                                                 Filter: ((full_name)::text = 'Finals'::text)
+                                             ->  HashAggregate  (cost=18.30..18.42 rows=12 width=4)
+                                                   Group Key: basketball_series_3.tmidwinner
+                                                   ->  Seq Scan on basketball_series basketball_series_3  (cost=0.00..17.62 rows=135 width=4)
+                                                         Filter: (((round)::text = ($0)::text) OR ((round)::text = ($1)::text))
+
+--7--
+ Sort  (cost=685.10..687.50 rows=957 width=13)
+   Sort Key: basketball_team.tmid, basketball_player.playerid
+   InitPlan 1 (returns $0)
+     ->  Seq Scan on basketball_abbrev  (cost=0.00..12.25 rows=1 width=24)
+           Filter: ((full_name)::text = 'Finals'::text)
+   ->  Hash Join  (cost=67.33..625.47 rows=957 width=13)
+         Hash Cond: ((basketball_player.tmid)::text = (basketball_team.tmid)::text)
+         ->  Seq Scan on basketball_player  (cost=0.00..459.51 rows=23751 width=13)
+         ->  Hash  (cost=67.30..67.30 rows=2 width=4)
+               ->  Hash Join  (cost=21.52..67.30 rows=2 width=4)
+                     Hash Cond: (basketball_team.year = basketball_series.year)
+                     Join Filter: (((basketball_series.tmidwinner)::text = (basketball_team.tmid)::text) OR ((basketball_series.tmidloser)::text = (basketball_team.tmid)::text))
+                     ->  Seq Scan on basketball_team  (cost=0.00..37.36 rows=1536 width=8)
+                     ->  Hash  (cost=21.50..21.50 rows=2 width=12)
+                           ->  Seq Scan on basketball_series  (cost=0.00..21.50 rows=2 width=12)
+                                 Filter: (((round)::text = ($0)::text) AND ((year = 1946) OR (year = 1947) OR (year = 1948)))
+
+--8--
+ Sort  (cost=659.91..659.94 rows=11 width=9)
+   Sort Key: t2.playerid
+   ->  Hash Join  (cost=136.96..659.72 rows=11 width=9)
+         Hash Cond: ((t2.playerid)::text = (t1.bioid)::text)
+         ->  Seq Scan on basketball_player t2  (cost=0.00..518.89 rows=1003 width=9)
+               Filter: ((tmid)::text = 'NYK'::text)
+         ->  Hash  (cost=136.26..136.26 rows=56 width=9)
+               ->  Seq Scan on basketball_master t1  (cost=0.00..136.26 rows=56 width=9)
+                     Filter: ((college)::text = 'Duke'::text)
+
+--9--
+ Sort  (cost=726.73..726.75 rows=8 width=9)
+   Sort Key: t.playerid
+   ->  Hash Join  (cost=88.89..726.61 rows=8 width=9)
+         Hash Cond: (((t.tmid)::text = (t1.tmid)::text) AND (t.year = t1.year))
+         ->  Seq Scan on basketball_player t  (cost=0.00..459.51 rows=23751 width=17)
+         ->  Hash  (cost=88.87..88.87 rows=1 width=16)
+               ->  Hash Join  (cost=36.14..88.87 rows=1 width=16)
+                     Hash Cond: (((t2.tmid)::text = (t1.tmid)::text) AND (t2.year = t1.year))
+                     ->  Seq Scan on basketball_team t2  (cost=0.00..37.36 rows=1536 width=8)
+                     ->  Hash  (cost=36.11..36.11 rows=2 width=8)
+                           ->  Seq Scan on basketball_coaches t1  (cost=0.00..36.11 rows=2 width=8)
+                                 Filter: ((coachid)::text = 'olsenha01'::text)
+
+--10--
+ Sort  (cost=1120.14..1132.39 rows=4903 width=9)
+   Sort Key: sub.playerid
+   ->  Subquery Scan on sub  (cost=697.02..819.59 rows=4903 width=9)
+         ->  HashAggregate  (cost=697.02..770.56 rows=4903 width=13)
+               Group Key: basketball_player.playerid
+               Filter: ((sum(basketball_player.fgmade) <= 500) AND (sum(basketball_player.fgmade) >= 200))
+               ->  Seq Scan on basketball_player  (cost=0.00..459.51 rows=23751 width=13)
+
+--11--
+ Sort  (cost=1334.24..1347.01 rows=5109 width=10)
+   Sort Key: m.firstname, t2.tmid
+   ->  Hash Join  (cost=888.01..1019.55 rows=5109 width=10)
+         Hash Cond: ((t.tmid)::text = (t2.tmid)::text)
+         ->  Hash Join  (cost=186.87..250.43 rows=1689 width=10)
+               Hash Cond: ((t.coachid)::text = (m.bioid)::text)
+               ->  Seq Scan on basketball_coaches t  (cost=0.00..31.89 rows=1689 width=13)
+               ->  Hash  (cost=123.61..123.61 rows=5061 width=15)
+                     ->  Seq Scan on basketball_master m  (cost=0.00..123.61 rows=5061 width=15)
+         ->  Hash  (cost=699.33..699.33 rows=145 width=4)
+               ->  Hash Join  (cost=149.30..699.33 rows=145 width=4)
+                     Hash Cond: ((t2.playerid)::text = (t1.bioid)::text)
+                     ->  Seq Scan on basketball_player t2  (cost=0.00..459.51 rows=23751 width=13)
+                     ->  Hash  (cost=148.91..148.91 rows=31 width=9)
+                           ->  Seq Scan on basketball_master t1  (cost=0.00..148.91 rows=31 width=9)
+                                 Filter: (((firstname)::text = 'mark'::text) OR ((firstname)::text = 'Mark'::text))
+
+--12--
+ Sort  (cost=1429.76..1438.95 rows=3679 width=6)
+   Sort Key: t1.firstname
+   ->  Hash Join  (cost=905.70..1211.87 rows=3679 width=6)
+         Hash Cond: ((t1_1.bioid)::text = (t2.playerid)::text)
+         ->  Hash Join  (cost=149.30..388.30 rows=784 width=15)
+               Hash Cond: (date_part('year'::text, (t1.birthdate)::timestamp without time zone) = date_part('year'::text, (t1_1.birthdate)::timestamp without time zone))
+               ->  Seq Scan on basketball_master t1  (cost=0.00..123.61 rows=5061 width=10)
+               ->  Hash  (cost=148.91..148.91 rows=31 width=13)
+                     ->  Seq Scan on basketball_master t1_1  (cost=0.00..148.91 rows=31 width=13)
+                           Filter: (((birthcity)::text = 'Detroit'::text) AND ((race)::text = 'W'::text))
+         ->  Hash  (cost=459.51..459.51 rows=23751 width=9)
+               ->  Seq Scan on basketball_player t2  (cost=0.00..459.51 rows=23751 width=9)
+
+--13--
+ Sort  (cost=1310.60..1312.81 rows=885 width=23)
+   Sort Key: t1.firstname, t2.playerid, (sum(t2.points))
+   ->  Hash Join  (cost=1230.77..1267.28 rows=885 width=23)
+         Hash Cond: ((t2.playerid)::text = (t1.bioid)::text)
+         ->  HashAggregate  (cost=1043.90..1054.96 rows=885 width=17)
+               Group Key: t2.playerid, t1_1.tmid
+               Filter: (sum(t2.points) >= 700)
+               InitPlan 1 (returns $0)
+                 ->  Seq Scan on basketball_abbrev  (cost=0.00..12.25 rows=1 width=24)
+                       Filter: ((full_name)::text = 'West Division'::text)
+               ->  Hash Join  (cost=815.77..1022.80 rows=885 width=17)
+                     Hash Cond: (((t1_1.tmid)::text = (t2.tmid)::text) AND (t1_1.year = t2.year))
+                     ->  Seq Scan on basketball_team t1_1  (cost=0.00..41.20 rows=115 width=8)
+                           Filter: ((divid)::text = ($0)::text)
+                     ->  Hash  (cost=459.51..459.51 rows=23751 width=21)
+                           ->  Seq Scan on basketball_player t2  (cost=0.00..459.51 rows=23751 width=21)
+         ->  Hash  (cost=123.61..123.61 rows=5061 width=15)
+               ->  Seq Scan on basketball_master t1  (cost=0.00..123.61 rows=5061 width=15)
+
+--14--
+ Sort  (cost=281.33..281.73 rows=157 width=326)
+   Sort Key: basketball_abbrev.full_name, sub3.count
+   ->  Hash Join  (cost=261.56..275.61 rows=157 width=326)
+         Hash Cond: ((basketball_abbrev.code)::text = (sub3.divid)::text)
+         ->  Seq Scan on basketball_abbrev  (cost=0.00..11.80 rows=180 width=342)
+         ->  Hash  (cost=259.60..259.60 rows=157 width=11)
+               ->  Subquery Scan on sub3  (cost=256.46..259.60 rows=157 width=11)
+                     ->  HashAggregate  (cost=256.46..258.03 rows=157 width=6)
+                           Group Key: ratios.divid
+                           InitPlan 1 (returns $0)
+                             ->  Aggregate  (cost=84.72..84.73 rows=1 width=4)
+                                   ->  Hash Join  (cost=62.93..84.08 rows=256 width=4)
+                                         Hash Cond: ((basketball_series_1.tmidloser)::text = (ratios_1.tmid)::text)
+                                         ->  Seq Scan on basketball_series basketball_series_1  (cost=0.00..17.62 rows=258 width=4)
+                                               Filter: ((w - l) >= 2)
+                                         ->  Hash  (cost=60.92..60.92 rows=161 width=8)
+                                               ->  Subquery Scan on ratios_1  (cost=56.49..60.92 rows=161 width=8)
+                                                     ->  HashAggregate  (cost=56.49..59.31 rows=161 width=15)
+                                                           Group Key: basketball_team_2.tmid, basketball_team_2.divid
+                                                           ->  Seq Scan on basketball_team basketball_team_2  (cost=0.00..41.20 rows=1529 width=15)
+                                                                 Filter: (lost <> 0)
+                           ->  Hash Right Join  (cost=162.73..170.94 rows=157 width=6)
+                                 Hash Cond: ((basketball_team.divid)::text = (ratios.divid)::text)
+                                 ->  HashAggregate  (cost=64.14..68.56 rows=161 width=15)
+                                       Group Key: basketball_team.tmid, basketball_team.divid
+                                       Filter: (((sum(basketball_team.won))::real / (sum(basketball_team.lost))::real) > $0)
+                                       ->  Seq Scan on basketball_team  (cost=0.00..41.20 rows=1529 width=15)
+                                             Filter: (lost <> 0)
+                                 ->  Hash  (cost=96.63..96.63 rows=157 width=3)
+                                       ->  Unique  (cost=93.78..95.06 rows=157 width=3)
+                                             ->  Sort  (cost=93.78..94.42 rows=256 width=3)
+                                                   Sort Key: ratios.divid
+                                                   ->  Hash Join  (cost=62.39..83.54 rows=256 width=3)
+                                                         Hash Cond: ((basketball_series.tmidloser)::text = (ratios.tmid)::text)
+                                                         ->  Seq Scan on basketball_series  (cost=0.00..17.62 rows=258 width=4)
+                                                               Filter: ((w - l) >= 2)
+                                                         ->  Hash  (cost=60.43..60.43 rows=157 width=7)
+                                                               ->  Subquery Scan on ratios  (cost=56.11..60.43 rows=157 width=7)
+                                                                     ->  HashAggregate  (cost=56.11..58.86 rows=157 width=15)
+                                                                           Group Key: basketball_team_1.tmid, basketball_team_1.divid
+                                                                           ->  Seq Scan on basketball_team basketball_team_1  (cost=0.00..41.20 rows=1491 width=15)
+                                                                                 Filter: ((divid IS NOT NULL) AND (lost <> 0))
